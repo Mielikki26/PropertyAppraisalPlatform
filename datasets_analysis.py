@@ -32,12 +32,11 @@ pub = dict(sorted(pub.items(), key=lambda item: -item[1])) #sorting
 #show plot
 ax.bar(pub.keys(), pub.values())
 ax.set_title(str(nrpublicos) + " datasets publicos")
-plt.show()
-
+#plt.show()
 #print datasets that contain all wanted features
-wanted_features = [i[0] for i in pub.items() if i[1] >= 15]
+wanted_features = [i[0] for i in pub.items() if i[1] >= 20]
 wanted_features.remove('Type')
-#wanted_features.remove('Date')
+wanted_features.remove('Rooms')
 wanted_features.remove('YearBuilt')
 print(wanted_features)
 
