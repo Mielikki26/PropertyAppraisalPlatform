@@ -8,7 +8,7 @@
 - Beds - The number of bedrooms in the property;
 - Latitude - Latitude of the property;
 - Longitude - Longitude of the property;
-- Date - Date of the sale. (dd/mm/yy);
+- Date - Date of the sale. (mm/yy);
 
 # Melbourne Housing Market dataset : 
 
