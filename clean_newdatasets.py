@@ -1,9 +1,6 @@
 import os
 import pandas as pd
 import numpy as np
-from scipy.stats import zscore
-import seaborn as sns
-import matplotlib.pyplot as plt
 cur_dir = os.getcwd()
 
 def cleannegatives(value, flag):
@@ -43,20 +40,6 @@ def remove_outliers(df):
     ub = q3 + (iqr * 1.5)
     df = df[(df["Baths"] < ub) & (df["Baths"] > lb)]
 
-    q1 = df["Latitude"].quantile(0.25)
-    q3 = df["Latitude"].quantile(0.75)
-    iqr = q3 - q1
-    lb = q1 - (iqr * 1.5)
-    ub = q3 + (iqr * 1.5)
-    df = df[(df["Latitude"] < ub) & (df["Latitude"] > lb)]
-
-    q1 = df["Longitude"].quantile(0.25)
-    q3 = df["Longitude"].quantile(0.75)
-    iqr = q3 - q1
-    lb = q1 - (iqr * 1.5)
-    ub = q3 + (iqr * 1.5)
-    df = df[(df["Longitude"] < ub) & (df["Longitude"] > lb)]
-
     return df
 
 
@@ -86,8 +69,10 @@ for i in arr:
     df = df.dropna(subset=['Latitude'])
     df['Longitude'].replace('  ', np.nan, inplace=True)
     df = df.dropna(subset=['Longitude'])
-    df['Date'].replace('  ', np.nan, inplace=True)
-    df = df.dropna(subset=['Date'])
+    df['Month'].replace('  ', np.nan, inplace=True)
+    df = df.dropna(subset=['Month'])
+    df['Year'].replace('  ', np.nan, inplace=True)
+    df = df.dropna(subset=['Year'])
     print('Dropped rows with empty features:' + str(df.shape))
 
     df = df.drop_duplicates()
@@ -96,4 +81,5 @@ for i in arr:
     df = remove_outliers(df)
     print('After outlier removal: ' + str(df.shape))
 
-    df.to_csv(cur_dir + '\Research\Datasets\CreatedDatasets\\' + new_name, index=False)
+    if df.shape[0] > 1000:
+        df.to_csv(cur_dir + '\Research\Datasets\CreatedDatasets\\' + new_name, index=False)

@@ -8,7 +8,8 @@
 - Beds - The number of bedrooms in the property;
 - Latitude - Latitude of the property;
 - Longitude - Longitude of the property;
-- Date - Date of the sale. (mm/yy);
+- Month - Month of the sale;
+- Year - Year of the sale.
 
 # Melbourne Housing Market dataset : 
 
@@ -22,7 +23,7 @@ Melbourne_housing_FULL.csv
 - Beds = Bedroom2;
 - Latitude = Lattitude;
 - Longitude = Longtitude;
-- Date = Date;
+- Month and Year = Date(separated into respective values);
 
 # South American Countries datasets:
 
@@ -60,7 +61,7 @@ uy_properties.csv
 
 - Longitude = lon;
 
-- date = start_date;
+- Month and Year = start_date(separated into respective values);
 
 # King County dataset:
 
@@ -74,7 +75,7 @@ kc_house_data.csv
 - Beds = bedrooms;
 - Latitude = lat;
 - Longitude = long;
-- Date = date (format change applied);
+- Month and Year = date(separated into respective values);
 
 # DC dataset:
 
@@ -88,7 +89,7 @@ DC_Properties.csv
 - Beds = BEDRM;
 - Latitude = LATITUDE;
 - Longitude = LONGITUDE;
-- Date = SALEDATE (format change applied);
+- Month and Year = SALEDATE(separated into respective values);
 
 # Zameen Property Data Pakistan dataset:
 
@@ -102,7 +103,7 @@ Zameen Property Data Pakistan.csv
 - Beds = bedrooms;
 - Latitude = latitude;
 - Longitude = longitude;
-- Date = date_added (format change applied);
+- Month and Year = date_added(separated into respective values);
 
 # Perth dataset:
 
@@ -116,5 +117,16 @@ all_perth_310121.csv
 - Beds = BEDROOMS;
 - Latitude = LATITUDE;
 - Longitude = LONGITUDE;
-- Date = DATE_SOLD(format change applied);
+- Month and Year = DATE_SOLD(separated into respective values);
+
+# Data Exploration and Cleaning realized:
+
+- The original datasets were used to create new datasets with only the features chosen as described above;
+- The new datasets were explored and the following changes were made:
+  - Duplicated rows were deleted;
+  - Rows with empty cells were deleted;
+  - Rows with nonsensical data(such as negative Prices or Areas) were deleted;
+  - Outliers were removed using IQR score for the columns Price, Area, Beds and Baths.
+- With these changes the dataset ec_properties.csv was completely removed because it had less than 1000 data points.
+- Plots were created for each dataset representing the differences before and after outlier removal.
 
