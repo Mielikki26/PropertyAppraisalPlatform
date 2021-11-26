@@ -129,7 +129,8 @@ all_perth_310121.csv
 - Outliers were Removed using the following algorithms(all were implemented and after further analysis only one will be chosen):
   - IQR score.
   - Grubbs test.
-
+  - Zscore.
+  
 - With these changes the dataset ec_properties.csv was completely removed because it had less than 1000 data points.
 - Plots were created for each dataset representing the differences before and after outlier removal with each algorithm.
 

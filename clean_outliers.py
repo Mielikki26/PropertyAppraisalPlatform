@@ -53,10 +53,32 @@ def remove_outliers_Grubbs(values, alpha, df):
             values = np.delete(values, index)
         else:
             flag = 1
-    print(len(indexes))
+
     for i in indexes:
         df = df.drop(df.index[i])
+
     return df
+
+#Removes the outliers from the dataset passed using zscore test
+def remove_outliers_zscore(label, threshold, df):
+    flag = 1
+    while(flag):
+        values = df[label].to_numpy()
+        std = values.std()
+        mean = values.mean()
+        indexes = []
+        for idx, i in enumerate(values):
+            z = (i - mean) / std
+            if z > threshold:
+                indexes.append(idx)
+
+        if indexes == []:
+            flag = 0
+        else:
+            df = df.drop(df.index[indexes])
+
+    return df
+
 
 dataset_list = os.listdir(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets\\') #get datasets list
 
@@ -70,11 +92,17 @@ for i in dataset_list: #for each dataset
     print("Dataset " + i + ":")
     print('Inicial dataset shape:' + str(df.shape))
 
-    df = remove_outliers_IQR(df, 1.5)
+    #df = remove_outliers_IQR(df, 1.5)
+
     #df = remove_outliers_Grubbs(df["Price"].to_numpy(), 0.05, df)
     #df = remove_outliers_Grubbs(df["Area"].to_numpy(), 0.05, df)
     #df = remove_outliers_Grubbs(df["Beds"].to_numpy(), 0.05, df)
     #df = remove_outliers_Grubbs(df["Baths"].to_numpy(), 0.05, df)
+
+    df = remove_outliers_zscore("Price", 3, df)
+    df = remove_outliers_zscore("Area", 3, df)
+    df = remove_outliers_zscore("Beds", 3, df)
+    df = remove_outliers_zscore("Baths", 3, df)
 
     print("Outliers were removed! Dataset shape is now: " + str(df.shape))
 
