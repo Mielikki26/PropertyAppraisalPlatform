@@ -126,7 +126,10 @@ all_perth_310121.csv
   - Duplicated rows were deleted;
   - Rows with empty cells were deleted;
   - Rows with nonsensical data(such as negative Prices or Areas) were deleted;
-  - Outliers were removed using IQR score for the columns Price, Area, Beds and Baths.
+- Outliers were Removed using the following algorithms(all were implemented and after further analysis only one will be chosen):
+  - IQR score.
+  - Grubbs test.
+
 - With these changes the dataset ec_properties.csv was completely removed because it had less than 1000 data points.
-- Plots were created for each dataset representing the differences before and after outlier removal.
+- Plots were created for each dataset representing the differences before and after outlier removal with each algorithm.
 

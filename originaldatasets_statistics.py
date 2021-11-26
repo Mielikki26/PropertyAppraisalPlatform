@@ -1,6 +1,7 @@
 import pandas as pd
 from collections import Counter
 import matplotlib.pyplot as plt
+
 publicos = []  #store features of public datasets
 
 nrpublicos = 0 #nr of public datasets
@@ -32,12 +33,18 @@ pub = dict(sorted(pub.items(), key=lambda item: -item[1])) #sorting
 #show plot
 ax.bar(pub.keys(), pub.values())
 ax.set_title(str(nrpublicos) + " datasets publicos")
-#plt.show()
+plt.xticks(
+        rotation=45,
+        horizontalalignment='right',
+        fontweight='light',
+        fontsize=10
+    )
+plt.show()
 #print datasets that contain all wanted features
 wanted_features = [i[0] for i in pub.items() if i[1] >= 20]
 wanted_features.remove('Type')
-wanted_features.remove('Rooms')
-wanted_features.remove('YearBuilt')
+wanted_features.remove('Rooms') #7
+wanted_features.remove('YearBuilt') #2
 print(wanted_features)
 
 wanted_datasets = []
