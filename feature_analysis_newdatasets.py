@@ -9,7 +9,7 @@ cur_dir = os.getcwd()
 def boxplot(list,label): #create and save boxplots of all datasets combined into one
     fig, ax = plt.subplots(figsize=(13, 5))
     sns.boxplot(data=list, x=label, y="Label", ax=ax)
-    ax.set_title("zscore 3")
+    ax.set_title("IQR 1.5 Repeat")
     plt.ticklabel_format(style='plain', axis='x')
     plt.savefig(cur_dir + r'\Research\Datasets\Plots\boxplots\\' + label + r'Distribution_NoOutliers.png')
 
@@ -21,7 +21,7 @@ def distplot(list, label): #create and save distplots of all datasets combined i
     plt.ticklabel_format(style='plain')
     plt.legend()
     ax.set(xlabel=label, ylabel='Count')
-    ax.set_title("zscore 3")
+    ax.set_title("IQR 1.5 Repeat")
     plt.savefig(cur_dir + r'\Research\Datasets\Plots\distplots\\' + label + r'Distribution_NoOutliers.png')
 
 #get datasets list
@@ -58,7 +58,7 @@ for i in datasets_list: #for each dataset
 
     #save plot of histogram for current dataset
     df.hist(figsize=(20, 20))
-    pl.suptitle("zscore 3 Dataset " + str(i))
+    pl.suptitle("IQR 1.5 Repeat" + str(i))
     plt.savefig(cur_dir + r'\Research\Datasets\Plots\distplots\\' + i[:-7] + r'FeatureDistribution.png')
 
     label_all.append([i])

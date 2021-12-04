@@ -32,6 +32,7 @@ pub = dict(sorted(pub.items(), key=lambda item: -item[1])) #sorting
 
 #show plot
 ax.bar(pub.keys(), pub.values())
+ax.grid()
 ax.set_title(str(nrpublicos) + " datasets publicos")
 plt.xticks(
         rotation=45,
@@ -40,6 +41,7 @@ plt.xticks(
         fontsize=10
     )
 plt.show()
+
 #print datasets that contain all wanted features
 wanted_features = [i[0] for i in pub.items() if i[1] >= 20]
 wanted_features.remove('Type')

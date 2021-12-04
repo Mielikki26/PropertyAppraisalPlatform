@@ -6,41 +6,22 @@ cur_dir = os.getcwd()
 
 #Removes the outliers from the dataset passed using IQR score
 def remove_outliers_IQR(df, range):
-    q1 = df["Price"].quantile(0.25)
-    q3 = df["Price"].quantile(0.75)
-    iqr = q3-q1
-    lb = q1-(iqr * range)
-    ub = q3+(iqr * range)
-    df = df[(df["Price"] < ub) & (df["Price"] > lb)]
+    cols = ['Price', 'Area', 'Beds', 'Baths']
 
-    q1 = df["Area"].quantile(0.25)
-    q3 = df["Area"].quantile(0.75)
-    iqr = q3 - q1
-    lb = q1 - (iqr * range)
-    ub = q3 + (iqr * range)
-    df = df[(df["Area"] < ub) & (df["Area"] > lb)]
+    for i in cols:
+        Q1 = df[i].quantile(0.25)
+        Q3 = df[i].quantile(0.75)
+        IQR = Q3 - Q1
 
-    q1 = df["Beds"].quantile(0.25)
-    q3 = df["Beds"].quantile(0.75)
-    iqr = q3 - q1
-    lb = q1 - (iqr * range)
-    ub = q3 + (iqr * range)
-    df = df[(df["Beds"] < ub) & (df["Beds"] > lb)]
-
-    q1 = df["Baths"].quantile(0.25)
-    q3 = df["Baths"].quantile(0.75)
-    iqr = q3 - q1
-    lb = q1 - (iqr * range)
-    ub = q3 + (iqr * range)
-    df = df[(df["Baths"] < ub) & (df["Baths"] > lb)]
+        df = df[~((df[i] < (Q1 - range * IQR)) | (df[i] > (Q3 + range * IQR)))]
 
     return df
 
 #Removes the outliers from the dataset passed using grubbs test
 def remove_outliers_Grubbs(values, alpha, df):
-    flag = 0
+    flag = 1
     indexes = []
-    while flag == 0:
+    while(flag):
         std = values.std()
         mean = values.mean()
         index = np.argmax(abs(values - mean))
@@ -52,7 +33,7 @@ def remove_outliers_Grubbs(values, alpha, df):
             indexes.append(index)
             values = np.delete(values, index)
         else:
-            flag = 1
+            flag = 0
 
     for i in indexes:
         df = df.drop(df.index[i])
@@ -92,17 +73,22 @@ for i in dataset_list: #for each dataset
     print("Dataset " + i + ":")
     print('Inicial dataset shape:' + str(df.shape))
 
-    #df = remove_outliers_IQR(df, 1.5)
+    flag = 1
+    while flag:
+        og_df = df
+        df = remove_outliers_IQR(df, 1.5)
+        if og_df.equals(df):
+            flag = 0
 
     #df = remove_outliers_Grubbs(df["Price"].to_numpy(), 0.05, df)
     #df = remove_outliers_Grubbs(df["Area"].to_numpy(), 0.05, df)
     #df = remove_outliers_Grubbs(df["Beds"].to_numpy(), 0.05, df)
     #df = remove_outliers_Grubbs(df["Baths"].to_numpy(), 0.05, df)
 
-    df = remove_outliers_zscore("Price", 3, df)
-    df = remove_outliers_zscore("Area", 3, df)
-    df = remove_outliers_zscore("Beds", 3, df)
-    df = remove_outliers_zscore("Baths", 3, df)
+    #df = remove_outliers_zscore("Price", 3, df)
+    #df = remove_outliers_zscore("Area", 3, df)
+    #df = remove_outliers_zscore("Beds", 3, df)
+    #df = remove_outliers_zscore("Baths", 3, df)
 
     print("Outliers were removed! Dataset shape is now: " + str(df.shape))
 
