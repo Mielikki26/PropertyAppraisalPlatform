@@ -20,7 +20,7 @@ def time():
     print("Current Time =", current_time)
 
 def normalize(df):
-    print("Normalization used is StandardScaler, train/test division is 60/20/20")
+    print("Normalization used is StandardScaler, using kfold=5")
     # https://stackoverflow.com/questions/60998512/how-to-scale-all-columns-except-last-column
     scalar = StandardScaler()
     standardized_features = pd.DataFrame(scalar.fit_transform(df[features].copy()), columns=features)
@@ -41,7 +41,7 @@ datasets_dir = str(parent_dir) + r'\Research\Datasets\CreatedDatasets\NewDataset
 datasets_list = os.listdir(str(parent_dir) + r'\Research\Datasets\CreatedDatasets\NewDatasets_noOutliers\\')
 
 stdoutOrigin=sys.stdout
-sys.stdout = open(cur_dir + r'\TabNet\log11TabNet.txt', "w")
+sys.stdout = open(cur_dir + r'\TabNet\log12TabNet.txt', "w")
 
 print("start: ")
 time()
@@ -66,25 +66,26 @@ for filename in datasets_list:
     Y = Y.to_numpy().reshape(-1, 1)
 
 
-    X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2)
+    X, X_test, y, y_test = train_test_split(X, Y, test_size=0.2)
 
-    X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size=0.25)
+    kf = KFold(n_splits=5, random_state=42, shuffle=True)
+    for train_index, test_index in kf.split(X):
+        X_train, X_valid = X[train_index], X[test_index]
+        y_train, y_valid = y[train_index], y[test_index]
+        clf = TabNetRegressor()
+        clf.fit(
+            X_train=X_train, y_train=y_train,
+            eval_set=[(X_train, y_train), (X_valid, y_valid)],
+            eval_metric=['rmse', 'mse', 'mae'],
+            max_epochs=5000,
+            patience=500,
+            num_workers=0,
+            drop_last=False
+        )
 
     print("TABNET LOGS:\n")
     print("Starting training: ")
     time()
-
-    clf = TabNetRegressor()
-
-    clf.fit(
-        X_train=X_train, y_train=y_train,
-        eval_set=[(X_train, y_train), (X_val, y_val)],
-        eval_metric=['rmse', 'mse', 'mae'],
-        max_epochs=5000,
-        patience=500,
-        num_workers=0,
-        drop_last=False
-    )
 
     print("Training ended: ")
     time()
@@ -108,7 +109,7 @@ for filename in datasets_list:
     plt.xlabel('True Values', fontsize=15)
     plt.ylabel('Predictions', fontsize=15)
     plt.axis('equal')
-    plt.savefig(cur_dir + r'\TabNet\\' + r'Predictions vs Actual.png')
+    plt.savefig(cur_dir + r'\TabNet\\' + r'Predictions vs Actual2.png')
 
     print("Predictions ended: ")
     time()
@@ -125,5 +126,5 @@ sys.stdout.close()
 sys.stdout=stdoutOrigin
 
 # save tabnet model
-saving_path_name = "./tabnet_model_test_1"
+saving_path_name = "./tabnet_model_test_2"
 saved_filepath = clf.save_model(saving_path_name)

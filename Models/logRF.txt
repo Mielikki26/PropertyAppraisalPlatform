@@ -1,77 +1,164 @@
 start: 
-Current Time = 04:48:40
-RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
-{'n_estimators': [10, 20, 50, 100, 150, 300, 500], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]}
+Current Time = 04:39:10
+------------------------------------------------------------------
+Dataset: all_perth_310121_new_noOutliers.csv
 Normalization used is StandardScaler
+Dataset total size after normalization: (26510, 9)
 Train/test division is 70/30
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}
 Starting search for best params: 
-Current Time = 04:48:41
-Best params for the dataset :Zameen Property Data Pakistan_new_noOutliers.csv were the following:
-Current Time = 12:31:30
-{'max_depth': 16, 'max_features': 'sqrt', 'n_estimators': 500}
-Applying prediction with the params for all datasets...
-Dataset "all_perth_310121_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-start: 
-Current Time = 15:07:52
-Normalization used is StandardScaler, train/test division is 70/30
+Current Time = 04:39:10
+Best params were the following:
+Current Time = 05:03:42
+{'max_depth': 14, 'max_features': None, 'n_estimators': 200}
+Applying prediction with the params...
+Mean squared error is of 8617445400.074501
+List of feature importance:
+[0.07778105745255329, 0.05105357552023115, 0.05860831199115992, 0.45901130381509164, 0.3132950805259741, 0.01367630778670339, 0.02657436290828651]
+Current Time = 05:03:53
+------------------------------------------------------------------
+------------------------------------------------------------------
+Dataset: ar_properties_new_noOutliers.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (172754, 9)
+Train/test division is 70/30
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}
 Starting search for best params: 
-Current Time = 15:07:52
-Best params for the dataset :Zameen Property Data Pakistan_new_noOutliers.csv were the following:
-Current Time = 15:07:52
-Applying prediction with the params for all datasets...
-Dataset "all_perth_310121_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-For the dataset "all_perth_310121_new_noOutliers.csv" the mean squared error is of 9666716487.0363
+Current Time = 05:03:53
+Best params were the following:
+Current Time = 07:33:48
+{'max_depth': 14, 'max_features': None, 'n_estimators': 200}
+Applying prediction with the params...
+Mean squared error is of 5412452530.47853
 List of feature importance:
-[0.10410464041833607, 0.08219064935442082, 0.041912964936696454, 0.39850422425424303, 0.2979144226601562, 0.030863943823624743, 0.04450915455252277]
-Current Time = 15:08:02
-Dataset "ar_properties_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-For the dataset "ar_properties_new_noOutliers.csv" the mean squared error is of 5534027206.561979
+[0.43238223290811034, 0.031994929646352005, 0.04106853436679933, 0.1890592324493235, 0.2642274935915476, 0.037131816012632136, 0.004135761025235027]
+Current Time = 07:34:40
+------------------------------------------------------------------
+------------------------------------------------------------------
+Dataset: co_properties_new_noOutliers.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (74262, 9)
+Train/test division is 70/30
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}
+Starting search for best params: 
+Current Time = 07:34:40
+Best params were the following:
+Current Time = 08:12:58
+{'max_depth': 11, 'max_features': 'auto', 'n_estimators': 200}
+Applying prediction with the params...
+Mean squared error is of 2507081730.8589406
 List of feature importance:
-[0.2871448147488746, 0.11986423385431702, 0.09919884754459411, 0.2083871206050625, 0.23378881835634463, 0.04596860840549742, 0.0056475564853096984]
-Current Time = 15:08:55
-Dataset "co_properties_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-For the dataset "co_properties_new_noOutliers.csv" the mean squared error is of 2571091797.8010654
+[0.5353707335916443, 0.05936110909149629, 0.019727178586797622, 0.14612273231393827, 0.19512411606075694, 0.037760955392553405, 0.00653317496281329]
+Current Time = 08:13:11
+------------------------------------------------------------------
+------------------------------------------------------------------
+Dataset: DC_Properties_new_noOutliers.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (82761, 9)
+Train/test division is 70/30
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}
+Starting search for best params: 
+Current Time = 08:13:12
+Best params were the following:
+Current Time = 09:11:08
+{'max_depth': 14, 'max_features': 'auto', 'n_estimators': 200}
+Applying prediction with the params...
+Mean squared error is of 7962655867.327733
 List of feature importance:
-[0.3466976588751405, 0.13279489659302987, 0.03871257942303585, 0.20540076211824185, 0.20456392497012144, 0.062246474703527885, 0.009583703316902604]
-Current Time = 15:09:15
-Dataset "DC_Properties_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-For the dataset "DC_Properties_new_noOutliers.csv" the mean squared error is of 8174146317.148881
+[0.051341697329914754, 0.24208658745103295, 0.056569790736689746, 0.15145042322145583, 0.24560674201367466, 0.008672937422382758, 0.24427182182484924]
+Current Time = 09:11:34
+------------------------------------------------------------------
+------------------------------------------------------------------
+Dataset: kc_house_data_new_noOutliers.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (19656, 9)
+Train/test division is 70/30
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}
+Starting search for best params: 
+Current Time = 09:11:34
+Best params were the following:
+Current Time = 09:25:05
+{'max_depth': 14, 'max_features': None, 'n_estimators': 200}
+Applying prediction with the params...
+Mean squared error is of 5844597791.630342
 List of feature importance:
-[0.07006953929799986, 0.1942883327276226, 0.07022276029549636, 0.15506786013052304, 0.22834001337854481, 0.017868208477978487, 0.2641432856918349]
-Current Time = 15:09:42
-Dataset "kc_house_data_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-For the dataset "kc_house_data_new_noOutliers.csv" the mean squared error is of 6322971042.329823
+[0.38088058586076745, 0.018313012897937644, 0.010293821251242919, 0.45661326224579113, 0.11451635298195402, 0.015991483853729924, 0.003391480908576843]
+Current Time = 09:25:11
+------------------------------------------------------------------
+------------------------------------------------------------------
+Dataset: Melbourne_housing_FULL_new_noOutliers.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (9607, 9)
+Train/test division is 70/30
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}
+Starting search for best params: 
+Current Time = 09:25:11
+Best params were the following:
+Current Time = 09:32:24
+{'max_depth': 14, 'max_features': 'auto', 'n_estimators': 200}
+Applying prediction with the params...
+Mean squared error is of 19936418915.41458
 List of feature importance:
-[0.3013023780033401, 0.08667184597055039, 0.040709755017075, 0.4302859876764333, 0.10704548712067072, 0.028844367749105124, 0.005140178462825254]
-Current Time = 15:09:49
-Dataset "Melbourne_housing_FULL_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-For the dataset "Melbourne_housing_FULL_new_noOutliers.csv" the mean squared error is of 20099806830.03252
+[0.3204005182710687, 0.008359017599816873, 0.04322871164215595, 0.30903153889357177, 0.28631946091592536, 0.021865099611497376, 0.010795653065963893]
+Current Time = 09:32:28
+------------------------------------------------------------------
+------------------------------------------------------------------
+Dataset: pe_properties_new_noOutliers.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (3671, 9)
+Train/test division is 70/30
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}
+Starting search for best params: 
+Current Time = 09:32:28
+Best params were the following:
+Current Time = 09:35:42
+{'max_depth': 11, 'max_features': 'sqrt', 'n_estimators': 100}
+Applying prediction with the params...
+Mean squared error is of 6580080333.577367
 List of feature importance:
-[0.2551166725800694, 0.04532840038664245, 0.10305831431806721, 0.287665302378026, 0.2496108830744, 0.04103309437591436, 0.018187332886880552]
-Current Time = 15:09:52
-Dataset "pe_properties_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-For the dataset "pe_properties_new_noOutliers.csv" the mean squared error is of 6385757302.3791685
+[0.31536412933084246, 0.14930128184354366, 0.0996820736164023, 0.20962940848049172, 0.18906597572271355, 0.03690658996517896, 5.0541040827378834e-05]
+Current Time = 09:35:42
+------------------------------------------------------------------
+------------------------------------------------------------------
+Dataset: uy_properties_new_noOutliers.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (12340, 9)
+Train/test division is 70/30
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}
+Starting search for best params: 
+Current Time = 09:35:43
+Best params were the following:
+Current Time = 09:44:05
+{'max_depth': 14, 'max_features': None, 'n_estimators': 200}
+Applying prediction with the params...
+Mean squared error is of 7753348022.924043
 List of feature importance:
-[0.30329509920320663, 0.11797829195034096, 0.08966907132459634, 0.23467454863848342, 0.2131591185164624, 0.04110765575973805, 0.00011621460717223078]
-Current Time = 15:09:54
-Dataset "uy_properties_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-For the dataset "uy_properties_new_noOutliers.csv" the mean squared error is of 7846748465.029189
+[0.19201548305876637, 0.15309300063841894, 0.05149327789149127, 0.24878105209361823, 0.2582973147409017, 0.08687830850184726, 0.009441563074956071]
+Current Time = 09:44:08
+------------------------------------------------------------------
+------------------------------------------------------------------
+Dataset: Zameen Property Data Pakistan_new_noOutliers.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (109555, 9)
+Train/test division is 70/30
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [50, 100, 200], 'max_features': ['auto', 'sqrt', 'log2', None], 'max_depth': [5, 6, 7, 8, 9, 10, 11, 12, 13, 14]}
+Starting search for best params: 
+Current Time = 09:44:09
+Best params were the following:
+Current Time = 10:37:34
+{'max_depth': 14, 'max_features': 'log2', 'n_estimators': 200}
+Applying prediction with the params...
+Mean squared error is of 1396127664.9484963
 List of feature importance:
-[0.23506541901828212, 0.08539054830003662, 0.07402978069629049, 0.24523319743527086, 0.2502214493873782, 0.09842499500458997, 0.011634610158151733]
-Current Time = 15:09:58
-Dataset "Zameen Property Data Pakistan_new_noOutliers.csv
-Normalization used is StandardScaler, train/test division is 70/30
-For the dataset "Zameen Property Data Pakistan_new_noOutliers.csv" the mean squared error is of 1315278485.6177614
-List of feature importance:
-[0.23131002028623354, 0.13727884104301308, 0.20580171996684302, 0.19291076137695806, 0.16727373789923267, 0.06007976778816836, 0.005345151639551319]
-Current Time = 15:10:25
-
+[0.24043356409553154, 0.13609955640479396, 0.24859057468477883, 0.17378936600423128, 0.1463630541071978, 0.04982198512715518, 0.004901899576311342]
+Current Time = 10:37:44
+------------------------------------------------------------------
