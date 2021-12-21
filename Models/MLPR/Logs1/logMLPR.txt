@@ -1,0 +1,218 @@
+MLPR LOGS:
+
+start: 18:19:07
+------------------------------------------------------------------
+Dataset: kc_house_data.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (19656, 9)
+Train/test division is 70/30
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['relu', 'identity'], 'solver': ['adam'], 'learning_rate': ['invscaling', 'adaptive'], 'learning_rate_init': [0.001, 0.01, 0.1], 'max_iter': [2500000], 'hidden_layer_sizes': [(3, 3), (7, 7)], 'early_stopping': [True]}
+j = 1
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13453549221.087603
+Mean absolute error:86267.96409894893
+MAPE:0.22840493679630777
+R2 score:0.5685334407198885
+------------------------------------------------------------------
+j = 2
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13368858700.336086
+Mean absolute error:85605.59922458656
+MAPE:0.22490798027917663
+R2 score:0.5712495364498555
+------------------------------------------------------------------
+j = 3
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13410654555.78769
+Mean absolute error:85184.26081020867
+MAPE:0.2188842369168853
+R2 score:0.5699091084596264
+------------------------------------------------------------------
+j = 4
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'invscaling', 'learning_rate_init': 0.1, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13517729892.019514
+Mean absolute error:86399.79981555566
+MAPE:0.2275895233357789
+R2 score:0.5664751130024803
+------------------------------------------------------------------
+j = 5
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13548448234.502392
+Mean absolute error:86655.97632528488
+MAPE:0.22903428329846667
+R2 score:0.5654899501045663
+------------------------------------------------------------------
+j = 6
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'invscaling', 'learning_rate_init': 0.1, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13547779183.64879
+Mean absolute error:86736.60209783755
+MAPE:0.2289444646283298
+R2 score:0.5655114071242004
+------------------------------------------------------------------
+j = 7
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13610387232.065632
+Mean absolute error:87035.18088859318
+MAPE:0.22968695894894542
+R2 score:0.5635035147242295
+------------------------------------------------------------------
+j = 8
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13447750916.905535
+Mean absolute error:85855.34147803411
+MAPE:0.22657981429210386
+R2 score:0.5687193971774733
+------------------------------------------------------------------
+j = 9
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'invscaling', 'learning_rate_init': 0.1, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13440734935.952984
+Mean absolute error:85689.11718595447
+MAPE:0.22325041987528352
+R2 score:0.5689444055460329
+------------------------------------------------------------------
+j = 10
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 13583026169.30967
+Mean absolute error:86404.78037532869
+MAPE:0.2268382825971409
+R2 score:0.5643810068574622
+------------------------------------------------------------------
+------------------------------------------------------------------
+Dataset: perth.csv
+Normalization used is StandardScaler
+Dataset total size after normalization: (26510, 9)
+Train/test division is 70/30
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['relu', 'identity'], 'solver': ['adam'], 'learning_rate': ['invscaling', 'adaptive'], 'learning_rate_init': [0.001, 0.01, 0.1], 'max_iter': [2500000], 'hidden_layer_sizes': [(3, 3), (7, 7)], 'early_stopping': [True]}
+j = 11
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 17375418945.720898
+Mean absolute error:99481.8565936841
+MAPE:0.32981245582783686
+R2 score:0.19030858689000807
+------------------------------------------------------------------
+j = 12
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.001, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 18052788844.118103
+Mean absolute error:101996.43460845246
+MAPE:0.33950040929246644
+R2 score:0.15874327085678086
+------------------------------------------------------------------
+j = 13
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 17662807574.523262
+Mean absolute error:100567.28886150454
+MAPE:0.33391952274175674
+R2 score:0.17691632822311498
+------------------------------------------------------------------
+j = 14
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'invscaling', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 17874416417.76955
+Mean absolute error:101388.08293823333
+MAPE:0.336231403324715
+R2 score:0.16705539400046987
+------------------------------------------------------------------
+j = 15
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 17434098659.760376
+Mean absolute error:99734.48504668487
+MAPE:0.33017364719410486
+R2 score:0.18757412271795337
+------------------------------------------------------------------
+j = 16
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 17520246448.138157
+Mean absolute error:99926.31885039232
+MAPE:0.3301266941842484
+R2 score:0.18355965119782447
+------------------------------------------------------------------
+j = 17
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'invscaling', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 17755130955.853317
+Mean absolute error:101019.84680342836
+MAPE:0.33588912348485633
+R2 score:0.17261407517668503
+------------------------------------------------------------------
+j = 18
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 17846673612.278328
+Mean absolute error:101599.30299597792
+MAPE:0.33876150709063946
+R2 score:0.16834820377110027
+------------------------------------------------------------------
+j = 19
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 17660543143.156467
+Mean absolute error:100492.06890076987
+MAPE:0.33387618429652627
+R2 score:0.17702185031953177
+------------------------------------------------------------------
+j = 20
+Starting search for best params: 
+Best params were the following:
+{'activation': 'relu', 'early_stopping': True, 'hidden_layer_sizes': (7, 7), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 2500000, 'solver': 'adam'}
+Applying prediction with the params...
+Mean squared error is of 17838707026.61704
+Mean absolute error:101117.6425887693
+MAPE:0.3356347847762417
+R2 score:0.1687194452370988
+------------------------------------------------------------------
+#ended somewhere between 4AM and 11AM
