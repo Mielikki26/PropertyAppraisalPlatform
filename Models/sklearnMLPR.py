@@ -85,12 +85,12 @@ for filename in datasets_list:
     print("Train/test division is 70/30")
 
     paramsNN = {
-        "activation": ["relu", "identity"],
+        "activation": ["relu"],
         "solver": ["adam"],
         "learning_rate": ["invscaling", "adaptive"],
         "learning_rate_init": [0.001, 0.01, 0.1],
         "max_iter": [2500000],
-        "hidden_layer_sizes": [(3, 3), (7, 7)],
+        "hidden_layer_sizes": [(7, 7)],
         "early_stopping": [True]
     }
 
