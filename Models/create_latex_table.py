@@ -44,10 +44,13 @@ def create_table(tabnet_data, rf_data, mlpr_data):
                    r"\end{table}"
     body = ""
     for i in range(len(tabnet_data['datasets'])):
-        body += tabnet_data['datasets'][i][:-4] + " & " + str(tabnet_data['m_mapes'][i][0]) + " $\pm$ " + str(tabnet_data['m_mapes'][i][1]) + " & " + str(tabnet_data['m_r2s'][i][0])\
-               + " $\pm$ " + "{\\footnotesize" + str(tabnet_data['m_r2s'][i][1]) + "} & " + str(rf_data['m_mapes'][i][0]) + " $\pm$ " + str(rf_data['m_mapes'][i][1]) + " & " + str(rf_data['m_r2s'][i][0])\
-               + " $\pm$ " + str(rf_data['m_r2s'][i][1]) + " & " + str(mlpr_data['m_mapes'][i][0]) + " $\pm$ " + str(mlpr_data['m_mapes'][i][1]) + " & " + str(mlpr_data['m_r2s'][i][0])\
-               + " $\pm$ " + str(mlpr_data['m_r2s'][i][1]) + " \\\\ \hline \n"
+        body += tabnet_data['datasets'][i][:-4] + " & $" + str(tabnet_data['m_mapes'][i][0]) + r"$ \text{\tiny $ \pm " + \
+                str(tabnet_data['m_mapes'][i][1]) + "$} & $" + str(tabnet_data['m_r2s'][i][0]) + r"$ \text{\tiny $ \pm " + \
+                str(tabnet_data['m_r2s'][i][1]) + "$} & $" + str(rf_data['m_mapes'][i][0]) + r"$ \text{\tiny $ \pm " + \
+                str(rf_data['m_mapes'][i][1]) + "$} & $" + str(rf_data['m_r2s'][i][0]) + r"$ \text{\tiny $ \pm " + \
+                str(rf_data['m_r2s'][i][1]) + "$} & $" + str(mlpr_data['m_mapes'][i][0]) + r"$ \text{\tiny $ \pm " + \
+                str(mlpr_data['m_mapes'][i][1]) + "$} & $" + str(mlpr_data['m_r2s'][i][0]) + r"$ \text{\tiny $ \pm " + \
+                str(mlpr_data['m_r2s'][i][1]) + "$} \\\\ \hline \n"
 
     final_table = template_start + body + template_end
     return final_table

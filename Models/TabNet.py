@@ -19,7 +19,7 @@ import json
 fd = "\TabNet\Logs1\\" #files_directory
 m_mapes = []
 m_r2s = []
-#m_maes = []
+m_maes = []
 features = ["Area", "Baths", "Beds", "Latitude", "Longitude", "Month", "Year"]
 labels = ["Price"]
 all = labels+features
@@ -65,7 +65,7 @@ j = 0
 for filename in datasets_list:
     mapes = []
     r2s = []
-    #maes = []
+    maes = []
     print("------------------------------------------------------------------")
     print("Dataset: " + filename)
     df = pd.read_csv(datasets_dir + filename, index_col=None, header=0)
@@ -148,7 +148,7 @@ for filename in datasets_list:
 
         mapes.append(mean_absolute_percentage_error(y_pred=predictions, y_true=y_test))
         r2s.append(r2_score(y_pred=predictions, y_true=y_test))
-        #maes.append(mean_absolute_error(y_pred=predictions, y_true=y_test))
+        maes.append(mean_absolute_error(y_pred=predictions, y_true=y_test))
 
         # save tabnet model
         #saving_path_name = cur_dir + fd + "tabnet_model_test_" + filename + str(j)
@@ -157,9 +157,9 @@ for filename in datasets_list:
 
     m_mapes.append((mean(mapes), np.std(mapes)))
     m_r2s.append((mean(r2s), np.std(r2s)))
-    #m_maes.append((mean(maes), np.std(maes)))
+    m_maes.append((mean(maes), np.std(maes)))
 
-tabnet_data = {'model': "TabNet", 'datasets': datasets_list, 'm_mapes': m_mapes, 'm_r2s': m_r2s}#, 'm_maes': m_maes}
+tabnet_data = {'model': "TabNet", 'datasets': datasets_list, 'm_mapes': m_mapes, 'm_r2s': m_r2s, 'm_maes': m_maes}
 
 if not os.path.exists("Results.json"):
     open("Results.json", 'w').close()
