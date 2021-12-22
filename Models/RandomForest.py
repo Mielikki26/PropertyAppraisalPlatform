@@ -85,9 +85,9 @@ for filename in datasets_list:
     print("Train/test division is 70/30")
 
     params = {
-        "n_estimators": [200, 500],
+        "n_estimators": [400],
         "max_features": ["auto", None],
-        "max_depth": list(range(12, 18))
+        "max_depth": list(range(15, 18))
     }
     print("RANDOM FOREST LOGS WITH FOLLOWING PARAMS:\n" + str(params))
 
