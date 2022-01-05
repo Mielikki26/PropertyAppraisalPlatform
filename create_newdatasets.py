@@ -16,22 +16,17 @@ def cleannegatives(value, flag):
 def clean_garbage_data(df):
     df['Price'].replace('  ', np.nan, inplace=True)
     df['Price'] = df.apply(lambda x: cleannegatives(x['Price'],2), axis=1)
-    df = df.dropna(subset=['Price'])
     df['Area'].replace('  ', np.nan, inplace=True)
     df['Area'] = df.apply(lambda x: cleannegatives(x['Area'], 2), axis=1)
-    df = df.dropna(subset=['Area'])
     df['Baths'].replace('  ', 0, inplace=True)
     df['Baths'] = df.apply(lambda x: cleannegatives(x['Baths'], 1), axis=1)
     df['Beds'].replace('  ', 0, inplace=True)
     df['Beds'] = df.apply(lambda x: cleannegatives(x['Beds'], 1), axis=1)
     df['Latitude'].replace('  ', np.nan, inplace=True)
-    df = df.dropna(subset=['Latitude'])
     df['Longitude'].replace('  ', np.nan, inplace=True)
-    df = df.dropna(subset=['Longitude'])
     df['Month'].replace('  ', np.nan, inplace=True)
-    df = df.dropna(subset=['Month'])
     df['Year'].replace('  ', np.nan, inplace=True)
-    df = df.dropna(subset=['Year'])
+    df = df.dropna()
 
     df = df.drop_duplicates()
     return df
@@ -159,7 +154,7 @@ def zameen():
 
 def perth():
     df = pd.read_csv(dir + "\OriginalDatasets\\all_perth_310121.csv")
-    df['PRICE'] = df['PRICE'].multiply(0.874)
+    df['PRICE'] = df['PRICE'].multiply(0.63)
     df['LAND_AREA'] = df['LAND_AREA'].multiply(0.09290304)
     df[['Month', 'Year']] = df['DATE_SOLD'].str.split('-', 1, expand=True)
     df2 = df[['PRICE','LAND_AREA','BATHROOMS','BEDROOMS','LATITUDE','LONGITUDE', 'Month', 'Year']]

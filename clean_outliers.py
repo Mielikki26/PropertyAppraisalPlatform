@@ -44,10 +44,10 @@ def remove_outliers_Grubbs(values, alpha, df):
 def remove_outliers_zscore(label, threshold, df):
     flag = 1
     while(flag):
+        indexes = []
         values = df[label].to_numpy()
         std = values.std()
         mean = values.mean()
-        indexes = []
         for idx, i in enumerate(values):
             z = (i - mean) / std
             if z > threshold:
@@ -67,30 +67,37 @@ for i in dataset_list: #for each dataset
     if '.csv' not in i:
         continue
     new_name = i[:-4] + '_noOutliers.csv'
-    df = pd.read_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets\\' + i)
+    df_full = pd.read_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets\\' + i)
 
     print("\n------------------------------------------\n")
+    print('Inicial dataset shape:' + str(df_full.shape))
+    df = df_full[df_full['Price'] >= 10000]
     print("Dataset " + i + ":")
-    print('Inicial dataset shape:' + str(df.shape))
+    print('After <10k removal dataset shape:' + str(df.shape))
 
-    flag = 1
-    while flag:
-        og_df = df
-        df = remove_outliers_IQR(df, 1.5)
-        if og_df.equals(df):
-            flag = 0
+    df_new = df.copy()
+    df_new = remove_outliers_IQR(df_new, 1.5)
 
-    #df = remove_outliers_Grubbs(df["Price"].to_numpy(), 0.05, df)
-    #df = remove_outliers_Grubbs(df["Area"].to_numpy(), 0.05, df)
-    #df = remove_outliers_Grubbs(df["Beds"].to_numpy(), 0.05, df)
-    #df = remove_outliers_Grubbs(df["Baths"].to_numpy(), 0.05, df)
+    if df_new.shape[0] > 1000:
+        df_new.to_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets_noOutliers\IQR\\' + new_name, index=False)
+        print('Final dataset shape for IQR:' + str(df_new.shape))
 
-    #df = remove_outliers_zscore("Price", 3, df)
-    #df = remove_outliers_zscore("Area", 3, df)
-    #df = remove_outliers_zscore("Beds", 3, df)
-    #df = remove_outliers_zscore("Baths", 3, df)
+    df_new = df.copy()
+    df_new = remove_outliers_Grubbs(df_new["Price"].to_numpy(), 0.05, df_new)
+    df_new = remove_outliers_Grubbs(df_new["Area"].to_numpy(), 0.05, df_new)
+    df_new = remove_outliers_Grubbs(df_new["Beds"].to_numpy(), 0.05, df_new)
+    df_new = remove_outliers_Grubbs(df_new["Baths"].to_numpy(), 0.05, df_new)
 
-    print("Outliers were removed! Dataset shape is now: " + str(df.shape))
+    if df_new.shape[0] > 1000:
+        df_new.to_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets_noOutliers\Grubbs\\' + new_name, index=False)
+        print('Final dataset shape for Grubbs:' + str(df_new.shape))
 
-    if df.shape[0] > 1000:
-        df.to_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets_noOutliers\\' + new_name, index=False)
+    df_new = df.copy()
+    df_new = remove_outliers_zscore("Price", 3, df_new)
+    df_new = remove_outliers_zscore("Area", 3, df_new)
+    df_new = remove_outliers_zscore("Beds", 3, df_new)
+    df_new = remove_outliers_zscore("Baths", 3, df_new)
+
+    if df_new.shape[0] > 1000:
+        df_new.to_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets_noOutliers\Zscore\\' + new_name, index=False)
+        print('Final dataset shape for Zscore:' + str(df_new.shape))
