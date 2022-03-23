@@ -60,26 +60,29 @@ def remove_outliers_zscore(label, threshold, df):
 
     return df
 
+datasets_dir = cur_dir + r'\Research\Datasets\CreatedDatasets\SouthAmericanMoreFeatures_2\\'
+save_folder = datasets_dir + r'WithoutOutliers\\'
+dataset_list = os.listdir(datasets_dir) #get datasets list
 
-dataset_list = os.listdir(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets\\') #get datasets list
+if not os.path.exists(save_folder):
+    os.makedirs(save_folder + 'IQR')
+    os.makedirs(save_folder + 'Grubbs')
+    os.makedirs(save_folder + 'Zscore')
 
 for i in dataset_list: #for each dataset
     if '.csv' not in i:
         continue
-    new_name = i[:-4] + '_noOutliers.csv'
-    df_full = pd.read_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets\\' + i)
+    df = pd.read_csv(datasets_dir + i)
 
     print("\n------------------------------------------\n")
-    print('Inicial dataset shape:' + str(df_full.shape))
-    df = df_full[df_full['Price'] >= 10000]
     print("Dataset " + i + ":")
-    print('After <10k removal dataset shape:' + str(df.shape))
+    print('Inicial dataset shape:' + str(df.shape))
 
     df_new = df.copy()
     df_new = remove_outliers_IQR(df_new, 1.5)
 
     if df_new.shape[0] > 1000:
-        df_new.to_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets_noOutliers\IQR\\' + new_name, index=False)
+        df_new.to_csv(save_folder +  r'IQR\\' + i, index=False)
         print('Final dataset shape for IQR:' + str(df_new.shape))
 
     df_new = df.copy()
@@ -89,7 +92,7 @@ for i in dataset_list: #for each dataset
     df_new = remove_outliers_Grubbs(df_new["Baths"].to_numpy(), 0.05, df_new)
 
     if df_new.shape[0] > 1000:
-        df_new.to_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets_noOutliers\Grubbs\\' + new_name, index=False)
+        df_new.to_csv(save_folder +  r'Grubbs\\' + i, index=False)
         print('Final dataset shape for Grubbs:' + str(df_new.shape))
 
     df_new = df.copy()
@@ -99,5 +102,5 @@ for i in dataset_list: #for each dataset
     df_new = remove_outliers_zscore("Baths", 3, df_new)
 
     if df_new.shape[0] > 1000:
-        df_new.to_csv(cur_dir + r'\Research\Datasets\CreatedDatasets\NewDatasets_noOutliers\Zscore\\' + new_name, index=False)
+        df_new.to_csv(save_folder +  r'Zscore\\' + i, index=False)
         print('Final dataset shape for Zscore:' + str(df_new.shape))

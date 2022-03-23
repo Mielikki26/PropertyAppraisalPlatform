@@ -33,7 +33,7 @@ pub = dict(sorted(pub.items(), key=lambda item: -item[1])) #sorting
 #show plot
 ax.bar(pub.keys(), pub.values())
 ax.grid()
-ax.set_title(str(nrpublicos) + " datasets publicos")
+ax.set_title(str(nrpublicos) + " public datasets.")
 plt.xticks(
         rotation=45,
         horizontalalignment='right',

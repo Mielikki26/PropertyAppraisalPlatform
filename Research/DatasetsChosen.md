@@ -111,8 +111,8 @@ all_perth_310121.csv
 
 ## Features used and conversions made:
 
-- Price = PRICE* 0,874;
-- Area = LAND_AREA* 0.09290304;
+- Price = PRICE* 0.63;
+- Area = FLOOR_AREA;
 - Baths = BATHROOMS;
 - Beds = BEDROOMS;
 - Latitude = LATITUDE;

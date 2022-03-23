@@ -2,12 +2,11 @@ import pandas as pd
 from pathlib import Path
 import numpy as np
 import os
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
+from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 from pytorch_tabnet.tab_model import TabNetRegressor
 from datetime import datetime
-from sklearn.model_selection import KFold
 from sklearn.metrics import mean_absolute_percentage_error
 from sklearn.metrics import mean_absolute_error
 import matplotlib.pyplot as plt
@@ -15,98 +14,124 @@ import sys
 from sklearn.metrics import r2_score
 from statistics import mean
 import json
+import shutil
 
-images = False
-fd = "\TabNet\Logsx5\\" #files_directory
-m_mapes = []
-m_r2s = []
-m_maes = []
+"""
+TabNet training script:
+This script trains a TabNet model on the datasets.
+Repeats each training x times from scratch for 
+each dataset using seed = x. Predictions are made 
+for each training, final average results and deviation 
+are saved in json file inside a logs folder as well as the 
+log file, images and a copy of the this script.
+"""
+
+json_file = 'resultsTabnet.json' #json file name
+fd = r"\Logs\TabNet\SSNormalization\Logs\\" #files_directory
+images = True        #flag to create images
+
+#lists to calculate average final results and deviation
+avg_mape = []
+avg_r2 = []
+avg_mae = []
+
+#features and labels list
 features = ["Area", "Baths", "Beds", "Latitude", "Longitude", "Month", "Year"]
 labels = ["Price"]
-all = labels+features
+
+#directories
 cur_dir = os.getcwd()
-parent_dir = Path(cur_dir).parent.absolute()
-datasets_dir = str(parent_dir) + r'\Research\Datasets\CreatedDatasets\Datasets_in_use\\'
-datasets_list = os.listdir(str(parent_dir) + r'\Research\Datasets\CreatedDatasets\Datasets_in_use\\')
+datasets_dir = str(cur_dir) + r'\datasets\\'
+datasets_list = os.listdir(str(cur_dir) + r'\datasets\\')
 
-if not os.path.exists(cur_dir + fd):
-    os.mkdir(cur_dir + fd)
-
-stdoutOrigin=sys.stdout
-sys.stdout = open(cur_dir + fd + r'logTabNet.txt', "w")
-print("TABNET LOGS:\n")
+#datasets to use
+datasets = ["all perth.csv", "ar properties.csv", "co properties.csv", "DC Properties.csv",
+            "kc house data.csv", "Melbourne housing.csv", "pe properties.csv", "uy properties.csv", "Zameen Property.csv"]
 
 def time():
+    #simple function to return current time
     now = datetime.now()
-
     current_time = now.strftime("%H:%M:%S")
     return current_time
 
-print("start: "+ str(time()))
+def trainxtimes(X, Y, filename,x):
+    """
+    This is the function that trains the model x times
+    in a specific dataset and returns the results
+    it also creates the images regarding the
+    predictions vs actual values
 
-j = 0
-for filename in datasets_list:
+    :param X: features
+    :param Y: labels
+    :param filename: name of dataset being used
+    :param x: number of times to train the dataset
+    :return: list with average result values and standard deviation
+    """
+
+    #lists to save results
     mapes = []
     r2s = []
     maes = []
-    print("------------------------------------------------------------------")
-    print("Dataset: " + filename)
-    df = pd.read_csv(datasets_dir + filename, index_col=None, header=0)
-
-    print("Dataset total size after normalization: " + str(df.shape))
-
-    X = df[features]
-    Y = df[labels]
-
-    X = X.to_numpy()
-    Y = Y.to_numpy().reshape(-1, 1)
-
-    X, X_test, y, y_test = train_test_split(X, Y, test_size=0.2)
-    print("Train/test division is 80/20")
 
     print("Normalization used is StandardScaler")
-    scalar = StandardScaler()
     scalerx = StandardScaler().fit(X)
-    scalery = StandardScaler().fit(y)
-    x_train = scalerx.transform(X)
-    y_train = scalery.transform(y)
-    x_test = scalerx.transform(X_test)
+    scalery = StandardScaler().fit(Y)
 
-    for i in range(5):
-        j += 1
-        print("j = " + str(j))
+    for i in range(x):
+        print("------------------------------------------------------------------")
+        print("Using the dataset: " + filename)
+        print("Using seed = " + str(i))
 
-        kf = KFold(n_splits=2, shuffle=True)
-        for train_index, test_index in kf.split(X):
-            X_train, X_valid = X[train_index], X[test_index]
-            y_train, y_valid = y[train_index], y[test_index]
-            clf = TabNetRegressor()
-            clf.fit(
-                X_train=X_train, y_train=y_train,
-                eval_set=[(X_train, y_train), (X_valid, y_valid)],
-                eval_metric=['rmse', 'mse', 'mae'],
-                max_epochs=5000,
-                patience = 100,
-                num_workers=0,
-                drop_last=False
-            )
+        print("Train/val/test division is 64/18/18")
+        x_train, x_test, y_train, y_test = train_test_split(X, Y, train_size=0.8, test_size=0.2, random_state=i)
+        x_train, x_val, y_train, y_val = train_test_split(x_train, y_train, train_size=0.8, test_size=0.2, random_state=i)
 
-        print("Starting training: " + str(time()))
-        print("Training ended: " + str(time()))
-        print("Predictions starting:" + str(time()))
+        # Normalize the data
+        x_train_norm = scalerx.transform(x_train)
+        y_train_norm = scalery.transform(y_train)
+        x_val_norm = scalerx.transform(x_val)
+        y_val_norm = scalery.transform(y_val)
+        x_test_norm = scalerx.transform(x_test)
 
-        normalized_predictions = clf.predict(X_test).reshape(-1, 1)
-        predictions = scalery.inverse_transform(normalized_predictions)
+        tabnet = TabNetRegressor(optimizer_params=dict(lr=0.05), n_d = 12, n_a = 12)
 
-        #print("!!!!!!!!!!!!!!!!!!!!!!!!!!!True vs Preds!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
-        #for idx,i in enumerate(y_test):
-        #    print(str(y_test[idx]) + " --- " + str(predictions[idx]))
-        #print("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+        print('Random Forest params:\n')
+        print(tabnet.get_params())
 
-        if images == True:
-            plt.plot(clf.history['loss'])
-            plt.savefig(cur_dir + fd + r'Loss_' + filename + str(j) + '.png')
+        eval_set = [(x_train_norm, y_train_norm), (x_val_norm, y_val_norm)]
+        print("started training at: " + str(time()))
+        tabnet.fit(
+            X_train=x_train_norm, y_train=y_train_norm,
+            eval_set=eval_set,
+            eval_metric=['rmse'],
+            max_epochs=150,
+            patience=30,
+        )
+        print("ended training at: " + str(time()))
+
+        predictions_norm = tabnet.predict(x_test_norm).reshape(-1, 1)
+        predictions = scalery.inverse_transform(predictions_norm)
+
+        """
+        Create images, only creating for the first seed 
+        because its unnecessary to create for all of them
+        """
+        if images == True and i == 0:
+            if not os.path.exists(cur_dir + fd + '\Images\\'):
+                os.mkdir(cur_dir + fd + '\Images\\')
+
+            epochs = len(tabnet.history['loss'])
+            x_axis = range(0, epochs)
+            fig, ax = plt.subplots()
+            ax.plot(x_axis, tabnet.history['val_0_rmse'], label='Train')
+            ax.plot(x_axis, tabnet.history['val_1_rmse'], label='Validation')
+            ax.legend()
+            plt.ylabel('RMSE')
+            plt.xlabel('Epoch')
+            plt.title('Dataset is ' + str(filename))
+            plt.savefig(cur_dir + fd + '\Images\\' + r'Loss_' + filename + '.png')
             plt.close()
+
             plt.figure(figsize=(10, 10))
             plt.scatter(y_test, predictions, c='crimson')
             plt.yscale('log')
@@ -117,15 +142,13 @@ for filename in datasets_list:
             plt.xlabel('True Values', fontsize=15)
             plt.ylabel('Predictions', fontsize=15)
             plt.axis('equal')
-            plt.savefig(cur_dir + fd + r'Predictions vs Actual_' + filename + str(j) + '.png')
+            plt.savefig(cur_dir + fd + '\Images\\' + r'PredictionsvsActual_' + filename + '.png')
             plt.close()
 
-        print("Predictions ended: " + str(time()))
-
+        #printing interesting data for the log file
         print("Feature importance:")
-        print(list(zip(features, clf.feature_importances_)))
-        print(f"BEST VALID SCORE : {clf.best_cost}")
-        print("Mean squared error:" + str(mean_squared_error(y_pred=predictions, y_true=y_test)))
+        print(list(zip(features, tabnet.feature_importances_)))
+        print("Mean squared error is of " + str(mean_squared_error(y_test, predictions)))
         print("Mean absolute error:" + str(mean_absolute_error(y_pred=predictions, y_true=y_test)))
         print("MAPE:" + str(mean_absolute_percentage_error(y_pred=predictions, y_true=y_test)))
         print("R2 score:" + str(r2_score(y_pred=predictions, y_true=y_test)))
@@ -135,21 +158,59 @@ for filename in datasets_list:
         r2s.append(r2_score(y_pred=predictions, y_true=y_test))
         maes.append(mean_absolute_error(y_pred=predictions, y_true=y_test))
 
-        # save tabnet model
-        #saving_path_name = cur_dir + fd + "tabnet_model_test_" + filename + str(j)
-        #saved_filepath = clf.save_model(saving_path_name)
-        #plt.close('all')
+    return mapes, r2s, maes
 
-    m_mapes.append((mean(mapes), np.std(mapes)))
-    m_r2s.append((mean(r2s), np.std(r2s)))
-    m_maes.append((mean(maes), np.std(maes)))
+#Create directory, redirect output to log file and save a copy of the script
+if not os.path.exists(cur_dir + fd):
+    os.makedirs(cur_dir + fd)
+stdoutOrigin=sys.stdout
+sys.stdout = open(cur_dir + fd + r'logTabNet.txt', "w")
+print("TabNet Logs:\n")
+print("Saving copy of script...")
+shutil.copy(__file__, cur_dir + fd + r'TabNet.py')
 
-tabnet_data = {'model': "TabNet", 'datasets': datasets_list, 'm_mapes': m_mapes, 'm_r2s': m_r2s, 'm_maes': m_maes}
+#training loop
+df_all = []
+for filename in datasets_list:
+    if filename not in datasets:
+        continue
+    df = pd.read_csv(datasets_dir + filename, index_col=None, header=0)
+    df = df.sample(frac=1)
 
-if not os.path.exists("Results.json"):
-    open("Results.json", 'w').close()
+    # save data to later train on all the combined datasets
+    df_all.append(df)
 
-with open('Results.json', 'r+') as f:
+    X = df[features]
+    Y = df[labels]
+
+    X = X.to_numpy()
+    Y = Y.to_numpy().reshape(-1, 1)
+
+    mapes, r2s, maes = trainxtimes(X, Y, filename, 1)
+    avg_mape.append((mean(mapes), np.std(mapes)))
+    avg_r2.append((mean(r2s), np.std(r2s)))
+    avg_mae.append((mean(maes), np.std(maes)))
+
+#train for the all combined dataset and get results
+df_all = pd.concat(df_all)
+df_all = df_all.sample(frac = 1)
+X_all = df_all[features]
+Y_all = df_all[labels]
+X_all = X_all.to_numpy()
+Y_all = Y_all.to_numpy().reshape(-1, 1)
+mapes, r2s, maes = trainxtimes(X_all, Y_all, "all_datasets", 1)
+avg_mape.append((mean(mapes), np.std(mapes)))
+avg_r2.append((mean(r2s), np.std(r2s)))
+avg_mae.append((mean(maes), np.std(maes)))
+datasets.append("all_datasets")
+
+#Save results in json file:
+tabnet_data = {'model': "TabNet", 'datasets': datasets, 'avg_mape': avg_mape, 'avg_r2': avg_r2, 'avg_mae': avg_mae}
+
+if not os.path.exists(cur_dir + fd + json_file):
+    open(cur_dir + fd + json_file, 'w').close()
+
+with open(cur_dir + fd + json_file, 'r+') as f:
     try:
         json_data = json.load(f)
     except:
