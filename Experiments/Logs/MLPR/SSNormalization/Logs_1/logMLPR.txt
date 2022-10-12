@@ -1,0 +1,1413 @@
+MLPRegressor Logs:
+
+Saving copy of script...
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:32
+ended training at: 07:03:33
+Mean squared error is of 8095914720.528325
+Mean absolute error:66393.31666618034
+MAPE:0.2191383029995942
+R2 score:0.6255357460105514
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:35
+ended training at: 07:03:36
+Mean squared error is of 8772059643.659529
+Mean absolute error:69955.25870256317
+MAPE:0.22908838729009143
+R2 score:0.5912235905823146
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:36
+ended training at: 07:03:37
+Mean squared error is of 8500645404.457942
+Mean absolute error:66675.78681788329
+MAPE:0.2161751484332868
+R2 score:0.6097209271606603
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:37
+ended training at: 07:03:37
+Mean squared error is of 8464527786.208881
+Mean absolute error:68049.19446666678
+MAPE:0.21988768767908634
+R2 score:0.6051774370126026
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:37
+ended training at: 07:03:38
+Mean squared error is of 8380390172.298863
+Mean absolute error:67478.0415305185
+MAPE:0.22086734156801047
+R2 score:0.5951195699750856
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:38
+ended training at: 07:03:39
+Mean squared error is of 8621044236.328016
+Mean absolute error:68904.04842633434
+MAPE:0.2247053328682468
+R2 score:0.6020205727690611
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:39
+ended training at: 07:03:40
+Mean squared error is of 8437899189.5340395
+Mean absolute error:68356.88555682226
+MAPE:0.2259707168937563
+R2 score:0.6096518763490885
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:40
+ended training at: 07:03:41
+Mean squared error is of 8236060536.536884
+Mean absolute error:68142.0665488968
+MAPE:0.2254694042503624
+R2 score:0.6188939197007952
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:41
+ended training at: 07:03:41
+Mean squared error is of 9160766924.798897
+Mean absolute error:72013.45722537156
+MAPE:0.23231797011250876
+R2 score:0.5805043444446282
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:41
+ended training at: 07:03:43
+Mean squared error is of 8397041154.005657
+Mean absolute error:67733.75363929602
+MAPE:0.22043710829564395
+R2 score:0.6083749988323488
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:43
+ended training at: 07:03:46
+Mean squared error is of 3282845475.1859508
+Mean absolute error:41618.32253043243
+MAPE:0.40764729425933754
+R2 score:0.5675992235911529
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:48
+ended training at: 07:03:55
+Mean squared error is of 3275835036.101597
+Mean absolute error:41391.98546739825
+MAPE:0.4209422073029482
+R2 score:0.5639312219760007
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:03:55
+ended training at: 07:04:03
+Mean squared error is of 3193439737.9999957
+Mean absolute error:40567.355150803094
+MAPE:0.39153037986965866
+R2 score:0.5737296480390215
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:03
+ended training at: 07:04:10
+Mean squared error is of 3188748030.7629766
+Mean absolute error:40798.430419462275
+MAPE:0.3976361912644527
+R2 score:0.5764571957138881
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:10
+ended training at: 07:04:18
+Mean squared error is of 3192120278.6405773
+Mean absolute error:40614.929460419975
+MAPE:0.3929473996098064
+R2 score:0.5756837049279413
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:18
+ended training at: 07:04:25
+Mean squared error is of 3099057860.0008073
+Mean absolute error:40382.54435021402
+MAPE:0.40502087804314474
+R2 score:0.5906268293273311
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:25
+ended training at: 07:04:29
+Mean squared error is of 3136980424.892668
+Mean absolute error:40442.31509222003
+MAPE:0.38983135263662005
+R2 score:0.5835628928514822
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:29
+ended training at: 07:04:37
+Mean squared error is of 3142391962.4960794
+Mean absolute error:40059.78983227368
+MAPE:0.39240080122371346
+R2 score:0.5864531299774584
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:37
+ended training at: 07:04:43
+Mean squared error is of 3341079494.843565
+Mean absolute error:41440.33594768169
+MAPE:0.3894019781083999
+R2 score:0.5618047653910234
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:43
+ended training at: 07:04:50
+Mean squared error is of 3093787844.2828145
+Mean absolute error:39931.623831971556
+MAPE:0.3896372107346383
+R2 score:0.5954870319577523
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:50
+ended training at: 07:04:52
+Mean squared error is of 1281942272.0349524
+Mean absolute error:23994.13887488514
+MAPE:0.29468233359426693
+R2 score:0.7380739433203565
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:53
+ended training at: 07:04:54
+Mean squared error is of 1268790061.8171601
+Mean absolute error:23822.352249452248
+MAPE:0.27206144739437216
+R2 score:0.744188198783862
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:54
+ended training at: 07:04:55
+Mean squared error is of 1243702553.4124608
+Mean absolute error:23711.53112459856
+MAPE:0.29692841842750844
+R2 score:0.7479965928308856
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:55
+ended training at: 07:04:56
+Mean squared error is of 1260993394.7135572
+Mean absolute error:24156.075504235283
+MAPE:0.2796541777192812
+R2 score:0.7430322877647502
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:56
+ended training at: 07:04:58
+Mean squared error is of 1308359637.7742484
+Mean absolute error:23948.47548509159
+MAPE:0.2750451594569427
+R2 score:0.731723819500796
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:58
+ended training at: 07:04:59
+Mean squared error is of 1235109280.0234916
+Mean absolute error:23663.09466953116
+MAPE:0.29017926447810316
+R2 score:0.7451886714767404
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:04:59
+ended training at: 07:05:00
+Mean squared error is of 1287632744.520027
+Mean absolute error:24378.795305371077
+MAPE:0.2848959001712258
+R2 score:0.7311482471915332
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:00
+ended training at: 07:05:02
+Mean squared error is of 1287966369.0010564
+Mean absolute error:24152.223478602937
+MAPE:0.29944783740457476
+R2 score:0.7356537184946057
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:02
+ended training at: 07:05:03
+Mean squared error is of 1240362686.6018891
+Mean absolute error:23880.66151159892
+MAPE:0.29151293195539735
+R2 score:0.7475677674076662
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:03
+ended training at: 07:05:05
+Mean squared error is of 1249430355.9798937
+Mean absolute error:23759.735967499135
+MAPE:0.289775690996224
+R2 score:0.7431339607242485
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:05
+ended training at: 07:05:07
+Mean squared error is of 15440433847.908411
+Mean absolute error:91692.27874394669
+MAPE:0.41052895271705764
+R2 score:0.6846711441273013
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:09
+ended training at: 07:05:13
+Mean squared error is of 14857747130.397287
+Mean absolute error:90341.42464301361
+MAPE:0.4063958932714395
+R2 score:0.6996807879961875
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:13
+ended training at: 07:05:16
+Mean squared error is of 14974572826.243221
+Mean absolute error:90721.76011124821
+MAPE:0.41005753754033597
+R2 score:0.6926879914652411
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:16
+ended training at: 07:05:18
+Mean squared error is of 14768592029.18937
+Mean absolute error:89688.01239796859
+MAPE:0.4000979395522746
+R2 score:0.6937575349421895
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:18
+ended training at: 07:05:21
+Mean squared error is of 14492232241.13522
+Mean absolute error:89510.59176885244
+MAPE:0.41033642917022567
+R2 score:0.7002485580242162
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:21
+ended training at: 07:05:23
+Mean squared error is of 17132635133.817043
+Mean absolute error:97386.500891589
+MAPE:0.41522060909714475
+R2 score:0.6462487849235787
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:23
+ended training at: 07:05:25
+Mean squared error is of 15018860621.72829
+Mean absolute error:90205.59596455714
+MAPE:0.3927530878601196
+R2 score:0.6912576880300529
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:25
+ended training at: 07:05:27
+Mean squared error is of 14770802322.016718
+Mean absolute error:90688.78523724044
+MAPE:0.41628262209286354
+R2 score:0.695871898620119
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:27
+ended training at: 07:05:29
+Mean squared error is of 14853060048.163635
+Mean absolute error:91399.39723580058
+MAPE:0.43091098919933035
+R2 score:0.6960268684110489
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:29
+ended training at: 07:05:32
+Mean squared error is of 15099746524.900764
+Mean absolute error:90430.50985478892
+MAPE:0.40466773172204495
+R2 score:0.6927211443851344
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:32
+ended training at: 07:05:33
+Mean squared error is of 8618283281.825417
+Mean absolute error:66536.11354483377
+MAPE:0.17547431956593276
+R2 score:0.7207633542180405
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:34
+ended training at: 07:05:34
+Mean squared error is of 8726643778.844633
+Mean absolute error:67033.3807899452
+MAPE:0.17883849185714448
+R2 score:0.7201292459376087
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:34
+ended training at: 07:05:35
+Mean squared error is of 7673374744.705306
+Mean absolute error:63018.312453059596
+MAPE:0.16750584930919826
+R2 score:0.7549071935546116
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:35
+ended training at: 07:05:36
+Mean squared error is of 8101095035.69332
+Mean absolute error:65228.197159431074
+MAPE:0.17157538796845728
+R2 score:0.7430868231020383
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:36
+ended training at: 07:05:37
+Mean squared error is of 8541340168.97424
+Mean absolute error:65365.94482995077
+MAPE:0.16785327909441963
+R2 score:0.729458317432357
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:37
+ended training at: 07:05:38
+Mean squared error is of 8182155250.817592
+Mean absolute error:66409.37327279689
+MAPE:0.17847183111731604
+R2 score:0.743571663113441
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:38
+ended training at: 07:05:39
+Mean squared error is of 7798772123.276846
+Mean absolute error:63520.289210237366
+MAPE:0.16897328605375256
+R2 score:0.7502770639440866
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:39
+ended training at: 07:05:40
+Mean squared error is of 8317132675.941459
+Mean absolute error:65434.85823214812
+MAPE:0.17323879432455946
+R2 score:0.7272740306491088
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:40
+ended training at: 07:05:41
+Mean squared error is of 8019049475.953141
+Mean absolute error:64758.34900123353
+MAPE:0.17532885191235112
+R2 score:0.7450068350709286
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:41
+ended training at: 07:05:41
+Mean squared error is of 8088963181.7326975
+Mean absolute error:64738.61062470101
+MAPE:0.16845184176001535
+R2 score:0.7403910013829715
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:42
+ended training at: 07:05:42
+Mean squared error is of 25804334287.113075
+Mean absolute error:120978.42035763955
+MAPE:0.2177212879416288
+R2 score:0.6821106603793445
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:43
+ended training at: 07:05:43
+Mean squared error is of 26271883818.461937
+Mean absolute error:122502.12238493992
+MAPE:0.22058822312654525
+R2 score:0.6671891562860193
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:43
+ended training at: 07:05:44
+Mean squared error is of 25703732368.2142
+Mean absolute error:119193.4422265764
+MAPE:0.2137865971794715
+R2 score:0.67626898440312
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:44
+ended training at: 07:05:44
+Mean squared error is of 24550459819.55821
+Mean absolute error:119235.86393888063
+MAPE:0.21935991411363326
+R2 score:0.6840302790159638
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:44
+ended training at: 07:05:45
+Mean squared error is of 25841697226.893032
+Mean absolute error:120190.16656240102
+MAPE:0.2137065435403595
+R2 score:0.6870473116499576
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:45
+ended training at: 07:05:45
+Mean squared error is of 27229343640.304047
+Mean absolute error:122503.5121670164
+MAPE:0.2189425737959248
+R2 score:0.6588389025637472
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:45
+ended training at: 07:05:46
+Mean squared error is of 26764005230.91604
+Mean absolute error:123950.26859575638
+MAPE:0.22215016506162563
+R2 score:0.6818750501747153
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:46
+ended training at: 07:05:46
+Mean squared error is of 26873614884.15271
+Mean absolute error:123551.3872296421
+MAPE:0.22432802423790862
+R2 score:0.6649043269371517
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:46
+ended training at: 07:05:47
+Mean squared error is of 26797277978.890575
+Mean absolute error:123277.95040989692
+MAPE:0.2205742512682654
+R2 score:0.6673155574864293
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:47
+ended training at: 07:05:47
+Mean squared error is of 27906751123.311184
+Mean absolute error:126055.54810088233
+MAPE:0.21324077635241417
+R2 score:0.6798081433930332
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:47
+ended training at: 07:05:47
+Mean squared error is of 4108121941.2664127
+Mean absolute error:45907.01229753435
+MAPE:0.4663799804505639
+R2 score:0.5578889141348449
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:48
+ended training at: 07:05:48
+Mean squared error is of 3812311326.014521
+Mean absolute error:43333.83844736151
+MAPE:0.3724717745752779
+R2 score:0.5887961371726564
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:48
+ended training at: 07:05:48
+Mean squared error is of 4084905899.4025636
+Mean absolute error:44319.11001526241
+MAPE:0.37442670339408757
+R2 score:0.6056621982609309
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:48
+ended training at: 07:05:49
+Mean squared error is of 3983750232.9254704
+Mean absolute error:44462.238326711726
+MAPE:0.37130021982395917
+R2 score:0.47892650082277877
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:49
+ended training at: 07:05:49
+Mean squared error is of 4088824470.7637234
+Mean absolute error:45973.03233108347
+MAPE:0.41487659684929673
+R2 score:0.5596988027345913
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:49
+ended training at: 07:05:49
+Mean squared error is of 4310379736.468411
+Mean absolute error:46403.66572179286
+MAPE:0.40918111813751934
+R2 score:0.5840992635209028
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:49
+ended training at: 07:05:49
+Mean squared error is of 3473546086.1133122
+Mean absolute error:42822.28527645173
+MAPE:0.3626139086674358
+R2 score:0.5574461764646519
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:49
+ended training at: 07:05:49
+Mean squared error is of 3663816481.876443
+Mean absolute error:42520.34226323176
+MAPE:0.37304092872829303
+R2 score:0.6049955232185207
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:49
+ended training at: 07:05:49
+Mean squared error is of 3563752502.5858946
+Mean absolute error:43968.37976679395
+MAPE:0.41094994393732254
+R2 score:0.5851179451188755
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:49
+ended training at: 07:05:49
+Mean squared error is of 4223154476.22423
+Mean absolute error:46310.89566416611
+MAPE:0.4194896943881199
+R2 score:0.5147335432967861
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:49
+ended training at: 07:05:50
+Mean squared error is of 3683192829.757539
+Mean absolute error:42284.03184694354
+MAPE:0.3537821076156974
+R2 score:0.6214539420983259
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:51
+ended training at: 07:05:51
+Mean squared error is of 3623717554.9972987
+Mean absolute error:41435.66645699293
+MAPE:0.3421117911180211
+R2 score:0.622014766216474
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:51
+ended training at: 07:05:51
+Mean squared error is of 3585824853.2566767
+Mean absolute error:42307.93391441163
+MAPE:0.3624711631452058
+R2 score:0.6170180551884207
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:51
+ended training at: 07:05:52
+Mean squared error is of 3992872583.4223976
+Mean absolute error:44006.13723077674
+MAPE:0.3726897577686857
+R2 score:0.587554994535057
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:52
+ended training at: 07:05:52
+Mean squared error is of 3739674030.4679513
+Mean absolute error:42632.15546325281
+MAPE:0.3695504351551069
+R2 score:0.6228108998889155
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:52
+ended training at: 07:05:53
+Mean squared error is of 3525543913.442502
+Mean absolute error:41563.06015236349
+MAPE:0.3495273048718224
+R2 score:0.6340033536466554
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:53
+ended training at: 07:05:53
+Mean squared error is of 3495793469.473256
+Mean absolute error:40942.630443561044
+MAPE:0.3313981710142402
+R2 score:0.6111368791577076
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:53
+ended training at: 07:05:53
+Mean squared error is of 4006330535.1623783
+Mean absolute error:43622.61264143814
+MAPE:0.32616541082012074
+R2 score:0.6022984913913101
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:53
+ended training at: 07:05:54
+Mean squared error is of 3936582623.61595
+Mean absolute error:42804.76863383806
+MAPE:0.33783807100288776
+R2 score:0.5991003271178015
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:54
+ended training at: 07:05:54
+Mean squared error is of 3740042008.9584384
+Mean absolute error:41917.00291477404
+MAPE:0.35415600119661583
+R2 score:0.6156508011655343
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:54
+ended training at: 07:05:57
+Mean squared error is of 1172226094.7636101
+Mean absolute error:23078.022385605243
+MAPE:0.39985465935521836
+R2 score:0.5791231545337898
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:05:58
+ended training at: 07:06:00
+Mean squared error is of 1197305092.408049
+Mean absolute error:23380.830780829074
+MAPE:0.41826255821895997
+R2 score:0.5794990001014015
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:00
+ended training at: 07:06:03
+Mean squared error is of 1188643188.1407137
+Mean absolute error:23306.22522691353
+MAPE:0.4171232680474218
+R2 score:0.5751055014001645
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:03
+ended training at: 07:06:06
+Mean squared error is of 1183531624.0064414
+Mean absolute error:22810.2591779578
+MAPE:0.3991534270741043
+R2 score:0.5715653930570109
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:06
+ended training at: 07:06:07
+Mean squared error is of 1235563667.1228352
+Mean absolute error:23511.980889665636
+MAPE:0.42041149527103205
+R2 score:0.5575724279197256
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:07
+ended training at: 07:06:10
+Mean squared error is of 1199356700.9874914
+Mean absolute error:23351.33373254439
+MAPE:0.40250910008390595
+R2 score:0.578023804348742
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:10
+ended training at: 07:06:12
+Mean squared error is of 1173641037.6557186
+Mean absolute error:23276.154253060737
+MAPE:0.4062150148783176
+R2 score:0.5860300354043304
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:12
+ended training at: 07:06:13
+Mean squared error is of 1208932728.1009116
+Mean absolute error:23591.660722452358
+MAPE:0.4174754125635867
+R2 score:0.5734411263385312
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:13
+ended training at: 07:06:15
+Mean squared error is of 1194213984.1610086
+Mean absolute error:23917.87591608663
+MAPE:0.44313737810743126
+R2 score:0.5760808466277301
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:15
+ended training at: 07:06:17
+Mean squared error is of 1182214292.6102688
+Mean absolute error:22770.679563961643
+MAPE:0.38058489860449146
+R2 score:0.5721629370463681
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:17
+ended training at: 07:06:28
+Mean squared error is of 13433828637.98165
+Mean absolute error:77085.40521244124
+MAPE:0.5196255574515791
+R2 score:0.6570826459572976
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:30
+ended training at: 07:06:43
+Mean squared error is of 14395421916.031816
+Mean absolute error:79908.74601442974
+MAPE:0.5773802129622622
+R2 score:0.6366345734268158
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:43
+ended training at: 07:06:55
+Mean squared error is of 14095071377.618784
+Mean absolute error:81471.39877790558
+MAPE:0.6341379436978964
+R2 score:0.6413255558859413
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:06:55
+ended training at: 07:07:02
+Mean squared error is of 13401501634.97118
+Mean absolute error:76640.26727543455
+MAPE:0.5189409821127602
+R2 score:0.6547673647271697
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:07:03
+ended training at: 07:07:11
+Mean squared error is of 13503878203.07353
+Mean absolute error:76893.34676567753
+MAPE:0.5531629397430358
+R2 score:0.6517463133656136
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:07:12
+ended training at: 07:07:18
+Mean squared error is of 13980061598.38612
+Mean absolute error:80947.41932915933
+MAPE:0.6289236049009193
+R2 score:0.640228622518878
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:07:19
+ended training at: 07:07:32
+Mean squared error is of 13395208611.25544
+Mean absolute error:76710.70692925653
+MAPE:0.5848588876195708
+R2 score:0.6540416380319245
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:07:32
+ended training at: 07:07:44
+Mean squared error is of 15093831756.178963
+Mean absolute error:82910.4376669703
+MAPE:0.627049744270473
+R2 score:0.612158082440334
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:07:45
+ended training at: 07:07:58
+Mean squared error is of 13294840123.122198
+Mean absolute error:76011.42109673657
+MAPE:0.57046400517955
+R2 score:0.6585449874849056
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'activation': 'logistic', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': True, 'epsilon': 1e-08, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.1, 'max_fun': 15000, 'max_iter': 50, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+started training at: 07:07:58
+ended training at: 07:08:13
+Mean squared error is of 13630586291.624859
+Mean absolute error:78475.91454802982
+MAPE:0.599030881774504
+R2 score:0.6484820522038761
+------------------------------------------------------------------

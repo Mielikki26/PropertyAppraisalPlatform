@@ -1,0 +1,173 @@
+TabNet Logs:
+
+Saving copy of script...
+In this script only the Era dataset is used
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: Era_Coef_Zone.csv
+Using seed = 0
+Train/val/test division is 64/18/18
+Device used : cuda
+TabNet params:
+
+{'cat_dims': [], 'cat_emb_dim': 1, 'cat_idxs': [], 'clip_value': 1, 'device_name': 'auto', 'epsilon': 1e-15, 'gamma': 1.3, 'input_dim': None, 'lambda_sparse': 0.001, 'mask_type': 'sparsemax', 'momentum': 0.02, 'n_a': 12, 'n_d': 12, 'n_independent': 2, 'n_shared': 2, 'n_steps': 3, 'optimizer_fn': <class 'torch.optim.adam.Adam'>, 'optimizer_params': {'lr': 0.05}, 'output_dim': None, 'scheduler_fn': None, 'scheduler_params': {}, 'seed': 0, 'verbose': 1}
+started training at: 04:56:34
+epoch 0  | loss: 3.37915 | val_0_rmse: 0.61797 | val_1_rmse: 0.66251 |  0:00:04s
+epoch 1  | loss: 1.28702 | val_0_rmse: 0.75544 | val_1_rmse: 0.80417 |  0:00:05s
+epoch 2  | loss: 0.54493 | val_0_rmse: 0.76244 | val_1_rmse: 0.81179 |  0:00:05s
+epoch 3  | loss: 0.41112 | val_0_rmse: 0.67541 | val_1_rmse: 0.72215 |  0:00:06s
+epoch 4  | loss: 0.37773 | val_0_rmse: 0.5915  | val_1_rmse: 0.63467 |  0:00:06s
+epoch 5  | loss: 0.3644  | val_0_rmse: 0.55981 | val_1_rmse: 0.59617 |  0:00:07s
+epoch 6  | loss: 0.34342 | val_0_rmse: 0.58403 | val_1_rmse: 0.62495 |  0:00:08s
+epoch 7  | loss: 0.32212 | val_0_rmse: 0.56074 | val_1_rmse: 0.60179 |  0:00:08s
+epoch 8  | loss: 0.30802 | val_0_rmse: 0.53736 | val_1_rmse: 0.56869 |  0:00:09s
+epoch 9  | loss: 0.29079 | val_0_rmse: 0.51145 | val_1_rmse: 0.53615 |  0:00:09s
+epoch 10 | loss: 0.27374 | val_0_rmse: 0.49912 | val_1_rmse: 0.51983 |  0:00:10s
+epoch 11 | loss: 0.25842 | val_0_rmse: 0.4989  | val_1_rmse: 0.53387 |  0:00:10s
+epoch 12 | loss: 0.24598 | val_0_rmse: 0.49968 | val_1_rmse: 0.52208 |  0:00:11s
+epoch 13 | loss: 0.23621 | val_0_rmse: 0.48569 | val_1_rmse: 0.51717 |  0:00:11s
+epoch 14 | loss: 0.23498 | val_0_rmse: 0.48075 | val_1_rmse: 0.50921 |  0:00:12s
+epoch 15 | loss: 0.224   | val_0_rmse: 0.48141 | val_1_rmse: 0.50502 |  0:00:12s
+epoch 16 | loss: 0.21686 | val_0_rmse: 0.48849 | val_1_rmse: 0.51665 |  0:00:13s
+epoch 17 | loss: 0.21668 | val_0_rmse: 0.50702 | val_1_rmse: 0.53151 |  0:00:13s
+epoch 18 | loss: 0.21074 | val_0_rmse: 0.48616 | val_1_rmse: 0.51394 |  0:00:14s
+epoch 19 | loss: 0.20881 | val_0_rmse: 0.49584 | val_1_rmse: 0.53277 |  0:00:14s
+epoch 20 | loss: 0.20181 | val_0_rmse: 0.46954 | val_1_rmse: 0.50308 |  0:00:15s
+epoch 21 | loss: 0.19161 | val_0_rmse: 0.46296 | val_1_rmse: 0.48992 |  0:00:15s
+epoch 22 | loss: 0.1893  | val_0_rmse: 0.46425 | val_1_rmse: 0.49381 |  0:00:16s
+epoch 23 | loss: 0.19223 | val_0_rmse: 0.4638  | val_1_rmse: 0.49466 |  0:00:16s
+epoch 24 | loss: 0.18527 | val_0_rmse: 0.45314 | val_1_rmse: 0.47697 |  0:00:17s
+epoch 25 | loss: 0.18146 | val_0_rmse: 0.49703 | val_1_rmse: 0.5277  |  0:00:17s
+epoch 26 | loss: 0.18222 | val_0_rmse: 0.47149 | val_1_rmse: 0.49997 |  0:00:18s
+epoch 27 | loss: 0.18885 | val_0_rmse: 0.44689 | val_1_rmse: 0.48279 |  0:00:18s
+epoch 28 | loss: 0.17162 | val_0_rmse: 0.45708 | val_1_rmse: 0.49341 |  0:00:19s
+epoch 29 | loss: 0.17347 | val_0_rmse: 0.46089 | val_1_rmse: 0.49226 |  0:00:19s
+epoch 30 | loss: 0.16752 | val_0_rmse: 0.47272 | val_1_rmse: 0.50393 |  0:00:20s
+epoch 31 | loss: 0.1605  | val_0_rmse: 0.48735 | val_1_rmse: 0.52407 |  0:00:20s
+epoch 32 | loss: 0.1761  | val_0_rmse: 0.46241 | val_1_rmse: 0.49599 |  0:00:21s
+epoch 33 | loss: 0.1709  | val_0_rmse: 0.46276 | val_1_rmse: 0.4934  |  0:00:21s
+epoch 34 | loss: 0.16688 | val_0_rmse: 0.47501 | val_1_rmse: 0.51857 |  0:00:21s
+epoch 35 | loss: 0.15454 | val_0_rmse: 0.47453 | val_1_rmse: 0.51908 |  0:00:22s
+epoch 36 | loss: 0.15752 | val_0_rmse: 0.47163 | val_1_rmse: 0.50698 |  0:00:22s
+epoch 37 | loss: 0.16284 | val_0_rmse: 0.4656  | val_1_rmse: 0.50346 |  0:00:23s
+epoch 38 | loss: 0.1592  | val_0_rmse: 0.46028 | val_1_rmse: 0.48921 |  0:00:23s
+epoch 39 | loss: 0.15401 | val_0_rmse: 0.44664 | val_1_rmse: 0.47198 |  0:00:24s
+epoch 40 | loss: 0.15066 | val_0_rmse: 0.43755 | val_1_rmse: 0.47432 |  0:00:24s
+epoch 41 | loss: 0.14085 | val_0_rmse: 0.43068 | val_1_rmse: 0.46888 |  0:00:25s
+epoch 42 | loss: 0.13797 | val_0_rmse: 0.43212 | val_1_rmse: 0.46997 |  0:00:25s
+epoch 43 | loss: 0.13361 | val_0_rmse: 0.4223  | val_1_rmse: 0.45767 |  0:00:26s
+epoch 44 | loss: 0.13265 | val_0_rmse: 0.42197 | val_1_rmse: 0.46127 |  0:00:26s
+epoch 45 | loss: 0.13965 | val_0_rmse: 0.47416 | val_1_rmse: 0.51811 |  0:00:27s
+epoch 46 | loss: 0.14605 | val_0_rmse: 0.42754 | val_1_rmse: 0.46858 |  0:00:27s
+epoch 47 | loss: 0.13358 | val_0_rmse: 0.41116 | val_1_rmse: 0.45418 |  0:00:28s
+epoch 48 | loss: 0.12915 | val_0_rmse: 0.47048 | val_1_rmse: 0.5115  |  0:00:28s
+epoch 49 | loss: 0.13343 | val_0_rmse: 0.43148 | val_1_rmse: 0.47041 |  0:00:29s
+epoch 50 | loss: 0.12621 | val_0_rmse: 0.41609 | val_1_rmse: 0.45079 |  0:00:29s
+epoch 51 | loss: 0.11868 | val_0_rmse: 0.4298  | val_1_rmse: 0.46557 |  0:00:30s
+epoch 52 | loss: 0.11563 | val_0_rmse: 0.40907 | val_1_rmse: 0.4443  |  0:00:30s
+epoch 53 | loss: 0.11546 | val_0_rmse: 0.41035 | val_1_rmse: 0.4447  |  0:00:31s
+epoch 54 | loss: 0.11458 | val_0_rmse: 0.43867 | val_1_rmse: 0.47867 |  0:00:31s
+epoch 55 | loss: 0.11417 | val_0_rmse: 0.41588 | val_1_rmse: 0.45522 |  0:00:31s
+epoch 56 | loss: 0.13071 | val_0_rmse: 0.44183 | val_1_rmse: 0.49361 |  0:00:32s
+epoch 57 | loss: 0.12591 | val_0_rmse: 0.4189  | val_1_rmse: 0.46061 |  0:00:32s
+epoch 58 | loss: 0.12058 | val_0_rmse: 0.44284 | val_1_rmse: 0.47992 |  0:00:33s
+epoch 59 | loss: 0.13082 | val_0_rmse: 0.41337 | val_1_rmse: 0.44017 |  0:00:33s
+epoch 60 | loss: 0.12904 | val_0_rmse: 0.45029 | val_1_rmse: 0.48881 |  0:00:34s
+epoch 61 | loss: 0.1281  | val_0_rmse: 0.42377 | val_1_rmse: 0.45203 |  0:00:34s
+epoch 62 | loss: 0.128   | val_0_rmse: 0.39991 | val_1_rmse: 0.43122 |  0:00:35s
+epoch 63 | loss: 0.12157 | val_0_rmse: 0.40608 | val_1_rmse: 0.44806 |  0:00:35s
+epoch 64 | loss: 0.11213 | val_0_rmse: 0.39982 | val_1_rmse: 0.43558 |  0:00:36s
+epoch 65 | loss: 0.11261 | val_0_rmse: 0.40564 | val_1_rmse: 0.44051 |  0:00:36s
+epoch 66 | loss: 0.11525 | val_0_rmse: 0.40217 | val_1_rmse: 0.43904 |  0:00:37s
+epoch 67 | loss: 0.10301 | val_0_rmse: 0.41615 | val_1_rmse: 0.4595  |  0:00:37s
+epoch 68 | loss: 0.10581 | val_0_rmse: 0.39295 | val_1_rmse: 0.43895 |  0:00:38s
+epoch 69 | loss: 0.10486 | val_0_rmse: 0.38266 | val_1_rmse: 0.42367 |  0:00:38s
+epoch 70 | loss: 0.10616 | val_0_rmse: 0.39023 | val_1_rmse: 0.43513 |  0:00:39s
+epoch 71 | loss: 0.1023  | val_0_rmse: 0.39139 | val_1_rmse: 0.43959 |  0:00:39s
+epoch 72 | loss: 0.10891 | val_0_rmse: 0.36967 | val_1_rmse: 0.42124 |  0:00:39s
+epoch 73 | loss: 0.1067  | val_0_rmse: 0.38084 | val_1_rmse: 0.4314  |  0:00:40s
+epoch 74 | loss: 0.10284 | val_0_rmse: 0.38905 | val_1_rmse: 0.44014 |  0:00:40s
+epoch 75 | loss: 0.10556 | val_0_rmse: 0.35892 | val_1_rmse: 0.4069  |  0:00:41s
+epoch 76 | loss: 0.10239 | val_0_rmse: 0.39393 | val_1_rmse: 0.4439  |  0:00:42s
+epoch 77 | loss: 0.10441 | val_0_rmse: 0.36883 | val_1_rmse: 0.41446 |  0:00:42s
+epoch 78 | loss: 0.09789 | val_0_rmse: 0.36885 | val_1_rmse: 0.41725 |  0:00:43s
+epoch 79 | loss: 0.09549 | val_0_rmse: 0.36071 | val_1_rmse: 0.40384 |  0:00:43s
+epoch 80 | loss: 0.09491 | val_0_rmse: 0.36135 | val_1_rmse: 0.40141 |  0:00:44s
+epoch 81 | loss: 0.09471 | val_0_rmse: 0.3751  | val_1_rmse: 0.42584 |  0:00:44s
+epoch 82 | loss: 0.10313 | val_0_rmse: 0.34849 | val_1_rmse: 0.39264 |  0:00:45s
+epoch 83 | loss: 0.104   | val_0_rmse: 0.37463 | val_1_rmse: 0.42618 |  0:00:45s
+epoch 84 | loss: 0.10121 | val_0_rmse: 0.36449 | val_1_rmse: 0.41408 |  0:00:46s
+epoch 85 | loss: 0.10149 | val_0_rmse: 0.34214 | val_1_rmse: 0.39736 |  0:00:46s
+epoch 86 | loss: 0.10135 | val_0_rmse: 0.36514 | val_1_rmse: 0.42766 |  0:00:47s
+epoch 87 | loss: 0.10327 | val_0_rmse: 0.35352 | val_1_rmse: 0.41772 |  0:00:47s
+epoch 88 | loss: 0.10237 | val_0_rmse: 0.33562 | val_1_rmse: 0.39396 |  0:00:48s
+epoch 89 | loss: 0.09744 | val_0_rmse: 0.34688 | val_1_rmse: 0.40988 |  0:00:48s
+epoch 90 | loss: 0.09373 | val_0_rmse: 0.33838 | val_1_rmse: 0.40562 |  0:00:49s
+epoch 91 | loss: 0.09311 | val_0_rmse: 0.33066 | val_1_rmse: 0.39852 |  0:00:49s
+epoch 92 | loss: 0.09378 | val_0_rmse: 0.34184 | val_1_rmse: 0.40609 |  0:00:50s
+epoch 93 | loss: 0.0924  | val_0_rmse: 0.33061 | val_1_rmse: 0.39278 |  0:00:50s
+epoch 94 | loss: 0.094   | val_0_rmse: 0.34362 | val_1_rmse: 0.40606 |  0:00:51s
+epoch 95 | loss: 0.09296 | val_0_rmse: 0.33697 | val_1_rmse: 0.40165 |  0:00:51s
+epoch 96 | loss: 0.09078 | val_0_rmse: 0.3189  | val_1_rmse: 0.38294 |  0:00:52s
+epoch 97 | loss: 0.09395 | val_0_rmse: 0.35371 | val_1_rmse: 0.41852 |  0:00:53s
+epoch 98 | loss: 0.09323 | val_0_rmse: 0.32875 | val_1_rmse: 0.39667 |  0:00:53s
+epoch 99 | loss: 0.09622 | val_0_rmse: 0.32682 | val_1_rmse: 0.38683 |  0:00:54s
+epoch 100| loss: 0.10694 | val_0_rmse: 0.3768  | val_1_rmse: 0.44846 |  0:00:54s
+epoch 101| loss: 0.10786 | val_0_rmse: 0.34477 | val_1_rmse: 0.42565 |  0:00:54s
+epoch 102| loss: 0.1083  | val_0_rmse: 0.32915 | val_1_rmse: 0.39797 |  0:00:55s
+epoch 103| loss: 0.10524 | val_0_rmse: 0.3164  | val_1_rmse: 0.38244 |  0:00:55s
+epoch 104| loss: 0.10004 | val_0_rmse: 0.32429 | val_1_rmse: 0.3953  |  0:00:56s
+epoch 105| loss: 0.09618 | val_0_rmse: 0.32226 | val_1_rmse: 0.38995 |  0:00:56s
+epoch 106| loss: 0.09669 | val_0_rmse: 0.31506 | val_1_rmse: 0.37947 |  0:00:57s
+epoch 107| loss: 0.09327 | val_0_rmse: 0.30942 | val_1_rmse: 0.37915 |  0:00:58s
+epoch 108| loss: 0.09103 | val_0_rmse: 0.30753 | val_1_rmse: 0.37363 |  0:00:58s
+epoch 109| loss: 0.08755 | val_0_rmse: 0.31017 | val_1_rmse: 0.37818 |  0:00:58s
+epoch 110| loss: 0.08599 | val_0_rmse: 0.30699 | val_1_rmse: 0.37048 |  0:00:59s
+epoch 111| loss: 0.0848  | val_0_rmse: 0.30203 | val_1_rmse: 0.36118 |  0:00:59s
+epoch 112| loss: 0.08814 | val_0_rmse: 0.30784 | val_1_rmse: 0.36637 |  0:01:00s
+epoch 113| loss: 0.08986 | val_0_rmse: 0.31875 | val_1_rmse: 0.38796 |  0:01:00s
+epoch 114| loss: 0.09184 | val_0_rmse: 0.30365 | val_1_rmse: 0.37354 |  0:01:01s
+epoch 115| loss: 0.08982 | val_0_rmse: 0.30583 | val_1_rmse: 0.37033 |  0:01:01s
+epoch 116| loss: 0.08889 | val_0_rmse: 0.31673 | val_1_rmse: 0.38245 |  0:01:02s
+epoch 117| loss: 0.08637 | val_0_rmse: 0.29986 | val_1_rmse: 0.36094 |  0:01:02s
+epoch 118| loss: 0.08461 | val_0_rmse: 0.301   | val_1_rmse: 0.36509 |  0:01:03s
+epoch 119| loss: 0.08191 | val_0_rmse: 0.31094 | val_1_rmse: 0.37714 |  0:01:03s
+epoch 120| loss: 0.08164 | val_0_rmse: 0.29834 | val_1_rmse: 0.36471 |  0:01:04s
+epoch 121| loss: 0.07939 | val_0_rmse: 0.3024  | val_1_rmse: 0.36077 |  0:01:04s
+epoch 122| loss: 0.0859  | val_0_rmse: 0.32783 | val_1_rmse: 0.38732 |  0:01:04s
+epoch 123| loss: 0.09209 | val_0_rmse: 0.31595 | val_1_rmse: 0.37215 |  0:01:05s
+epoch 124| loss: 0.08923 | val_0_rmse: 0.32324 | val_1_rmse: 0.38259 |  0:01:05s
+epoch 125| loss: 0.0895  | val_0_rmse: 0.3079  | val_1_rmse: 0.35677 |  0:01:06s
+epoch 126| loss: 0.08918 | val_0_rmse: 0.33766 | val_1_rmse: 0.39716 |  0:01:06s
+epoch 127| loss: 0.11371 | val_0_rmse: 0.34493 | val_1_rmse: 0.42996 |  0:01:07s
+epoch 128| loss: 0.10364 | val_0_rmse: 0.32143 | val_1_rmse: 0.38989 |  0:01:07s
+epoch 129| loss: 0.11467 | val_0_rmse: 0.36736 | val_1_rmse: 0.41528 |  0:01:08s
+epoch 130| loss: 0.1208  | val_0_rmse: 0.39329 | val_1_rmse: 0.44956 |  0:01:08s
+epoch 131| loss: 0.11081 | val_0_rmse: 0.3191  | val_1_rmse: 0.36523 |  0:01:09s
+epoch 132| loss: 0.10262 | val_0_rmse: 0.34439 | val_1_rmse: 0.40208 |  0:01:09s
+epoch 133| loss: 0.10096 | val_0_rmse: 0.3265  | val_1_rmse: 0.377   |  0:01:10s
+epoch 134| loss: 0.10453 | val_0_rmse: 0.34971 | val_1_rmse: 0.40586 |  0:01:10s
+epoch 135| loss: 0.10086 | val_0_rmse: 0.31888 | val_1_rmse: 0.37534 |  0:01:11s
+epoch 136| loss: 0.10225 | val_0_rmse: 0.3275  | val_1_rmse: 0.39046 |  0:01:11s
+epoch 137| loss: 0.09043 | val_0_rmse: 0.30425 | val_1_rmse: 0.36656 |  0:01:12s
+epoch 138| loss: 0.09034 | val_0_rmse: 0.30709 | val_1_rmse: 0.36477 |  0:01:12s
+epoch 139| loss: 0.08891 | val_0_rmse: 0.32176 | val_1_rmse: 0.37181 |  0:01:13s
+epoch 140| loss: 0.08938 | val_0_rmse: 0.30394 | val_1_rmse: 0.35474 |  0:01:13s
+epoch 141| loss: 0.08715 | val_0_rmse: 0.33769 | val_1_rmse: 0.39745 |  0:01:13s
+epoch 142| loss: 0.08511 | val_0_rmse: 0.30298 | val_1_rmse: 0.35451 |  0:01:14s
+epoch 143| loss: 0.08388 | val_0_rmse: 0.34575 | val_1_rmse: 0.40077 |  0:01:15s
+epoch 144| loss: 0.08471 | val_0_rmse: 0.29336 | val_1_rmse: 0.34644 |  0:01:15s
+epoch 145| loss: 0.07986 | val_0_rmse: 0.30293 | val_1_rmse: 0.35778 |  0:01:15s
+epoch 146| loss: 0.0815  | val_0_rmse: 0.3131  | val_1_rmse: 0.37295 |  0:01:16s
+epoch 147| loss: 0.08009 | val_0_rmse: 0.29291 | val_1_rmse: 0.34525 |  0:01:16s
+epoch 148| loss: 0.07345 | val_0_rmse: 0.30455 | val_1_rmse: 0.36027 |  0:01:17s
+epoch 149| loss: 0.0753  | val_0_rmse: 0.2939  | val_1_rmse: 0.35319 |  0:01:17s
+Stop training because you reached max_epochs = 150 with best_epoch = 147 and best_val_1_rmse = 0.34525
+Best weights from best epoch are automatically used!
+ended training at: 04:57:53
+Feature importance:
+Mean squared error is of 0.12575652011525712
+Mean absolute error:0.23528352043304482
+MAPE:0.3852191171856993
+R2 score:0.5981060749424865
+------------------------------------------------------------------

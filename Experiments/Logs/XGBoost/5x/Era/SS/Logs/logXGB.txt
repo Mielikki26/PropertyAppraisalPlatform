@@ -1,0 +1,12 @@
+XGBoost Logs:
+
+Saving copy of script...
+In this script only the Era dataset is used
+Normalization used is StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+{'max_depth': 15, 'tree_method': 'gpu_hist'}
+------------------------------------------------------------------
+Using the dataset: DataBase_Era.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 14:37:31

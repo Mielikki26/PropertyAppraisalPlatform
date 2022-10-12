@@ -1,0 +1,83 @@
+MLPRegressor Logs:
+
+Saving copy of script...
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: all_perth.csv
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (7, 4), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: ar_properties.csv
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (7, 4), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: co_properties.csv
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'relu', 'alpha': 0.001, 'hidden_layer_sizes': (7, 4), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: DC_Properties.csv
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (7, 4), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: kc_house_data.csv
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (7, 4), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: Melbourne_housing.csv
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (7, 4), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: pe_properties.csv
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (4,), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: uy_properties.csv
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (7, 4), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: Zameen Property.csv
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'tanh', 'alpha': 0.001, 'hidden_layer_sizes': (7, 4), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------
+------------------------------------------------------------------
+Normalization used is StandardScaler
+Using the dataset: all_datasets
+Using seed = 42
+Train/test division is 70/30
+Best hyperparameters:
+{'activation': 'logistic', 'alpha': 0.001, 'hidden_layer_sizes': (7, 4), 'learning_rate': 'adaptive', 'learning_rate_init': 0.01, 'max_iter': 20, 'solver': 'adam'}
+------------------------------------------------------------------

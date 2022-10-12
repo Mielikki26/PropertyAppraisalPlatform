@@ -1,0 +1,1613 @@
+Random Forest Logs:
+
+Saving copy of script...
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:45:41
+ended training at: 18:45:47
+Feature importance:
+[('Area', 0.08300859938614454), ('Baths', 0.05141210810000773), ('Beds', 0.05094800131377342), ('Latitude', 0.4464700316717398), ('Longitude', 0.31668565079141814), ('Month', 0.021078563269402883), ('Year', 0.030397045467513577)]
+Mean squared error is of 4376619076.65672
+Mean absolute error:45426.15221357859
+MAPE:0.14508369541789637
+R2 score:0.797566123889544
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:45:47
+ended training at: 18:45:53
+Feature importance:
+[('Area', 0.08555732794876918), ('Baths', 0.04763492168756799), ('Beds', 0.05535433311553061), ('Latitude', 0.44923890952026857), ('Longitude', 0.31019104392338825), ('Month', 0.021043086789360163), ('Year', 0.030980377015115173)]
+Mean squared error is of 4380806808.618354
+Mean absolute error:45945.80709293045
+MAPE:0.14378372814359308
+R2 score:0.7958551867720217
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:45:53
+ended training at: 18:45:58
+Feature importance:
+[('Area', 0.0788503169688299), ('Baths', 0.05247004897767078), ('Beds', 0.051129600190243665), ('Latitude', 0.4549179523207574), ('Longitude', 0.31116836219214006), ('Month', 0.020702117614677815), ('Year', 0.0307616017356804)]
+Mean squared error is of 4557602947.966359
+Mean absolute error:46109.365020304744
+MAPE:0.1476267133543355
+R2 score:0.7907527054393612
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:45:59
+ended training at: 18:46:04
+Feature importance:
+[('Area', 0.0851754487196219), ('Baths', 0.04986700134095041), ('Beds', 0.0572925368482574), ('Latitude', 0.44897368562630097), ('Longitude', 0.30858703292110806), ('Month', 0.020838561345219227), ('Year', 0.02926573319854206)]
+Mean squared error is of 4501432496.360055
+Mean absolute error:46422.549316548764
+MAPE:0.14584178977602447
+R2 score:0.7900335186774025
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:46:04
+ended training at: 18:46:10
+Feature importance:
+[('Area', 0.08093708777563273), ('Baths', 0.058185754062923235), ('Beds', 0.05133901897313556), ('Latitude', 0.44745264683866337), ('Longitude', 0.311418848002012), ('Month', 0.021017662643081098), ('Year', 0.029648981704551935)]
+Mean squared error is of 4273264954.8573875
+Mean absolute error:45322.90913665051
+MAPE:0.14245326227661934
+R2 score:0.793546443905195
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:46:10
+ended training at: 18:46:15
+Feature importance:
+[('Area', 0.07919813969779584), ('Baths', 0.05563185994081824), ('Beds', 0.05139365427618779), ('Latitude', 0.44435053540816494), ('Longitude', 0.31836449501698244), ('Month', 0.020686000459647483), ('Year', 0.030375315200403225)]
+Mean squared error is of 4525846079.653915
+Mean absolute error:45724.65270371239
+MAPE:0.1431939499548178
+R2 score:0.7910701324410275
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:46:15
+ended training at: 18:46:21
+Feature importance:
+[('Area', 0.07909903048087635), ('Baths', 0.05864116126980712), ('Beds', 0.050634840657335076), ('Latitude', 0.44843013402976933), ('Longitude', 0.3112193617632466), ('Month', 0.02152600469983792), ('Year', 0.0304494670991277)]
+Mean squared error is of 4346934685.720463
+Mean absolute error:45411.88302299298
+MAPE:0.14151821087822822
+R2 score:0.798905182428738
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:46:21
+ended training at: 18:46:26
+Feature importance:
+[('Area', 0.07715844956422079), ('Baths', 0.0590379894640191), ('Beds', 0.05027696135364177), ('Latitude', 0.44730448224474756), ('Longitude', 0.31525805232105364), ('Month', 0.02130618833399828), ('Year', 0.02965787671831905)]
+Mean squared error is of 4538181680.857525
+Mean absolute error:46532.15869223015
+MAPE:0.1472262476718237
+R2 score:0.7900053521456384
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:46:26
+ended training at: 18:46:32
+Feature importance:
+[('Area', 0.07917538714049904), ('Baths', 0.05747580822112674), ('Beds', 0.050476004337381475), ('Latitude', 0.45377603137653355), ('Longitude', 0.3090645858028881), ('Month', 0.020563743224721397), ('Year', 0.02946843989684966)]
+Mean squared error is of 4683987762.367039
+Mean absolute error:46993.14501657248
+MAPE:0.14766772246492899
+R2 score:0.7855078583357108
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_perth.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:46:32
+ended training at: 18:46:37
+Feature importance:
+[('Area', 0.07819104547521195), ('Baths', 0.05684187619436048), ('Beds', 0.052501661998529875), ('Latitude', 0.4485807968478363), ('Longitude', 0.3131965396908982), ('Month', 0.020736249533616028), ('Year', 0.029951830259547032)]
+Mean squared error is of 4603174050.007122
+Mean absolute error:46215.514644640956
+MAPE:0.14583445975493176
+R2 score:0.7853150878212635
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:46:38
+ended training at: 18:47:03
+Feature importance:
+[('Area', 0.17374280275179402), ('Baths', 0.3344013262143413), ('Beds', 0.014313818522772883), ('Latitude', 0.22976808938058993), ('Longitude', 0.22110877953642735), ('Month', 0.02359840221293854), ('Year', 0.0030667813811359923)]
+Mean squared error is of 1471012155.3926356
+Mean absolute error:24910.971965924633
+MAPE:0.24209123578319694
+R2 score:0.8062452823605417
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:47:05
+ended training at: 18:47:30
+Feature importance:
+[('Area', 0.17412711264514036), ('Baths', 0.33489965005628425), ('Beds', 0.014557448626901994), ('Latitude', 0.22618511461790206), ('Longitude', 0.2235550522854851), ('Month', 0.023534650203550767), ('Year', 0.003140971564735447)]
+Mean squared error is of 1449823465.6780005
+Mean absolute error:24831.969097339963
+MAPE:0.24028255743546892
+R2 score:0.8070040951203998
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:47:31
+ended training at: 18:47:57
+Feature importance:
+[('Area', 0.17505215805062777), ('Baths', 0.3352541130766097), ('Beds', 0.014133987845440493), ('Latitude', 0.22655005779141663), ('Longitude', 0.22256795449815767), ('Month', 0.023381124484980705), ('Year', 0.0030606042527670844)]
+Mean squared error is of 1460974110.858708
+Mean absolute error:24929.038360833507
+MAPE:0.24087971847523193
+R2 score:0.8049845935619093
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:47:58
+ended training at: 18:48:23
+Feature importance:
+[('Area', 0.17284823974907731), ('Baths', 0.33700241836384115), ('Beds', 0.014152872424428505), ('Latitude', 0.22714219820390008), ('Longitude', 0.22282046993682572), ('Month', 0.022906648933056994), ('Year', 0.0031271523888700818)]
+Mean squared error is of 1426369648.4169261
+Mean absolute error:24701.17321151705
+MAPE:0.23530704063806707
+R2 score:0.8105436381266695
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:48:24
+ended training at: 18:48:49
+Feature importance:
+[('Area', 0.17349705616915426), ('Baths', 0.33683230915295076), ('Beds', 0.013480203417883412), ('Latitude', 0.22767537991312806), ('Longitude', 0.22187641418101858), ('Month', 0.023538588543632093), ('Year', 0.00310004862223296)]
+Mean squared error is of 1464072120.2965689
+Mean absolute error:24861.761281299005
+MAPE:0.23912411010003878
+R2 score:0.8053865131713973
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:48:50
+ended training at: 18:49:16
+Feature importance:
+[('Area', 0.1746072801218773), ('Baths', 0.33594169946565305), ('Beds', 0.014447778145776143), ('Latitude', 0.22837314411080506), ('Longitude', 0.22021024999289696), ('Month', 0.02329118307992707), ('Year', 0.0031286650830644617)]
+Mean squared error is of 1447821055.8748527
+Mean absolute error:24805.913317507097
+MAPE:0.23865557926547282
+R2 score:0.8087486187786164
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:49:17
+ended training at: 18:49:42
+Feature importance:
+[('Area', 0.17541144433454903), ('Baths', 0.3329116130336264), ('Beds', 0.014310890694530787), ('Latitude', 0.22743640995362685), ('Longitude', 0.22324347923629886), ('Month', 0.02361575939429073), ('Year', 0.0030704033530773783)]
+Mean squared error is of 1427118673.5439167
+Mean absolute error:24594.883947378705
+MAPE:0.2359281846399428
+R2 score:0.8105486514189539
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:49:43
+ended training at: 18:50:09
+Feature importance:
+[('Area', 0.17483300274195598), ('Baths', 0.3359464420840317), ('Beds', 0.014442667779577813), ('Latitude', 0.2248945920356755), ('Longitude', 0.22346839692218745), ('Month', 0.023342061530128997), ('Year', 0.003072836906442597)]
+Mean squared error is of 1424960424.9111476
+Mean absolute error:24622.150277315774
+MAPE:0.23918557267651103
+R2 score:0.8124715405776719
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:50:10
+ended training at: 18:50:35
+Feature importance:
+[('Area', 0.17375408463229022), ('Baths', 0.3352340438757223), ('Beds', 0.01441183187105041), ('Latitude', 0.22771548105153042), ('Longitude', 0.22224173279423978), ('Month', 0.02356649065900942), ('Year', 0.0030763351161572374)]
+Mean squared error is of 1417696494.180393
+Mean absolute error:24657.38440246969
+MAPE:0.23533640697822591
+R2 score:0.8140637333441275
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar_properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:50:36
+ended training at: 18:51:02
+Feature importance:
+[('Area', 0.17298390065900424), ('Baths', 0.3382875950192957), ('Beds', 0.013998270656053843), ('Latitude', 0.22438131587405677), ('Longitude', 0.22377998166117188), ('Month', 0.023467928811833367), ('Year', 0.0031010073185843002)]
+Mean squared error is of 1482585508.712916
+Mean absolute error:24882.32068036865
+MAPE:0.2407380714700902
+R2 score:0.8061518453457779
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:03
+ended training at: 18:51:06
+Feature importance:
+[('Area', 0.6109788087172903), ('Baths', 0.031903831899668986), ('Beds', 0.0), ('Latitude', 0.12582753020381346), ('Longitude', 0.215103636136751), ('Month', 0.014634283735328614), ('Year', 0.001551909307147701)]
+Mean squared error is of 763450480.2654752
+Mean absolute error:16952.960980038326
+MAPE:0.19919057775871132
+R2 score:0.8440120291464546
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:07
+ended training at: 18:51:10
+Feature importance:
+[('Area', 0.6041343967231958), ('Baths', 0.03504741441310913), ('Beds', 0.0), ('Latitude', 0.12534160467848351), ('Longitude', 0.21928033900660232), ('Month', 0.014626211643136907), ('Year', 0.001570033535472319)]
+Mean squared error is of 767036542.6912078
+Mean absolute error:17074.078182528363
+MAPE:0.19701574853740425
+R2 score:0.8453510903896779
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:10
+ended training at: 18:51:14
+Feature importance:
+[('Area', 0.6151433203822613), ('Baths', 0.03045971145885495), ('Beds', 0.0), ('Latitude', 0.1171596866961913), ('Longitude', 0.22138262332804856), ('Month', 0.014263638893177616), ('Year', 0.0015910192414663213)]
+Mean squared error is of 775592892.5605922
+Mean absolute error:17126.25007958284
+MAPE:0.19974854451873744
+R2 score:0.842846626819943
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:14
+ended training at: 18:51:17
+Feature importance:
+[('Area', 0.6108992199446296), ('Baths', 0.03246405666731079), ('Beds', 0.0), ('Latitude', 0.130844054657222), ('Longitude', 0.20951694463293194), ('Month', 0.014560952457820363), ('Year', 0.0017147716400853542)]
+Mean squared error is of 746940434.7791165
+Mean absolute error:16832.217008425298
+MAPE:0.19346190664020518
+R2 score:0.847787010220785
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:18
+ended training at: 18:51:21
+Feature importance:
+[('Area', 0.6040441500413437), ('Baths', 0.03815097077329467), ('Beds', 0.0), ('Latitude', 0.11884497441709582), ('Longitude', 0.2235210396604076), ('Month', 0.013918370521416559), ('Year', 0.0015204945864417967)]
+Mean squared error is of 752506047.1431714
+Mean absolute error:16814.291602623314
+MAPE:0.1943364227926895
+R2 score:0.8457003393397577
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:21
+ended training at: 18:51:25
+Feature importance:
+[('Area', 0.6117398245118717), ('Baths', 0.03024280847864772), ('Beds', 0.0), ('Latitude', 0.12514820071213825), ('Longitude', 0.2168320406453254), ('Month', 0.014412303988795994), ('Year', 0.0016248216632208843)]
+Mean squared error is of 755752271.9405638
+Mean absolute error:16822.822339855775
+MAPE:0.19449462290401962
+R2 score:0.8440832373601921
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:25
+ended training at: 18:51:28
+Feature importance:
+[('Area', 0.6122885927824001), ('Baths', 0.03135399312932636), ('Beds', 0.0), ('Latitude', 0.12112547776942095), ('Longitude', 0.21892003949840544), ('Month', 0.014827822439555865), ('Year', 0.0014840743808913108)]
+Mean squared error is of 725538148.8334234
+Mean absolute error:16814.854559517295
+MAPE:0.2012872787234815
+R2 score:0.84851099517822
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:29
+ended training at: 18:51:32
+Feature importance:
+[('Area', 0.6146841627875835), ('Baths', 0.030462745111229237), ('Beds', 0.0), ('Latitude', 0.12158994726835086), ('Longitude', 0.21675723228130628), ('Month', 0.014866076321913956), ('Year', 0.0016398362296161525)]
+Mean squared error is of 744817959.8459411
+Mean absolute error:16837.880467520947
+MAPE:0.1942415529066176
+R2 score:0.8471312117905564
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:32
+ended training at: 18:51:36
+Feature importance:
+[('Area', 0.6065242862962918), ('Baths', 0.03255506277946906), ('Beds', 0.0), ('Latitude', 0.13387143416848107), ('Longitude', 0.21031057450455004), ('Month', 0.015260357068085744), ('Year', 0.001478285183122373)]
+Mean squared error is of 730969157.365608
+Mean absolute error:16800.533836185383
+MAPE:0.19396288935888023
+R2 score:0.851236917763585
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co_properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:36
+ended training at: 18:51:39
+Feature importance:
+[('Area', 0.6085147063793932), ('Baths', 0.032686076427797806), ('Beds', 0.0), ('Latitude', 0.11779758806434079), ('Longitude', 0.2250477559483909), ('Month', 0.014392398363256892), ('Year', 0.0015614748168203702)]
+Mean squared error is of 786193272.9313079
+Mean absolute error:17158.1125830278
+MAPE:0.19768037898797544
+R2 score:0.8383692607142365
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:40
+ended training at: 18:51:57
+Feature importance:
+[('Area', 0.06478690222485319), ('Baths', 0.22623086933281245), ('Beds', 0.055034545033989114), ('Latitude', 0.15489066135488208), ('Longitude', 0.2435534057445825), ('Month', 0.01864113753665423), ('Year', 0.23686247877222644)]
+Mean squared error is of 7247669391.76625
+Mean absolute error:54662.24461464034
+MAPE:0.21929621793319762
+R2 score:0.8519860698500507
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:51:58
+ended training at: 18:52:15
+Feature importance:
+[('Area', 0.06682443950695388), ('Baths', 0.2270585061856279), ('Beds', 0.052813656297643105), ('Latitude', 0.1551844202138313), ('Longitude', 0.24293167504345914), ('Month', 0.018706277601341994), ('Year', 0.23648102515114267)]
+Mean squared error is of 7209528792.024296
+Mean absolute error:55149.594693452265
+MAPE:0.22044932442789303
+R2 score:0.8542740035392136
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:52:16
+ended training at: 18:52:33
+Feature importance:
+[('Area', 0.0659209900706802), ('Baths', 0.22838084575774248), ('Beds', 0.05153808039544135), ('Latitude', 0.15553023660612958), ('Longitude', 0.24519765186350131), ('Month', 0.018838046242627693), ('Year', 0.23459414906387746)]
+Mean squared error is of 6988191366.721754
+Mean absolute error:54117.9936513024
+MAPE:0.2205057685253439
+R2 score:0.8565865517600012
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:52:33
+ended training at: 18:52:50
+Feature importance:
+[('Area', 0.06585255059242713), ('Baths', 0.22947491067865863), ('Beds', 0.053213969282093376), ('Latitude', 0.15225291757199247), ('Longitude', 0.2459553288560472), ('Month', 0.018879848440843842), ('Year', 0.2343704745779373)]
+Mean squared error is of 7141149896.262544
+Mean absolute error:54191.33055994516
+MAPE:0.22043877158390604
+R2 score:0.8519206608689287
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:52:51
+ended training at: 18:53:08
+Feature importance:
+[('Area', 0.06592365703869336), ('Baths', 0.2262212454930728), ('Beds', 0.05390256918718093), ('Latitude', 0.15495119764159104), ('Longitude', 0.24596379895023135), ('Month', 0.018651847036443413), ('Year', 0.23438568465278717)]
+Mean squared error is of 6977627076.079247
+Mean absolute error:53962.16356389096
+MAPE:0.21799165895511532
+R2 score:0.8556775972933077
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:53:09
+ended training at: 18:53:26
+Feature importance:
+[('Area', 0.06550964683375558), ('Baths', 0.22872774836361262), ('Beds', 0.05433399769305404), ('Latitude', 0.15487545839117448), ('Longitude', 0.24249685089470024), ('Month', 0.01889524435193609), ('Year', 0.23516105347176702)]
+Mean squared error is of 7142928235.466684
+Mean absolute error:54516.071116686595
+MAPE:0.21856370189067337
+R2 score:0.8525142499817506
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:53:27
+ended training at: 18:53:44
+Feature importance:
+[('Area', 0.06335938160440874), ('Baths', 0.22527251996753042), ('Beds', 0.056427891000573674), ('Latitude', 0.15288532881331385), ('Longitude', 0.24530782912401583), ('Month', 0.018877677648311567), ('Year', 0.23786937184184587)]
+Mean squared error is of 7402372423.159275
+Mean absolute error:54980.67099644462
+MAPE:0.21757289643033917
+R2 score:0.8478296301197195
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:53:44
+ended training at: 18:54:01
+Feature importance:
+[('Area', 0.06546712543812752), ('Baths', 0.2276460873928514), ('Beds', 0.054576123231175735), ('Latitude', 0.15536848136105386), ('Longitude', 0.24284829690984455), ('Month', 0.018917402789170996), ('Year', 0.23517648287777593)]
+Mean squared error is of 7134613223.116997
+Mean absolute error:54683.13220716472
+MAPE:0.21905031346098716
+R2 score:0.8530996267960271
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:54:02
+ended training at: 18:54:19
+Feature importance:
+[('Area', 0.06595424413898957), ('Baths', 0.22562042984009667), ('Beds', 0.05629562422356848), ('Latitude', 0.15806132142582657), ('Longitude', 0.24130403621457666), ('Month', 0.019153268321836846), ('Year', 0.23361107583510526)]
+Mean squared error is of 6980866679.999225
+Mean absolute error:54099.41446863219
+MAPE:0.2175928894651879
+R2 score:0.8571340922985979
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC_Properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:54:20
+ended training at: 18:54:37
+Feature importance:
+[('Area', 0.06535911955818619), ('Baths', 0.2250283383705631), ('Beds', 0.05432202900226898), ('Latitude', 0.15561612603139066), ('Longitude', 0.24535775123348072), ('Month', 0.018989116246890515), ('Year', 0.2353275195572198)]
+Mean squared error is of 7218635897.140494
+Mean absolute error:54287.743352945836
+MAPE:0.22294910056952483
+R2 score:0.853101230943458
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:54:37
+ended training at: 18:54:41
+Feature importance:
+[('Area', 0.3792687419635295), ('Baths', 0.01798597383572121), ('Beds', 0.009889853635322644), ('Latitude', 0.4542715014454769), ('Longitude', 0.11768024323888727), ('Month', 0.017835825160717203), ('Year', 0.0030678607203452643)]
+Mean squared error is of 5945010131.5382805
+Mean absolute error:53713.15189733441
+MAPE:0.14011046996266338
+R2 score:0.8073787279919973
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:54:41
+ended training at: 18:54:45
+Feature importance:
+[('Area', 0.37985812195607094), ('Baths', 0.018002260186986425), ('Beds', 0.00982438328223481), ('Latitude', 0.45357325113450714), ('Longitude', 0.11700018082395235), ('Month', 0.018272835017302175), ('Year', 0.003468967598946346)]
+Mean squared error is of 5830698928.844187
+Mean absolute error:53213.00283426403
+MAPE:0.14015984874732848
+R2 score:0.8130046158315347
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:54:45
+ended training at: 18:54:48
+Feature importance:
+[('Area', 0.37241852963358035), ('Baths', 0.0195909868289412), ('Beds', 0.009599358099622963), ('Latitude', 0.45388808423496063), ('Longitude', 0.12241090562007235), ('Month', 0.01871374548882554), ('Year', 0.0033783900939969545)]
+Mean squared error is of 5465628170.115433
+Mean absolute error:52020.34040291283
+MAPE:0.1374482585333817
+R2 score:0.8254241201858556
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:54:48
+ended training at: 18:54:52
+Feature importance:
+[('Area', 0.3700516457558392), ('Baths', 0.01912342523442398), ('Beds', 0.00988707668079303), ('Latitude', 0.46136126909443737), ('Longitude', 0.11822109544629758), ('Month', 0.01816016756377838), ('Year', 0.0031953202244305564)]
+Mean squared error is of 5780506283.965323
+Mean absolute error:53258.33673544075
+MAPE:0.13904482960323297
+R2 score:0.8166805565236697
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:54:52
+ended training at: 18:54:55
+Feature importance:
+[('Area', 0.37341259547054895), ('Baths', 0.01848703960502213), ('Beds', 0.009022530541808932), ('Latitude', 0.4585808283245587), ('Longitude', 0.11913554902310454), ('Month', 0.01797929751805087), ('Year', 0.003382159516905906)]
+Mean squared error is of 5794754500.971295
+Mean absolute error:53118.33723902023
+MAPE:0.1397680435755721
+R2 score:0.816454724698376
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:54:55
+ended training at: 18:54:59
+Feature importance:
+[('Area', 0.3759062510685306), ('Baths', 0.018826789035157755), ('Beds', 0.010494477136589159), ('Latitude', 0.45485664488467203), ('Longitude', 0.11794800328271099), ('Month', 0.0188490791190857), ('Year', 0.003118755473253736)]
+Mean squared error is of 5466917934.619489
+Mean absolute error:51968.49581946408
+MAPE:0.13690645506965976
+R2 score:0.828667064985146
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:54:59
+ended training at: 18:55:02
+Feature importance:
+[('Area', 0.3733460648128187), ('Baths', 0.01865881810222208), ('Beds', 0.009253792444355596), ('Latitude', 0.45755851969584926), ('Longitude', 0.119219606042993), ('Month', 0.01884783271631749), ('Year', 0.003115366185443925)]
+Mean squared error is of 5595138377.908581
+Mean absolute error:52499.58291033003
+MAPE:0.13966018049919507
+R2 score:0.8208391832349924
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:03
+ended training at: 18:55:06
+Feature importance:
+[('Area', 0.3802071499115679), ('Baths', 0.019477000495471904), ('Beds', 0.009729861396190552), ('Latitude', 0.45499274986215055), ('Longitude', 0.11435871817397278), ('Month', 0.018211785408585566), ('Year', 0.0030227347520606325)]
+Mean squared error is of 5684227326.898343
+Mean absolute error:52403.02915456998
+MAPE:0.13884839114603537
+R2 score:0.8136092727938001
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:06
+ended training at: 18:55:10
+Feature importance:
+[('Area', 0.37552872448222707), ('Baths', 0.018265692914320838), ('Beds', 0.009437826741841316), ('Latitude', 0.4555350903470357), ('Longitude', 0.1189090905270893), ('Month', 0.018702038213381914), ('Year', 0.003621536774103788)]
+Mean squared error is of 5939684609.714256
+Mean absolute error:53310.849188686065
+MAPE:0.13989161249647972
+R2 score:0.8111273684177498
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc_house_data.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:10
+ended training at: 18:55:13
+Feature importance:
+[('Area', 0.37129768247901307), ('Baths', 0.018341120337539565), ('Beds', 0.00972990667723421), ('Latitude', 0.45886686541875593), ('Longitude', 0.1205336324929018), ('Month', 0.01811938577416664), ('Year', 0.0031114068203887423)]
+Mean squared error is of 5781967019.737692
+Mean absolute error:52877.2306367665
+MAPE:0.13850952201059466
+R2 score:0.8144322536390561
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:13
+ended training at: 18:55:15
+Feature importance:
+[('Area', 0.31069872977630175), ('Baths', 0.009506985655842376), ('Beds', 0.04283147982365177), ('Latitude', 0.30803507001158575), ('Longitude', 0.28894609138702176), ('Month', 0.026827084220249237), ('Year', 0.013154559125347298)]
+Mean squared error is of 18786610775.280415
+Mean absolute error:98704.17266630506
+MAPE:0.16732345536929333
+R2 score:0.7685635588728719
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:15
+ended training at: 18:55:17
+Feature importance:
+[('Area', 0.31686505189028974), ('Baths', 0.00908548349010207), ('Beds', 0.03954005730034491), ('Latitude', 0.3076903393943136), ('Longitude', 0.2878145668553145), ('Month', 0.026826467436624528), ('Year', 0.01217803363301071)]
+Mean squared error is of 19558128664.569775
+Mean absolute error:99929.03418674193
+MAPE:0.17177419368789457
+R2 score:0.7522386537904867
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:17
+ended training at: 18:55:18
+Feature importance:
+[('Area', 0.3138678152932821), ('Baths', 0.008281787184173618), ('Beds', 0.040406261990474854), ('Latitude', 0.3189359038367695), ('Longitude', 0.27944986075919787), ('Month', 0.026561097105582656), ('Year', 0.012497273830519504)]
+Mean squared error is of 19546658303.275883
+Mean absolute error:100135.70466831193
+MAPE:0.17604139400696178
+R2 score:0.7538155372380916
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:19
+ended training at: 18:55:20
+Feature importance:
+[('Area', 0.3165685624231234), ('Baths', 0.010110286021065633), ('Beds', 0.03941459362385367), ('Latitude', 0.31148627812590945), ('Longitude', 0.2811085694436511), ('Month', 0.02795852477686419), ('Year', 0.01335318558553255)]
+Mean squared error is of 17838467458.24137
+Mean absolute error:95357.21961755237
+MAPE:0.1666563381440882
+R2 score:0.7704150705530547
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:20
+ended training at: 18:55:22
+Feature importance:
+[('Area', 0.31663750644232785), ('Baths', 0.0099108827457803), ('Beds', 0.038500399106203134), ('Latitude', 0.3115889108068005), ('Longitude', 0.28388349288127346), ('Month', 0.027350455320165952), ('Year', 0.012128352697448757)]
+Mean squared error is of 19245051820.69605
+Mean absolute error:97863.37455497045
+MAPE:0.16431234172337994
+R2 score:0.7669351725685073
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:22
+ended training at: 18:55:23
+Feature importance:
+[('Area', 0.32103566956494206), ('Baths', 0.006974889433453233), ('Beds', 0.04016664332455143), ('Latitude', 0.3068543794804563), ('Longitude', 0.2847628669502821), ('Month', 0.027211954368666063), ('Year', 0.012993596877648873)]
+Mean squared error is of 19769434097.25931
+Mean absolute error:100406.67517428573
+MAPE:0.17302267493217488
+R2 score:0.7523053834345251
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:23
+ended training at: 18:55:25
+Feature importance:
+[('Area', 0.31103423887899184), ('Baths', 0.010780919773267587), ('Beds', 0.037922979117713355), ('Latitude', 0.31496025771433167), ('Longitude', 0.2858242576956255), ('Month', 0.025778147171788165), ('Year', 0.013699199648281908)]
+Mean squared error is of 19214079177.24449
+Mean absolute error:98571.42759223915
+MAPE:0.16809319325024208
+R2 score:0.7716157233768878
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:25
+ended training at: 18:55:27
+Feature importance:
+[('Area', 0.31489642655972794), ('Baths', 0.009407144623021802), ('Beds', 0.038222263994609436), ('Latitude', 0.3113800661153923), ('Longitude', 0.28743365956512734), ('Month', 0.02618594821725238), ('Year', 0.012474490924868919)]
+Mean squared error is of 20955280519.326344
+Mean absolute error:102136.83193183826
+MAPE:0.17613952152143272
+R2 score:0.7387019252856333
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:27
+ended training at: 18:55:28
+Feature importance:
+[('Area', 0.31891766684750356), ('Baths', 0.009397209369073513), ('Beds', 0.036555923370565103), ('Latitude', 0.31954036878466724), ('Longitude', 0.2759976503147711), ('Month', 0.026141388887118124), ('Year', 0.013449792426301378)]
+Mean squared error is of 19304885673.892303
+Mean absolute error:100042.1640169556
+MAPE:0.17204491044822115
+R2 score:0.7603325556697841
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne_housing.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:28
+ended training at: 18:55:30
+Feature importance:
+[('Area', 0.3159909644405849), ('Baths', 0.008821644811097276), ('Beds', 0.044724277629639424), ('Latitude', 0.3066404464905376), ('Longitude', 0.2846560648518456), ('Month', 0.026458874528545322), ('Year', 0.01270772724775006)]
+Mean squared error is of 20595717209.170742
+Mean absolute error:102495.43597514585
+MAPE:0.17008449400206402
+R2 score:0.7636922728046324
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:30
+ended training at: 18:55:30
+Feature importance:
+[('Area', 0.5458272463831932), ('Baths', 0.0445231324372367), ('Beds', 0.027696138777362826), ('Latitude', 0.2765246829090308), ('Longitude', 0.08701769292300424), ('Month', 0.01841110657017236), ('Year', 0.0)]
+Mean squared error is of 2008132302.9324355
+Mean absolute error:29726.16183162242
+MAPE:0.2908098043140605
+R2 score:0.7838872444140094
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:31
+ended training at: 18:55:31
+Feature importance:
+[('Area', 0.5214296411998793), ('Baths', 0.0450205787245754), ('Beds', 0.03393047900018349), ('Latitude', 0.2815137356417732), ('Longitude', 0.09633524923516669), ('Month', 0.021770316198421836), ('Year', 0.0)]
+Mean squared error is of 2425143106.137701
+Mean absolute error:31492.60555168924
+MAPE:0.25776213874705034
+R2 score:0.7384189989028387
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:31
+ended training at: 18:55:31
+Feature importance:
+[('Area', 0.5492211335939711), ('Baths', 0.0370670112071394), ('Beds', 0.027844120068348254), ('Latitude', 0.262329083989382), ('Longitude', 0.10241838143561717), ('Month', 0.021120269705542167), ('Year', 0.0)]
+Mean squared error is of 2667969693.0054398
+Mean absolute error:33607.056144208684
+MAPE:0.29031018045001944
+R2 score:0.7424466242906365
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:31
+ended training at: 18:55:32
+Feature importance:
+[('Area', 0.5569203411807596), ('Baths', 0.03632650460842402), ('Beds', 0.027521057557812756), ('Latitude', 0.28163483497548386), ('Longitude', 0.07660287712219391), ('Month', 0.02099438455532589), ('Year', 0.0)]
+Mean squared error is of 2429811928.2244473
+Mean absolute error:31167.221806248326
+MAPE:0.2679665691239124
+R2 score:0.6821812288034197
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:32
+ended training at: 18:55:32
+Feature importance:
+[('Area', 0.5291299630237726), ('Baths', 0.04601274687737792), ('Beds', 0.029784887707932126), ('Latitude', 0.2901411510884733), ('Longitude', 0.08620567140572784), ('Month', 0.01872557989671631), ('Year', 0.0)]
+Mean squared error is of 2329445230.2824078
+Mean absolute error:32879.32516884478
+MAPE:0.28950577770094155
+R2 score:0.7491558928021276
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:32
+ended training at: 18:55:32
+Feature importance:
+[('Area', 0.5008287432404124), ('Baths', 0.039945233840360694), ('Beds', 0.02430236857579353), ('Latitude', 0.32595493634593325), ('Longitude', 0.08571872586699404), ('Month', 0.02324999213050607), ('Year', 0.0)]
+Mean squared error is of 2671242862.7200975
+Mean absolute error:32167.589572906698
+MAPE:0.28608685726339805
+R2 score:0.7422566126783845
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:32
+ended training at: 18:55:33
+Feature importance:
+[('Area', 0.5633737297946116), ('Baths', 0.03726078350967086), ('Beds', 0.025705110197125017), ('Latitude', 0.26947309836830985), ('Longitude', 0.08641335335393341), ('Month', 0.017773924776349273), ('Year', 0.0)]
+Mean squared error is of 2151858440.5255075
+Mean absolute error:30542.537232487753
+MAPE:0.2477242622837231
+R2 score:0.7258383343843998
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:33
+ended training at: 18:55:33
+Feature importance:
+[('Area', 0.5148745805343142), ('Baths', 0.04059543368879372), ('Beds', 0.027162382515564604), ('Latitude', 0.3032692747587304), ('Longitude', 0.09407383836899676), ('Month', 0.020024490133600317), ('Year', 0.0)]
+Mean squared error is of 2391961174.9606457
+Mean absolute error:31666.453529919134
+MAPE:0.2823401397510741
+R2 score:0.7421171674207219
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:33
+ended training at: 18:55:34
+Feature importance:
+[('Area', 0.5185742890887672), ('Baths', 0.04489043037236659), ('Beds', 0.02678039838657989), ('Latitude', 0.2972808879319995), ('Longitude', 0.09356275765749199), ('Month', 0.01891123656279482), ('Year', 0.0)]
+Mean squared error is of 1940336103.465979
+Mean absolute error:29298.627466331345
+MAPE:0.24786265443708053
+R2 score:0.7741115217227134
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe_properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:34
+ended training at: 18:55:34
+Feature importance:
+[('Area', 0.536167692171433), ('Baths', 0.04226300294649924), ('Beds', 0.028143894782009467), ('Latitude', 0.28435030278280504), ('Longitude', 0.09188769416028747), ('Month', 0.01718741315696585), ('Year', 0.0)]
+Mean squared error is of 2494958451.447072
+Mean absolute error:32122.470334560014
+MAPE:0.28340300475249874
+R2 score:0.7133139092657774
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:34
+ended training at: 18:55:35
+Feature importance:
+[('Area', 0.12852372253394448), ('Baths', 0.4766726065752758), ('Beds', 0.022757401526907715), ('Latitude', 0.15174977425383718), ('Longitude', 0.18705498856503855), ('Month', 0.030626124090706676), ('Year', 0.002615382454289652)]
+Mean squared error is of 2656820001.584627
+Mean absolute error:33553.998505792886
+MAPE:0.2873477871262474
+R2 score:0.7269410577614569
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:35
+ended training at: 18:55:36
+Feature importance:
+[('Area', 0.1330155213180231), ('Baths', 0.4778949567536325), ('Beds', 0.023097196642329086), ('Latitude', 0.14415280211003945), ('Longitude', 0.1887191536671234), ('Month', 0.03009857669944924), ('Year', 0.0030217928094031263)]
+Mean squared error is of 2652548683.688571
+Mean absolute error:32858.444693880934
+MAPE:0.2787218074850605
+R2 score:0.7233161196728656
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:36
+ended training at: 18:55:38
+Feature importance:
+[('Area', 0.1268004476355107), ('Baths', 0.4843350354879899), ('Beds', 0.023412186469117417), ('Latitude', 0.14244477367628308), ('Longitude', 0.1915901300175153), ('Month', 0.02885876990841257), ('Year', 0.0025586568051710968)]
+Mean squared error is of 2716322152.30451
+Mean absolute error:33110.40492697069
+MAPE:0.280776363150855
+R2 score:0.7098847871279756
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:38
+ended training at: 18:55:39
+Feature importance:
+[('Area', 0.12758951532624493), ('Baths', 0.4765175295281827), ('Beds', 0.02186024478365856), ('Latitude', 0.1467131797253117), ('Longitude', 0.1947548865533378), ('Month', 0.029952879665008505), ('Year', 0.002611764418255941)]
+Mean squared error is of 2742074504.161202
+Mean absolute error:33367.917740917626
+MAPE:0.28757646394136055
+R2 score:0.7167565680533998
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:39
+ended training at: 18:55:40
+Feature importance:
+[('Area', 0.14352546450444695), ('Baths', 0.46421781921426797), ('Beds', 0.025739866582840085), ('Latitude', 0.14072884665505636), ('Longitude', 0.1930492881533904), ('Month', 0.030073400870106085), ('Year', 0.0026653140198920427)]
+Mean squared error is of 2870257194.0556374
+Mean absolute error:34093.26108057864
+MAPE:0.3038761931289695
+R2 score:0.7105015786689459
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:40
+ended training at: 18:55:41
+Feature importance:
+[('Area', 0.13337657844268075), ('Baths', 0.47339769459866565), ('Beds', 0.022706922163608652), ('Latitude', 0.14993011370415196), ('Longitude', 0.18565963283141318), ('Month', 0.03197603989065672), ('Year', 0.0029530183688231387)]
+Mean squared error is of 2450512472.782797
+Mean absolute error:31985.58150185838
+MAPE:0.2702416824192311
+R2 score:0.745605396243727
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:41
+ended training at: 18:55:42
+Feature importance:
+[('Area', 0.12931171289210364), ('Baths', 0.4765532923277924), ('Beds', 0.021662566039656377), ('Latitude', 0.1487966944729226), ('Longitude', 0.19119974706963794), ('Month', 0.02986639988510178), ('Year', 0.002609587312785361)]
+Mean squared error is of 2728710015.7840075
+Mean absolute error:33175.90674456598
+MAPE:0.2779692983931648
+R2 score:0.6964652798063395
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:42
+ended training at: 18:55:43
+Feature importance:
+[('Area', 0.1402324788506369), ('Baths', 0.46082776039756446), ('Beds', 0.02337645846682982), ('Latitude', 0.14640279038116727), ('Longitude', 0.19401351868075145), ('Month', 0.03183227883753041), ('Year', 0.003314714385519832)]
+Mean squared error is of 2893381912.657238
+Mean absolute error:34747.76414071867
+MAPE:0.2632340453119845
+R2 score:0.7127789777839082
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:43
+ended training at: 18:55:44
+Feature importance:
+[('Area', 0.13024728747088207), ('Baths', 0.4849193282876415), ('Beds', 0.027758123083875753), ('Latitude', 0.14008499315386252), ('Longitude', 0.18221527264177934), ('Month', 0.031691521728556396), ('Year', 0.003083473633402349)]
+Mean squared error is of 2826583859.849023
+Mean absolute error:33505.753132705315
+MAPE:0.28465001371437465
+R2 score:0.7121420650516677
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy_properties.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:44
+ended training at: 18:55:45
+Feature importance:
+[('Area', 0.13994507725364866), ('Baths', 0.4734807094408482), ('Beds', 0.02779763710583424), ('Latitude', 0.14408048793802986), ('Longitude', 0.18079649319822916), ('Month', 0.030947590637229707), ('Year', 0.002952004426180076)]
+Mean squared error is of 2561456077.033313
+Mean absolute error:32952.89766215346
+MAPE:0.286769244019897
+R2 score:0.7367693761997078
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:45
+ended training at: 18:55:57
+Feature importance:
+[('Area', 0.5895329309752835), ('Baths', 0.025826942572763755), ('Beds', 0.057991472721384024), ('Latitude', 0.17352971351604296), ('Longitude', 0.1343582558143063), ('Month', 0.017551366823236235), ('Year', 0.0012093175769833824)]
+Mean squared error is of 437944360.4195032
+Mean absolute error:12692.76058369265
+MAPE:0.2157442032649316
+R2 score:0.8427601622874235
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:55:58
+ended training at: 18:56:10
+Feature importance:
+[('Area', 0.587696411434637), ('Baths', 0.025863180678109114), ('Beds', 0.05988716513567609), ('Latitude', 0.17502353385643352), ('Longitude', 0.13209611033147453), ('Month', 0.018160849445574334), ('Year', 0.0012727491180955404)]
+Mean squared error is of 441680711.7110429
+Mean absolute error:12627.281392018807
+MAPE:0.21523928050251437
+R2 score:0.8448789852410307
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:56:10
+ended training at: 18:56:22
+Feature importance:
+[('Area', 0.5924996838142046), ('Baths', 0.019885386330433963), ('Beds', 0.06527533804698869), ('Latitude', 0.17720331180076412), ('Longitude', 0.1259841170637826), ('Month', 0.01802294785373557), ('Year', 0.0011292150900903866)]
+Mean squared error is of 447367438.2159379
+Mean absolute error:12763.810200997943
+MAPE:0.21464291015919398
+R2 score:0.8400832434433205
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:56:23
+ended training at: 18:56:34
+Feature importance:
+[('Area', 0.5893960964982845), ('Baths', 0.02094326808962912), ('Beds', 0.06777469319786185), ('Latitude', 0.179393151793894), ('Longitude', 0.12397287629632191), ('Month', 0.01739820531417331), ('Year', 0.0011217088098353372)]
+Mean squared error is of 447232680.30103415
+Mean absolute error:12756.059318847723
+MAPE:0.21951840867973202
+R2 score:0.8381032211473969
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:56:35
+ended training at: 18:56:47
+Feature importance:
+[('Area', 0.5897300605102858), ('Baths', 0.02515364078870292), ('Beds', 0.060341759563148724), ('Latitude', 0.17309611094625557), ('Longitude', 0.13280591939598882), ('Month', 0.017553299992000223), ('Year', 0.0013192088036179858)]
+Mean squared error is of 456231997.6381168
+Mean absolute error:12881.40859577751
+MAPE:0.21954487129585473
+R2 score:0.8366335783485787
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:56:47
+ended training at: 18:56:59
+Feature importance:
+[('Area', 0.5886804730665055), ('Baths', 0.02012417046355365), ('Beds', 0.06554910791071004), ('Latitude', 0.17497922634222074), ('Longitude', 0.13154870415278977), ('Month', 0.017979922311717966), ('Year', 0.0011383957525023622)]
+Mean squared error is of 450361905.8571361
+Mean absolute error:12877.670614196879
+MAPE:0.22003442285170347
+R2 score:0.8415467195510952
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:56:59
+ended training at: 18:57:11
+Feature importance:
+[('Area', 0.5886798331722626), ('Baths', 0.024832895522692727), ('Beds', 0.05915170415881065), ('Latitude', 0.1761616207786177), ('Longitude', 0.13208065419152187), ('Month', 0.018032115826848296), ('Year', 0.0010611763492461986)]
+Mean squared error is of 442579156.93913007
+Mean absolute error:12723.033877217062
+MAPE:0.2145421717534594
+R2 score:0.8438922361688771
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:57:12
+ended training at: 18:57:23
+Feature importance:
+[('Area', 0.5950530257301347), ('Baths', 0.023800419617003472), ('Beds', 0.05988372563629448), ('Latitude', 0.17394955784948543), ('Longitude', 0.1290998943843215), ('Month', 0.017110374864796638), ('Year', 0.001103001917963755)]
+Mean squared error is of 462888185.18217856
+Mean absolute error:12895.925582664866
+MAPE:0.22210914179034838
+R2 score:0.8366748965323486
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:57:24
+ended training at: 18:57:36
+Feature importance:
+[('Area', 0.59105870107215), ('Baths', 0.022938374937428015), ('Beds', 0.0598617577156068), ('Latitude', 0.1730831897098606), ('Longitude', 0.13357316651629567), ('Month', 0.01826711522684447), ('Year', 0.0012176948218144501)]
+Mean squared error is of 441966994.50220156
+Mean absolute error:12778.601182804634
+MAPE:0.2178290574720742
+R2 score:0.8431116394441756
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:57:36
+ended training at: 18:57:48
+Feature importance:
+[('Area', 0.590998104915643), ('Baths', 0.02046922244093649), ('Beds', 0.06387272870697458), ('Latitude', 0.17557686281237866), ('Longitude', 0.1300969522108629), ('Month', 0.01785759924651455), ('Year', 0.0011285296666898618)]
+Mean squared error is of 438225549.8768253
+Mean absolute error:12748.394746616053
+MAPE:0.22289893098923955
+R2 score:0.8414085049195482
+------------------------------------------------------------------
+Normalization used is StandardScaler
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 0
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:57:49
+ended training at: 18:59:25
+Feature importance:
+[('Area', 0.07715120665806167), ('Baths', 0.08156352680481653), ('Beds', 0.016290756149245033), ('Latitude', 0.20967046660027613), ('Longitude', 0.1798635493356819), ('Month', 0.010418969030878487), ('Year', 0.4250415254210403)]
+Mean squared error is of 3395264300.416655
+Mean absolute error:33714.45750949484
+MAPE:0.2192875929656938
+R2 score:0.9133311074936077
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 1
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 18:59:29
+ended training at: 19:01:06
+Feature importance:
+[('Area', 0.07814953728584353), ('Baths', 0.08180625478951688), ('Beds', 0.01599508960892678), ('Latitude', 0.21543592332121067), ('Longitude', 0.1756083679898371), ('Month', 0.010589955195775647), ('Year', 0.4224148718088894)]
+Mean squared error is of 3445889218.661098
+Mean absolute error:33799.35341343549
+MAPE:0.21650820022103634
+R2 score:0.9130197771787241
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 2
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 19:01:10
+ended training at: 19:02:46
+Feature importance:
+[('Area', 0.07970173545597682), ('Baths', 0.08193011287233377), ('Beds', 0.016134933035444193), ('Latitude', 0.21409158330265798), ('Longitude', 0.17506675309117206), ('Month', 0.01039017182092363), ('Year', 0.4226847104214914)]
+Mean squared error is of 3423739934.9266233
+Mean absolute error:33756.892478832655
+MAPE:0.2173028812388742
+R2 score:0.9128767790491055
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 3
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 19:02:50
+ended training at: 19:04:25
+Feature importance:
+[('Area', 0.07881356580242589), ('Baths', 0.08243256892821393), ('Beds', 0.01627342332856228), ('Latitude', 0.21529531332466795), ('Longitude', 0.17491905175851183), ('Month', 0.010232940892077574), ('Year', 0.42203313596554065)]
+Mean squared error is of 3394095395.049197
+Mean absolute error:33618.53176541017
+MAPE:0.21886105478804124
+R2 score:0.91256558186416
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 4
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 19:04:29
+ended training at: 19:06:05
+Feature importance:
+[('Area', 0.0802427606474493), ('Baths', 0.08181790349614988), ('Beds', 0.015716631745703185), ('Latitude', 0.2162049408490279), ('Longitude', 0.1746876303120373), ('Month', 0.010281855175011461), ('Year', 0.4210482777746211)]
+Mean squared error is of 3387283745.5926323
+Mean absolute error:33667.173837859955
+MAPE:0.2152570674012742
+R2 score:0.9126447947515641
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 5
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 19:06:09
+ended training at: 19:07:45
+Feature importance:
+[('Area', 0.0783601623573637), ('Baths', 0.08234593649552084), ('Beds', 0.01597136815044148), ('Latitude', 0.21698089440458346), ('Longitude', 0.17408561615050547), ('Month', 0.01022249899426652), ('Year', 0.4220335234473185)]
+Mean squared error is of 3412906982.291001
+Mean absolute error:33625.03751843825
+MAPE:0.21628617178399523
+R2 score:0.9121701834006568
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 6
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 19:07:49
+ended training at: 19:09:25
+Feature importance:
+[('Area', 0.07792404143560414), ('Baths', 0.08248615604229406), ('Beds', 0.01585381642586718), ('Latitude', 0.2170371593496947), ('Longitude', 0.17359813063535362), ('Month', 0.010366325991168487), ('Year', 0.42273437012001785)]
+Mean squared error is of 3384740331.789396
+Mean absolute error:33669.81634122927
+MAPE:0.21919298306742976
+R2 score:0.9125822333301167
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 7
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 19:09:29
+ended training at: 19:11:04
+Feature importance:
+[('Area', 0.07826641699318876), ('Baths', 0.08160919865284566), ('Beds', 0.016573157790100868), ('Latitude', 0.2130008345446921), ('Longitude', 0.17811847878988318), ('Month', 0.010363046610409552), ('Year', 0.42206886661888)]
+Mean squared error is of 3398551806.066874
+Mean absolute error:33709.76473132332
+MAPE:0.21539745151695192
+R2 score:0.9126728805062205
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 8
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 19:11:08
+ended training at: 19:12:44
+Feature importance:
+[('Area', 0.07848245273261148), ('Baths', 0.08266360546879437), ('Beds', 0.0167293675427394), ('Latitude', 0.20805199042996478), ('Longitude', 0.1782249228283917), ('Month', 0.01069367079454208), ('Year', 0.42515399020295624)]
+Mean squared error is of 3392965849.8425727
+Mean absolute error:33634.112495680354
+MAPE:0.21621804618390214
+R2 score:0.9128575307418434
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 9
+Train/test division is 70/30
+Random Forest params:
+
+{'bootstrap': True, 'ccp_alpha': 0.0, 'criterion': 'squared_error', 'max_depth': 30, 'max_features': 'auto', 'max_leaf_nodes': None, 'max_samples': None, 'min_impurity_decrease': 0.0, 'min_samples_leaf': 2, 'min_samples_split': 3, 'min_weight_fraction_leaf': 0.0, 'n_estimators': 100, 'n_jobs': None, 'oob_score': False, 'random_state': None, 'verbose': 0, 'warm_start': False}
+started training at: 19:12:48
+ended training at: 19:14:24
+Feature importance:
+[('Area', 0.0788664444548207), ('Baths', 0.08110323678935624), ('Beds', 0.016229846263498833), ('Latitude', 0.2135081433629371), ('Longitude', 0.17648526322954458), ('Month', 0.010253447354350766), ('Year', 0.42355361854549184)]
+Mean squared error is of 3462337055.494342
+Mean absolute error:33896.47578043425
+MAPE:0.2174392702736855
+R2 score:0.9107101051791395
+------------------------------------------------------------------

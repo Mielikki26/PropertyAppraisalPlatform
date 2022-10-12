@@ -1,0 +1,570 @@
+RF Logs:
+
+Saving copy of script...
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 19:56:02
+ended training at: 19:58:57
+Mean squared error is of 0.04708089383207086
+Mean absolute error:0.13824655278710551
+MAPE:0.14805383761718532
+R2 score:0.2706208415538549
+19:58:57
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 19:58:58
+ended training at: 20:01:46
+Mean squared error is of 0.04153396043684887
+Mean absolute error:0.13778774104320837
+MAPE:0.14906984632517226
+R2 score:0.4327385964965311
+20:01:46
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 20:01:46
+ended training at: 20:04:41
+Mean squared error is of 0.040032024798351405
+Mean absolute error:0.1380331273667961
+MAPE:0.15101794874874447
+R2 score:0.3899330010149261
+20:04:42
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 20:04:42
+ended training at: 20:07:39
+Mean squared error is of 0.04209938184575887
+Mean absolute error:0.13730455057292718
+MAPE:0.14841810330222602
+R2 score:0.35659204177339965
+20:07:40
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 20:07:40
+ended training at: 20:10:28
+Mean squared error is of 0.042652914496426754
+Mean absolute error:0.1364328897884402
+MAPE:0.1482067593171306
+R2 score:0.4316767635475658
+20:10:28
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 20:10:30
+ended training at: 20:47:47
+Mean squared error is of 0.05764251891002428
+Mean absolute error:0.17893308860310952
+MAPE:0.19677747439111282
+R2 score:0.2522142534416115
+20:47:48
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 20:47:49
+ended training at: 21:24:22
+Mean squared error is of 0.056966469887152295
+Mean absolute error:0.17865093744687807
+MAPE:0.1967656742466375
+R2 score:0.2446245375726961
+21:24:23
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 21:24:24
+ended training at: 22:02:54
+Mean squared error is of 0.06281916030519616
+Mean absolute error:0.1798348709259661
+MAPE:0.19623728841271953
+R2 score:0.22858955866467756
+22:02:55
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 22:02:56
+ended training at: 22:40:06
+Mean squared error is of 0.05834438188149118
+Mean absolute error:0.179409687825037
+MAPE:0.19692990744963373
+R2 score:0.24030675577398086
+22:40:07
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 22:40:08
+ended training at: 23:15:26
+Mean squared error is of 0.06047871033085848
+Mean absolute error:0.17801247447000812
+MAPE:0.19556519725039503
+R2 score:0.24525151323175032
+23:15:28
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 23:15:29
+ended training at: 23:15:57
+Mean squared error is of 0.052591933432784545
+Mean absolute error:0.16292618722519547
+MAPE:0.1807978149658892
+R2 score:0.3744632680703811
+23:15:57
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 23:15:57
+ended training at: 23:16:26
+Mean squared error is of 0.07902227944295227
+Mean absolute error:0.16991414483011408
+MAPE:0.1843218673569996
+R2 score:0.3079522195729496
+23:16:27
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 23:16:27
+ended training at: 23:16:55
+Mean squared error is of 0.0757205701973823
+Mean absolute error:0.16585860857794002
+MAPE:0.17879853196382753
+R2 score:0.3352567389818192
+23:16:55
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 23:16:55
+ended training at: 23:17:24
+Mean squared error is of 0.054118972587297656
+Mean absolute error:0.16419701306683698
+MAPE:0.17974899906140554
+R2 score:0.3799334357705566
+23:17:25
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 23:17:25
+ended training at: 23:17:54
+Mean squared error is of 0.050270818603359406
+Mean absolute error:0.1606887373838166
+MAPE:0.17559060673262744
+R2 score:0.38891688417229375
+23:17:55
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 23:17:55
+ended training at: 23:18:04
+Mean squared error is of 0.06600023989848311
+Mean absolute error:0.15320224644217237
+MAPE:0.1814822874484967
+R2 score:0.8600909642485548
+23:18:05
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 23:18:05
+ended training at: 23:18:15
+Mean squared error is of 0.053228673430900486
+Mean absolute error:0.15106204406043447
+MAPE:0.1857277331534272
+R2 score:0.8851706754370261
+23:18:15
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 23:18:15
+ended training at: 23:18:25
+Mean squared error is of 0.055379376987288245
+Mean absolute error:0.14766809323365473
+MAPE:0.17946493734835206
+R2 score:0.8927674598884213
+23:18:26
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 23:18:26
+ended training at: 23:18:36
+Mean squared error is of 0.062515538639227
+Mean absolute error:0.15245404090511766
+MAPE:0.1836480822760921
+R2 score:0.8742448627036816
+23:18:36
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 23:18:36
+ended training at: 23:18:46
+Mean squared error is of 0.058327318149769575
+Mean absolute error:0.1523140054435878
+MAPE:0.1864015577311696
+R2 score:0.8842113654743992
+23:18:47
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 23:18:47
+ended training at: 23:18:51
+Mean squared error is of 0.03914183277306909
+Mean absolute error:0.13821635261158544
+MAPE:0.14101958375954465
+R2 score:0.46349390727854534
+23:18:51
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 23:18:51
+ended training at: 23:18:55
+Mean squared error is of 0.040484027921225
+Mean absolute error:0.1360234162111275
+MAPE:0.13952727936863915
+R2 score:0.43843368906885705
+23:18:55
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 23:18:55
+ended training at: 23:18:59
+Mean squared error is of 0.0351404083777818
+Mean absolute error:0.13588533785678159
+MAPE:0.14105599772123922
+R2 score:0.46892439149764487
+23:18:59
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 23:18:59
+ended training at: 23:19:03
+Mean squared error is of 0.03527405476800002
+Mean absolute error:0.13414186847640625
+MAPE:0.13949426398318868
+R2 score:0.4699919640463329
+23:19:03
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 23:19:03
+ended training at: 23:19:07
+Mean squared error is of 0.03237515264550894
+Mean absolute error:0.13372222801961062
+MAPE:0.14086291090199932
+R2 score:0.4598080738660192
+23:19:07
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 23:19:08
+ended training at: 23:19:40
+Mean squared error is of 0.04707921651673758
+Mean absolute error:0.15752277722541733
+MAPE:0.167405486562623
+R2 score:0.3959353537746727
+23:19:41
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 23:19:41
+ended training at: 23:20:12
+Mean squared error is of 0.04969610922352745
+Mean absolute error:0.16052276689400907
+MAPE:0.16596002280910832
+R2 score:0.5319993806507104
+23:20:12
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 23:20:12
+ended training at: 23:20:45
+Mean squared error is of 0.05039692975619636
+Mean absolute error:0.1607323030692034
+MAPE:0.16667440942523593
+R2 score:0.4143652972018891
+23:20:45
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 23:20:45
+ended training at: 23:21:18
+Mean squared error is of 0.04522459527751706
+Mean absolute error:0.15558754427761368
+MAPE:0.1622322547764845
+R2 score:0.4497662079743876
+23:21:18
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 23:21:18
+ended training at: 23:21:50
+Mean squared error is of 0.04661681645648721
+Mean absolute error:0.15873291348747284
+MAPE:0.16298409352436094
+R2 score:0.4706826205231155
+23:21:50
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 23:21:50
+ended training at: 23:21:52
+Mean squared error is of 0.0747956299406501
+Mean absolute error:0.18811314559507678
+MAPE:0.22667600573522215
+R2 score:0.2471481312291388
+23:21:52
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 23:21:52
+ended training at: 23:21:53
+Mean squared error is of 0.05220187010497952
+Mean absolute error:0.17141972283251602
+MAPE:0.1935505309202551
+R2 score:0.2593824655723693
+23:21:54
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 23:21:54
+ended training at: 23:21:55
+Mean squared error is of 0.05739434407188274
+Mean absolute error:0.17164132327227538
+MAPE:0.20050578207703165
+R2 score:0.28349457430556835
+23:21:55
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 23:21:55
+ended training at: 23:21:57
+Mean squared error is of 0.07174908619223877
+Mean absolute error:0.1854117278363678
+MAPE:0.19853734898572717
+R2 score:0.2084741604871272
+23:21:57
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 23:21:57
+ended training at: 23:21:58
+Mean squared error is of 0.07546989136241064
+Mean absolute error:0.18747120591584923
+MAPE:0.2061936949920375
+R2 score:0.22737029762978545
+23:21:59
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 23:21:59
+ended training at: 23:22:02
+Mean squared error is of 0.05328488241582171
+Mean absolute error:0.1575939050625366
+MAPE:0.17588146734744486
+R2 score:0.3992763854795879
+23:22:03
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 23:22:03
+ended training at: 23:22:06
+Mean squared error is of 0.05014050059340134
+Mean absolute error:0.15549175799631512
+MAPE:0.17418821731999867
+R2 score:0.4350946148494662
+23:22:06
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 23:22:06
+ended training at: 23:22:10
+Mean squared error is of 0.04898134868758657
+Mean absolute error:0.15853347458485323
+MAPE:0.17420954786925066
+R2 score:0.43346186279855436
+23:22:10
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 23:22:10
+ended training at: 23:22:14
+Mean squared error is of 0.052741724485905264
+Mean absolute error:0.16087683983082957
+MAPE:0.1741922095855223
+R2 score:0.4118017319010232
+23:22:14
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 23:22:14
+ended training at: 23:22:18
+Mean squared error is of 0.0488654678402559
+Mean absolute error:0.15312704712436234
+MAPE:0.16201734003725365
+R2 score:0.41553524792934204
+23:22:18
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 23:22:25
+ended training at: 01:17:43
+Mean squared error is of 0.05964596738545847
+Mean absolute error:0.17144811309539904
+MAPE:0.19065338869488846
+R2 score:0.5407934898726571
+01:17:46
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:17:50
+ended training at: 03:09:59
+Mean squared error is of 0.057059774717524915
+Mean absolute error:0.17094081509913453
+MAPE:0.1893289145434845
+R2 score:0.5317341967457856
+03:10:02
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 03:10:06
+ended training at: 05:09:14
+Mean squared error is of 0.058427668632926366
+Mean absolute error:0.1726649944148441
+MAPE:0.1902373616649999
+R2 score:0.5206091208818742
+05:09:17
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 05:09:21
+ended training at: 07:01:06
+Mean squared error is of 0.058439025701632154
+Mean absolute error:0.17218934440599656
+MAPE:0.19024728713387407
+R2 score:0.536531136371158
+07:01:10
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 07:01:14
+ended training at: 09:04:07
+Mean squared error is of 0.057782915347400064
+Mean absolute error:0.17228594749097412
+MAPE:0.19066400041460616
+R2 score:0.5236088034110137
+09:04:10
+------------------------------------------------------------------

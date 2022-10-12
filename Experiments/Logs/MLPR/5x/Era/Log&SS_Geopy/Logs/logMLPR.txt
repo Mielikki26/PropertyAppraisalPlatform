@@ -1,0 +1,67 @@
+MLPR Logs:
+
+Saving copy of script...
+In this script only the augmented Era dataset is used
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: DataBase_Era_augmented.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 04:44:08
+ended training at: 04:44:09
+Mean squared error is of 4155952223.225506
+Mean absolute error:40350.76981317374
+MAPE:0.2605641338125159
+R2 score:0.7821091260499601
+04:44:10
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DataBase_Era_augmented.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 04:44:10
+ended training at: 04:44:11
+Mean squared error is of 4226935255.7116427
+Mean absolute error:41125.4240282664
+MAPE:0.26473485762804777
+R2 score:0.7742547090993488
+04:44:11
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DataBase_Era_augmented.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 04:44:11
+ended training at: 04:44:14
+Mean squared error is of 4409057763.364224
+Mean absolute error:40476.156968272575
+MAPE:0.2554127877388078
+R2 score:0.7743105789607636
+04:44:14
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DataBase_Era_augmented.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 04:44:14
+ended training at: 04:44:16
+Mean squared error is of 4221718087.1086736
+Mean absolute error:41061.816489914556
+MAPE:0.2740569577228753
+R2 score:0.7824290800469056
+04:44:16
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DataBase_Era_augmented.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 04:44:16
+ended training at: 04:44:18
+Mean squared error is of 4418668846.255395
+Mean absolute error:42862.816079478645
+MAPE:0.2703896722076109
+R2 score:0.7687026597442227
+04:44:18
+------------------------------------------------------------------

@@ -1,0 +1,67 @@
+MLPR Logs:
+
+Saving copy of script...
+In this script only the Era dataset is used
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: Era_Coef_Parish.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 04:56:14
+ended training at: 04:56:15
+Mean squared error is of 0.15720103936335858
+Mean absolute error:0.1959601726256937
+MAPE:0.29911465509581786
+R2 score:0.6745991950081729
+04:56:15
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Era_Coef_Parish.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 04:56:15
+ended training at: 04:56:17
+Mean squared error is of 0.08520920334096892
+Mean absolute error:0.18349508939722445
+MAPE:0.2655441859365129
+R2 score:0.7797462658472997
+04:56:17
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Era_Coef_Parish.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 04:56:17
+ended training at: 04:56:19
+Mean squared error is of 0.0958251012952902
+Mean absolute error:0.1909424951978307
+MAPE:0.25675549643991635
+R2 score:0.7531238191113968
+04:56:19
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Era_Coef_Parish.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 04:56:19
+ended training at: 04:56:20
+Mean squared error is of 0.11796747817320498
+Mean absolute error:0.1919428976853997
+MAPE:0.29302253209159274
+R2 score:0.7208107030270046
+04:56:21
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Era_Coef_Parish.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 04:56:21
+ended training at: 04:56:22
+Mean squared error is of 0.0835923137121295
+Mean absolute error:0.1805656231479185
+MAPE:0.29915742585474614
+R2 score:0.7821593204452227
+04:56:22
+------------------------------------------------------------------

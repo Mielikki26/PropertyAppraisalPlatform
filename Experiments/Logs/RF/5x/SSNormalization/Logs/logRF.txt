@@ -1,0 +1,733 @@
+RF Logs:
+
+Saving copy of script...
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:48:33
+ended training at: 12:48:43
+Feature importance:
+[('Area', 0.3149971073353277), ('Baths', 0.01268200714177374), ('Beds', 0.01155020359890308), ('Latitude', 0.29551095197427574), ('Longitude', 0.26100746353520965), ('Month', 0.02027048695923788), ('Year', 0.08398177945527227)]
+Mean squared error is of 5088136704.356698
+Mean absolute error:47333.9711118441
+MAPE:0.15060701290805611
+R2 score:0.7686800412358135
+12:48:44
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:48:44
+ended training at: 12:48:55
+Feature importance:
+[('Area', 0.3093865129682067), ('Baths', 0.010400685781668528), ('Beds', 0.012175596840839693), ('Latitude', 0.29973759262434), ('Longitude', 0.2630449144411667), ('Month', 0.02026543708733186), ('Year', 0.08498926025644658)]
+Mean squared error is of 5157249407.007966
+Mean absolute error:48207.50288922499
+MAPE:0.16113552799365322
+R2 score:0.7719510682080496
+12:48:56
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:48:56
+ended training at: 12:49:06
+Feature importance:
+[('Area', 0.3070277371979454), ('Baths', 0.012548321328008588), ('Beds', 0.012555540506396502), ('Latitude', 0.30080100564343676), ('Longitude', 0.26260866775931174), ('Month', 0.02077840184533984), ('Year', 0.08368032571956102)]
+Mean squared error is of 4973701132.073312
+Mean absolute error:47828.94395196609
+MAPE:0.15353098609273377
+R2 score:0.7803865601112981
+12:49:07
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:49:07
+ended training at: 12:49:18
+Feature importance:
+[('Area', 0.3068820425607442), ('Baths', 0.012625277785090197), ('Beds', 0.01199331261169082), ('Latitude', 0.29950301856534994), ('Longitude', 0.26622297466447803), ('Month', 0.020600472842178363), ('Year', 0.08217290097046843)]
+Mean squared error is of 5111418291.874281
+Mean absolute error:47966.1912732034
+MAPE:0.1552050805622095
+R2 score:0.7751095130287227
+12:49:19
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:49:19
+ended training at: 12:49:29
+Feature importance:
+[('Area', 0.30725157253589014), ('Baths', 0.012336883647794391), ('Beds', 0.012447484549320523), ('Latitude', 0.29890151921995173), ('Longitude', 0.26321365090892723), ('Month', 0.0207085689833276), ('Year', 0.08514032015478845)]
+Mean squared error is of 5305616213.178343
+Mean absolute error:48386.19941250174
+MAPE:0.15481471627133847
+R2 score:0.7686186794010562
+12:49:30
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:49:30
+ended training at: 12:50:07
+Feature importance:
+[('Area', 0.17201729516949907), ('Baths', 0.34219338576705627), ('Beds', 0.01161391682643332), ('Latitude', 0.23155818519979302), ('Longitude', 0.2223734352526718), ('Month', 0.017804401391524872), ('Year', 0.002439380393021738)]
+Mean squared error is of 1428381892.0203118
+Mean absolute error:25892.05997772677
+MAPE:0.25120138289803084
+R2 score:0.7900384709203314
+12:50:09
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:50:09
+ended training at: 12:50:45
+Feature importance:
+[('Area', 0.17289740116842206), ('Baths', 0.3370070807812831), ('Beds', 0.012348199913507206), ('Latitude', 0.23114018323661725), ('Longitude', 0.22632201955429584), ('Month', 0.017995166473047792), ('Year', 0.0022899488728267033)]
+Mean squared error is of 1427011395.8087716
+Mean absolute error:25791.548665391478
+MAPE:0.24739400751024038
+R2 score:0.7905883351941254
+12:50:47
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:50:47
+ended training at: 12:51:23
+Feature importance:
+[('Area', 0.17697027595632725), ('Baths', 0.33234650666627813), ('Beds', 0.011960138056568495), ('Latitude', 0.23444757138476768), ('Longitude', 0.22399342816412404), ('Month', 0.017851366227681086), ('Year', 0.0024307135442533647)]
+Mean squared error is of 1421955195.4534397
+Mean absolute error:25826.794980147908
+MAPE:0.2505924036370033
+R2 score:0.790352021429242
+12:51:25
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:51:25
+ended training at: 12:52:01
+Feature importance:
+[('Area', 0.17196578793437486), ('Baths', 0.33845102839640057), ('Beds', 0.0117380078927738), ('Latitude', 0.23150839157958775), ('Longitude', 0.22598917256228684), ('Month', 0.01779597155063064), ('Year', 0.0025516400839455987)]
+Mean squared error is of 1447920372.3943539
+Mean absolute error:26004.912148680258
+MAPE:0.24908361866247938
+R2 score:0.7908437574611143
+12:52:02
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:52:03
+ended training at: 12:52:38
+Feature importance:
+[('Area', 0.17411284173487496), ('Baths', 0.33825520511111173), ('Beds', 0.0119987532549124), ('Latitude', 0.23055744881348808), ('Longitude', 0.22481851319074497), ('Month', 0.017826021363511368), ('Year', 0.0024312165313565234)]
+Mean squared error is of 1447877003.5897179
+Mean absolute error:25959.012379487518
+MAPE:0.2534596749973841
+R2 score:0.7879990051251906
+12:52:40
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:52:41
+ended training at: 12:52:52
+Feature importance:
+[('Area', 0.5090306357815272), ('Baths', 0.03903954061421702), ('Beds', 0.024316167081468092), ('Latitude', 0.16949045189125822), ('Longitude', 0.23735490532433196), ('Month', 0.018150013438428567), ('Year', 0.0026182858687689775)]
+Mean squared error is of 722777065.7568492
+Mean absolute error:16930.150078769413
+MAPE:0.20690961761235993
+R2 score:0.8205637042793311
+12:52:53
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:52:53
+ended training at: 12:53:04
+Feature importance:
+[('Area', 0.5099669905197177), ('Baths', 0.03793311946577175), ('Beds', 0.02290436691623696), ('Latitude', 0.16694973267949903), ('Longitude', 0.24213633117763206), ('Month', 0.01767699999105751), ('Year', 0.0024324592500849633)]
+Mean squared error is of 735725145.2794912
+Mean absolute error:17152.642526489
+MAPE:0.20821898147970502
+R2 score:0.8145010009071555
+12:53:05
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:53:05
+ended training at: 12:53:16
+Feature importance:
+[('Area', 0.5095074509884217), ('Baths', 0.03799831229920024), ('Beds', 0.02402861175714968), ('Latitude', 0.15577042780551548), ('Longitude', 0.25201158821579045), ('Month', 0.018081733601346454), ('Year', 0.002601875332575926)]
+Mean squared error is of 743741218.6544217
+Mean absolute error:17255.089900928608
+MAPE:0.2105408873492019
+R2 score:0.8158675895807777
+12:53:17
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:53:17
+ended training at: 12:53:28
+Feature importance:
+[('Area', 0.508811986024893), ('Baths', 0.038411150715492476), ('Beds', 0.022393341899841945), ('Latitude', 0.19134526670526195), ('Longitude', 0.21804045352905882), ('Month', 0.018553067143612906), ('Year', 0.0024447339818387094)]
+Mean squared error is of 751327060.6166975
+Mean absolute error:17315.486546043914
+MAPE:0.20761351724641802
+R2 score:0.8148099916468634
+12:53:29
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:53:29
+ended training at: 12:53:40
+Feature importance:
+[('Area', 0.5039952118345362), ('Baths', 0.04220567717451777), ('Beds', 0.024355931960736325), ('Latitude', 0.15781092909852665), ('Longitude', 0.2506835393695473), ('Month', 0.01847519150117822), ('Year', 0.0024735190609574747)]
+Mean squared error is of 703192151.9083312
+Mean absolute error:16934.68781124462
+MAPE:0.2051474133200003
+R2 score:0.8222489178348453
+12:53:41
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:53:41
+ended training at: 12:54:05
+Feature importance:
+[('Area', 0.05530118888369007), ('Baths', 0.21835778007960743), ('Beds', 0.03813427536578432), ('Latitude', 0.1627064738236114), ('Longitude', 0.2798586529426399), ('Month', 0.014846425156106392), ('Year', 0.2307952037485606)]
+Mean squared error is of 8354375653.867426
+Mean absolute error:59881.51573993225
+MAPE:0.23642276609422233
+R2 score:0.8557130629844105
+12:54:06
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:54:06
+ended training at: 12:54:30
+Feature importance:
+[('Area', 0.05372452280009304), ('Baths', 0.22218532139249395), ('Beds', 0.037203813028748756), ('Latitude', 0.15890244699085745), ('Longitude', 0.28055163545021866), ('Month', 0.014384534807306717), ('Year', 0.23304772553028147)]
+Mean squared error is of 8508706870.265653
+Mean absolute error:60286.35811125194
+MAPE:0.22883471628877355
+R2 score:0.852714083436787
+12:54:31
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:54:31
+ended training at: 12:54:55
+Feature importance:
+[('Area', 0.05423714750306624), ('Baths', 0.22229580438380675), ('Beds', 0.03857944262619078), ('Latitude', 0.15968337862908283), ('Longitude', 0.27516825464190814), ('Month', 0.014685884635301438), ('Year', 0.235350087580644)]
+Mean squared error is of 8451970739.222158
+Mean absolute error:60583.97520441902
+MAPE:0.2347376411376061
+R2 score:0.8559968988136725
+12:54:56
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:54:56
+ended training at: 12:55:20
+Feature importance:
+[('Area', 0.052672134573506287), ('Baths', 0.21883209043588323), ('Beds', 0.039565469290113266), ('Latitude', 0.16072957658510606), ('Longitude', 0.2789882676317701), ('Month', 0.014173800010676484), ('Year', 0.2350386614729447)]
+Mean squared error is of 8780198837.003817
+Mean absolute error:61706.845903205634
+MAPE:0.2413565144708164
+R2 score:0.8504974600574445
+12:55:21
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:55:22
+ended training at: 12:55:45
+Feature importance:
+[('Area', 0.054281869388176904), ('Baths', 0.21840431491160328), ('Beds', 0.04011545773845648), ('Latitude', 0.16339147596766831), ('Longitude', 0.2786501948976087), ('Month', 0.014777581186608319), ('Year', 0.23037910590987806)]
+Mean squared error is of 8166785078.223755
+Mean absolute error:59268.45031044721
+MAPE:0.23211686179509045
+R2 score:0.857397745664597
+12:55:47
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:55:47
+ended training at: 12:55:53
+Feature importance:
+[('Area', 0.3750423257617218), ('Baths', 0.020942533757571553), ('Beds', 0.011774928021119733), ('Latitude', 0.452277622467778), ('Longitude', 0.11715374799608054), ('Month', 0.019496108437235295), ('Year', 0.003312733558493148)]
+Mean squared error is of 5695566219.371864
+Mean absolute error:52790.83080003768
+MAPE:0.14016250684503595
+R2 score:0.81679246200031
+12:55:54
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:55:54
+ended training at: 12:56:00
+Feature importance:
+[('Area', 0.3837657121143982), ('Baths', 0.020198790931518145), ('Beds', 0.011861221790091143), ('Latitude', 0.4457622671360881), ('Longitude', 0.11540983258308332), ('Month', 0.01928758670493437), ('Year', 0.003714588739886743)]
+Mean squared error is of 5553366105.053435
+Mean absolute error:51914.98786419303
+MAPE:0.13902375027510244
+R2 score:0.8212903780251757
+12:56:01
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:56:01
+ended training at: 12:56:07
+Feature importance:
+[('Area', 0.3833840023313771), ('Baths', 0.020439702470493988), ('Beds', 0.011698690426819579), ('Latitude', 0.44483850419747856), ('Longitude', 0.11709224377015354), ('Month', 0.019228371000479905), ('Year', 0.0033184858031973107)]
+Mean squared error is of 5457218690.806319
+Mean absolute error:52072.04687055195
+MAPE:0.14343112471797043
+R2 score:0.8170521488214292
+12:56:08
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:56:08
+ended training at: 12:56:14
+Feature importance:
+[('Area', 0.38283522137074855), ('Baths', 0.019572438265530963), ('Beds', 0.011267572554461047), ('Latitude', 0.447737235748124), ('Longitude', 0.11580179324017544), ('Month', 0.019380209527793072), ('Year', 0.003405529293167117)]
+Mean squared error is of 5569064230.914482
+Mean absolute error:52162.6897967211
+MAPE:0.13732808439458538
+R2 score:0.8167455342947976
+12:56:15
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:56:15
+ended training at: 12:56:21
+Feature importance:
+[('Area', 0.3799876294059681), ('Baths', 0.02066724080306643), ('Beds', 0.011329005345473528), ('Latitude', 0.44949011139026634), ('Longitude', 0.11642602093668529), ('Month', 0.018778339670674542), ('Year', 0.0033216524478657037)]
+Mean squared error is of 5445076923.308878
+Mean absolute error:51636.43654182049
+MAPE:0.13842308417792432
+R2 score:0.819893880791716
+12:56:22
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:56:22
+ended training at: 12:56:25
+Feature importance:
+[('Area', 0.3209918812371493), ('Baths', 0.010647311563834723), ('Beds', 0.036725174166886164), ('Latitude', 0.30927292245102833), ('Longitude', 0.2828497066211622), ('Month', 0.026524457641417726), ('Year', 0.01298854631852142)]
+Mean squared error is of 19177808234.08724
+Mean absolute error:99625.4934152226
+MAPE:0.17348494337064793
+R2 score:0.7636494960674844
+12:56:25
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:56:25
+ended training at: 12:56:28
+Feature importance:
+[('Area', 0.3203332412385757), ('Baths', 0.010826906125051912), ('Beds', 0.03601543919876614), ('Latitude', 0.3096168512932987), ('Longitude', 0.2857098700696194), ('Month', 0.025723984519252178), ('Year', 0.011773707555435992)]
+Mean squared error is of 18914861840.829586
+Mean absolute error:99205.60579762762
+MAPE:0.17013407825656737
+R2 score:0.7694443225740639
+12:56:29
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:56:29
+ended training at: 12:56:32
+Feature importance:
+[('Area', 0.3275670880455371), ('Baths', 0.011716298752264011), ('Beds', 0.03323740421473188), ('Latitude', 0.3087575547240802), ('Longitude', 0.28125127346294554), ('Month', 0.025269268336224948), ('Year', 0.012201112464216485)]
+Mean squared error is of 19459404887.09786
+Mean absolute error:99091.9864933052
+MAPE:0.16861003060245397
+R2 score:0.7666029920095033
+12:56:32
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:56:32
+ended training at: 12:56:35
+Feature importance:
+[('Area', 0.3313224817093072), ('Baths', 0.010613583030328767), ('Beds', 0.03209556080487489), ('Latitude', 0.3032870259916552), ('Longitude', 0.2861055834237205), ('Month', 0.02523253010064428), ('Year', 0.011343234939469107)]
+Mean squared error is of 20488474503.91433
+Mean absolute error:102510.12997240691
+MAPE:0.17875990433147387
+R2 score:0.7535590314883877
+12:56:36
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:56:36
+ended training at: 12:56:39
+Feature importance:
+[('Area', 0.32036104528433546), ('Baths', 0.010475579503871802), ('Beds', 0.035726896931282545), ('Latitude', 0.3126803543702604), ('Longitude', 0.2800900825018474), ('Month', 0.027586460761275914), ('Year', 0.013079580647126571)]
+Mean squared error is of 18717242943.957333
+Mean absolute error:98415.28240630492
+MAPE:0.16844934784282534
+R2 score:0.7774838229283214
+12:56:39
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:56:39
+ended training at: 12:56:40
+Feature importance:
+[('Area', 0.4879792591326814), ('Baths', 0.06376073847739176), ('Beds', 0.037304115851216256), ('Latitude', 0.30037319999582124), ('Longitude', 0.09205145354106613), ('Month', 0.018513756759468432), ('Year', 1.7476242354794765e-05)]
+Mean squared error is of 1883030121.3292167
+Mean absolute error:29001.946471512056
+MAPE:0.27260117679107937
+R2 score:0.7459137096263615
+12:56:40
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:56:40
+ended training at: 12:56:41
+Feature importance:
+[('Area', 0.49589992810367767), ('Baths', 0.05931821749142475), ('Beds', 0.034367133323018356), ('Latitude', 0.30417284871301176), ('Longitude', 0.08972528962452365), ('Month', 0.01651658274434393), ('Year', 0.0)]
+Mean squared error is of 1862709688.0427597
+Mean absolute error:28634.62814647484
+MAPE:0.25304866125924586
+R2 score:0.7308721610285935
+12:56:41
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:56:41
+ended training at: 12:56:42
+Feature importance:
+[('Area', 0.4682685342815239), ('Baths', 0.04472443289937527), ('Beds', 0.035755460857424363), ('Latitude', 0.33653545463563805), ('Longitude', 0.09682066953115677), ('Month', 0.017892112204990804), ('Year', 3.3355898908155926e-06)]
+Mean squared error is of 1934605009.909799
+Mean absolute error:29156.277375667225
+MAPE:0.2552883313696445
+R2 score:0.7465902058280451
+12:56:42
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:56:42
+ended training at: 12:56:43
+Feature importance:
+[('Area', 0.4885231207513641), ('Baths', 0.06824873519026198), ('Beds', 0.03021283471771984), ('Latitude', 0.30014997773611024), ('Longitude', 0.0962041387273278), ('Month', 0.01665531968587832), ('Year', 5.873191337636956e-06)]
+Mean squared error is of 2199148143.8535233
+Mean absolute error:30515.391043725045
+MAPE:0.2513419789316773
+R2 score:0.7024191853522405
+12:56:43
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:56:43
+ended training at: 12:56:44
+Feature importance:
+[('Area', 0.48000286026934186), ('Baths', 0.06124638590662307), ('Beds', 0.03531752387179089), ('Latitude', 0.3064060243745667), ('Longitude', 0.10020272126876574), ('Month', 0.016824484308911758), ('Year', 0.0)]
+Mean squared error is of 2100370800.0783155
+Mean absolute error:31114.05292542317
+MAPE:0.2668427627010141
+R2 score:0.7333325218908766
+12:56:45
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:56:45
+ended training at: 12:56:46
+Feature importance:
+[('Area', 0.1856968495426082), ('Baths', 0.41150386313372334), ('Beds', 0.02320871275975544), ('Latitude', 0.14660830827333413), ('Longitude', 0.1993101912086155), ('Month', 0.03025192590083145), ('Year', 0.0034201491811319327)]
+Mean squared error is of 2671957527.2294044
+Mean absolute error:32200.074064000546
+MAPE:0.30945832390431033
+R2 score:0.6876114061470604
+12:56:47
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:56:47
+ended training at: 12:56:49
+Feature importance:
+[('Area', 0.1736212017573346), ('Baths', 0.42089771516714963), ('Beds', 0.025040405551110007), ('Latitude', 0.15088607818030017), ('Longitude', 0.19294928687864807), ('Month', 0.03330371413216506), ('Year', 0.003301598333292612)]
+Mean squared error is of 2364192643.7145767
+Mean absolute error:31565.889798549546
+MAPE:0.2816117137800141
+R2 score:0.741116514957556
+12:56:49
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:56:49
+ended training at: 12:56:51
+Feature importance:
+[('Area', 0.18984747606256108), ('Baths', 0.40071104070822794), ('Beds', 0.023471839757813164), ('Latitude', 0.1474861219748634), ('Longitude', 0.20475009430410637), ('Month', 0.03096353981187224), ('Year', 0.0027698873805558103)]
+Mean squared error is of 2208132638.956721
+Mean absolute error:31207.669118941176
+MAPE:0.25829120473065853
+R2 score:0.7284554629732611
+12:56:51
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:56:51
+ended training at: 12:56:53
+Feature importance:
+[('Area', 0.1721375870153168), ('Baths', 0.41148839239221685), ('Beds', 0.020521979841985515), ('Latitude', 0.15053135272600082), ('Longitude', 0.21085958811371328), ('Month', 0.03122343060603922), ('Year', 0.00323766930472736)]
+Mean squared error is of 2361969122.5214577
+Mean absolute error:31407.645610680243
+MAPE:0.2838626237897306
+R2 score:0.7159030570807305
+12:56:53
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:56:53
+ended training at: 12:56:55
+Feature importance:
+[('Area', 0.18558203126985906), ('Baths', 0.39081614155879235), ('Beds', 0.026180944567216542), ('Latitude', 0.16356778552390822), ('Longitude', 0.19588023927926246), ('Month', 0.03456445949846321), ('Year', 0.003408398302497962)]
+Mean squared error is of 2255929392.6770706
+Mean absolute error:30566.079089840478
+MAPE:0.26765312182410783
+R2 score:0.7433726406407206
+12:56:55
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:56:55
+ended training at: 12:57:14
+Feature importance:
+[('Area', 0.6938625754241755), ('Baths', 0.01876750003626616), ('Beds', 0.05268488663540557), ('Latitude', 0.12546896009601033), ('Longitude', 0.09503654441437244), ('Month', 0.012897006992248142), ('Year', 0.0012825264015218355)]
+Mean squared error is of 455647988.3008079
+Mean absolute error:13464.636007615194
+MAPE:0.22007612018939537
+R2 score:0.8645332651234136
+12:57:16
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:57:16
+ended training at: 12:57:35
+Feature importance:
+[('Area', 0.695041206410744), ('Baths', 0.019183754759190624), ('Beds', 0.049793595397612404), ('Latitude', 0.1284726365842249), ('Longitude', 0.09297301615019911), ('Month', 0.013247542610518099), ('Year', 0.001288248087510783)]
+Mean squared error is of 458375019.96398705
+Mean absolute error:13514.955022510663
+MAPE:0.21795183978858065
+R2 score:0.866368008354681
+12:57:36
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:57:36
+ended training at: 12:57:55
+Feature importance:
+[('Area', 0.6939302798350784), ('Baths', 0.02011381061939959), ('Beds', 0.047571193768923506), ('Latitude', 0.12608409706559393), ('Longitude', 0.09842218768769677), ('Month', 0.01260337892322657), ('Year', 0.0012750521000813248)]
+Mean squared error is of 454309013.2726633
+Mean absolute error:13402.549944239725
+MAPE:0.21998782292576982
+R2 score:0.8650349940733553
+12:57:56
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:57:57
+ended training at: 12:58:16
+Feature importance:
+[('Area', 0.6927923678283417), ('Baths', 0.01819360882135307), ('Beds', 0.052026607858377656), ('Latitude', 0.12989299567551585), ('Longitude', 0.09286461517241597), ('Month', 0.012940267560626034), ('Year', 0.0012895370833696119)]
+Mean squared error is of 456630528.5927494
+Mean absolute error:13431.387073232558
+MAPE:0.21774889613260892
+R2 score:0.8657979774127268
+12:58:17
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Zameen Property.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:58:17
+ended training at: 12:58:36
+Feature importance:
+[('Area', 0.6944694281518875), ('Baths', 0.01981508091706137), ('Beds', 0.04953581592497336), ('Latitude', 0.12702288335279235), ('Longitude', 0.09470023810262133), ('Month', 0.013210802366607384), ('Year', 0.0012457511840566345)]
+Mean squared error is of 446750923.85331506
+Mean absolute error:13392.443400554308
+MAPE:0.2195873838655451
+R2 score:0.867006789949925
+12:58:38
+------------------------------------------------------------------
+Normalization used is StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 12:58:38
+ended training at: 13:01:00
+Feature importance:
+[('Area', 0.08297114914272354), ('Baths', 0.07918737009352972), ('Beds', 0.009810177361854409), ('Latitude', 0.17124083233652104), ('Longitude', 0.1975435539753063), ('Month', 0.004907400604507185), ('Year', 0.45433951648555787)]
+Mean squared error is of 3622807242.4596086
+Mean absolute error:35520.925549015854
+MAPE:0.23763892398808087
+R2 score:0.9085508250002011
+13:01:05
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 13:01:06
+ended training at: 13:03:28
+Feature importance:
+[('Area', 0.08327327725340423), ('Baths', 0.0787344559221483), ('Beds', 0.010186871400827706), ('Latitude', 0.19069980530952874), ('Longitude', 0.1767277621651682), ('Month', 0.00533759494111525), ('Year', 0.45504023300780755)]
+Mean squared error is of 3601406999.7664976
+Mean absolute error:35452.88154929632
+MAPE:0.2363063102384198
+R2 score:0.9084627577955474
+13:03:32
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 13:03:34
+ended training at: 13:05:56
+Feature importance:
+[('Area', 0.08377283087088866), ('Baths', 0.07864251883593461), ('Beds', 0.010181472755669645), ('Latitude', 0.19110480143995867), ('Longitude', 0.17679179340864795), ('Month', 0.005374874679995494), ('Year', 0.45413170800890496)]
+Mean squared error is of 3583077936.2198524
+Mean absolute error:35427.66584671397
+MAPE:0.23881986285505663
+R2 score:0.9087045383162234
+13:06:01
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 13:06:02
+ended training at: 13:08:26
+Feature importance:
+[('Area', 0.08365409755585337), ('Baths', 0.0783552059902025), ('Beds', 0.009766177045776772), ('Latitude', 0.18058999910272328), ('Longitude', 0.18797694303132725), ('Month', 0.0050589826499140315), ('Year', 0.4545985946242029)]
+Mean squared error is of 3606468308.7382765
+Mean absolute error:35377.53338720252
+MAPE:0.2374127297019478
+R2 score:0.9083329039402922
+13:08:31
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 13:08:32
+ended training at: 13:10:55
+Feature importance:
+[('Area', 0.08187249116146038), ('Baths', 0.07984757296858394), ('Beds', 0.009938686936776174), ('Latitude', 0.17195485406491032), ('Longitude', 0.19653825832460795), ('Month', 0.0049567295629636115), ('Year', 0.45489140698069763)]
+Mean squared error is of 3692090824.624872
+Mean absolute error:35656.66187832172
+MAPE:0.23803565498744275
+R2 score:0.9063186120448117
+13:11:00
+------------------------------------------------------------------

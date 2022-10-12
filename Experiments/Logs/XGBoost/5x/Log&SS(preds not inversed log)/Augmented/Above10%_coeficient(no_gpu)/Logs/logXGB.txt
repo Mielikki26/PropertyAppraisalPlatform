@@ -1,0 +1,570 @@
+XGBoost Logs:
+
+Saving copy of script...
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+max_depth=15
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 11:28:45
+ended training at: 11:29:01
+Mean squared error is of 0.039973231567971466
+Mean absolute error:0.12971264954101033
+MAPE:0.13677769275894164
+R2 score:0.44221520522444036
+11:29:01
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 11:29:01
+ended training at: 11:29:17
+Mean squared error is of 0.042422196633235945
+Mean absolute error:0.1289044216405986
+MAPE:0.1374338265856244
+R2 score:0.4323644314785473
+11:29:18
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 11:29:18
+ended training at: 11:29:34
+Mean squared error is of 0.039099937450248194
+Mean absolute error:0.12775522162088515
+MAPE:0.13470285636771248
+R2 score:0.42409969581791407
+11:29:34
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 11:29:34
+ended training at: 11:29:50
+Mean squared error is of 0.03784480522873416
+Mean absolute error:0.12889920427759663
+MAPE:0.13710390389982938
+R2 score:0.4440400865775972
+11:29:51
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 11:29:51
+ended training at: 11:30:07
+Mean squared error is of 0.038200265373997025
+Mean absolute error:0.12841033492841425
+MAPE:0.13739343772360377
+R2 score:0.4505092908336876
+11:30:07
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+max_depth=15
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 11:31:11
+ended training at: 11:33:56
+Mean squared error is of 0.046926923970158435
+Mean absolute error:0.15459695221934466
+MAPE:0.16480033023187743
+R2 score:0.3866384222672584
+11:33:57
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 11:33:58
+ended training at: 11:36:43
+Mean squared error is of 0.047827603955625415
+Mean absolute error:0.15246959483283434
+MAPE:0.1620510560836588
+R2 score:0.36246468243409946
+11:36:44
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 11:36:45
+ended training at: 11:39:31
+Mean squared error is of 0.04712414097424958
+Mean absolute error:0.1542287639701851
+MAPE:0.16530084093293507
+R2 score:0.37853073767088974
+11:39:32
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 11:39:33
+ended training at: 11:42:19
+Mean squared error is of 0.052172335420573326
+Mean absolute error:0.1560767817133685
+MAPE:0.16659447357229598
+R2 score:0.33957620914815145
+11:42:20
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 11:42:20
+ended training at: 11:45:08
+Mean squared error is of 0.050328866953287636
+Mean absolute error:0.15355005802660285
+MAPE:0.16450297423346058
+R2 score:0.368401664666555
+11:45:09
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+max_depth=15
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 11:45:11
+ended training at: 11:45:17
+Mean squared error is of 0.060422171132635955
+Mean absolute error:0.15815264741773785
+MAPE:0.16733186051590077
+R2 score:0.3023176572796168
+11:45:18
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 11:45:18
+ended training at: 11:45:24
+Mean squared error is of 0.07394454727872972
+Mean absolute error:0.1571525898863167
+MAPE:0.1672599390588309
+R2 score:0.3072997838447006
+11:45:24
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 11:45:25
+ended training at: 11:45:31
+Mean squared error is of 0.05763725239409357
+Mean absolute error:0.15740011809605414
+MAPE:0.16907278722334312
+R2 score:0.3800321998614411
+11:45:31
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 11:45:31
+ended training at: 11:45:38
+Mean squared error is of 0.05281097954867689
+Mean absolute error:0.15741407238288782
+MAPE:0.17082639787106207
+R2 score:0.4031984171198387
+11:45:38
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 11:45:38
+ended training at: 11:45:45
+Mean squared error is of 0.07326075604230263
+Mean absolute error:0.15705781778162173
+MAPE:0.16663167378604038
+R2 score:0.3601421129252924
+11:45:45
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+max_depth=15
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 11:45:47
+ended training at: 11:45:49
+Mean squared error is of 0.05934680500053405
+Mean absolute error:0.15227481687040606
+MAPE:0.1746521394232524
+R2 score:0.8669977302010934
+11:45:50
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 11:45:50
+ended training at: 11:45:52
+Mean squared error is of 0.06472401292339097
+Mean absolute error:0.15618786826470715
+MAPE:0.18148746308435593
+R2 score:0.8703826600648465
+11:45:52
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 11:45:52
+ended training at: 11:45:54
+Mean squared error is of 0.060492174262381
+Mean absolute error:0.15271540955040028
+MAPE:0.18092917968250877
+R2 score:0.8759363007465807
+11:45:55
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 11:45:55
+ended training at: 11:45:57
+Mean squared error is of 0.06109073026149232
+Mean absolute error:0.15562195170510473
+MAPE:0.1897725627406218
+R2 score:0.8647473752604335
+11:45:57
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 11:45:57
+ended training at: 11:45:59
+Mean squared error is of 0.06449654446959449
+Mean absolute error:0.15497226363199523
+MAPE:0.18009042205901293
+R2 score:0.8762924272039901
+11:46:00
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+max_depth=15
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 11:46:00
+ended training at: 11:46:01
+Mean squared error is of 0.04393305884966577
+Mean absolute error:0.14392747895365032
+MAPE:0.15004795728602155
+R2 score:0.3808808723442205
+11:46:01
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 11:46:01
+ended training at: 11:46:02
+Mean squared error is of 0.043055333119589694
+Mean absolute error:0.14395101655139575
+MAPE:0.14744848756396758
+R2 score:0.3469987514959636
+11:46:03
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 11:46:03
+ended training at: 11:46:04
+Mean squared error is of 0.04460480181839079
+Mean absolute error:0.14909997363516378
+MAPE:0.15329117430284828
+R2 score:0.3239945809552991
+11:46:04
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 11:46:04
+ended training at: 11:46:05
+Mean squared error is of 0.04336672217310555
+Mean absolute error:0.14558928504248406
+MAPE:0.14910544505649087
+R2 score:0.3642903551579669
+11:46:05
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 11:46:05
+ended training at: 11:46:06
+Mean squared error is of 0.0478247925998266
+Mean absolute error:0.15516636089549785
+MAPE:0.15529424038070969
+R2 score:0.35041681641133926
+11:46:07
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+max_depth=15
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 11:46:07
+ended training at: 11:46:14
+Mean squared error is of 0.055484541795491324
+Mean absolute error:0.16191560889553774
+MAPE:0.16284708240880258
+R2 score:0.4431033104015897
+11:46:14
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 11:46:14
+ended training at: 11:46:21
+Mean squared error is of 0.04932845912116968
+Mean absolute error:0.15803633166719766
+MAPE:0.16308500569548517
+R2 score:0.4232142245945354
+11:46:21
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 11:46:21
+ended training at: 11:46:28
+Mean squared error is of 0.051571561102114874
+Mean absolute error:0.16055217755823978
+MAPE:0.16417751176528378
+R2 score:0.35277332375479675
+11:46:28
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 11:46:28
+ended training at: 11:46:35
+Mean squared error is of 0.05729552594118389
+Mean absolute error:0.16848349780890423
+MAPE:0.17061361583324083
+R2 score:0.4045383819013788
+11:46:35
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 11:46:36
+ended training at: 11:46:42
+Mean squared error is of 0.049928736843109764
+Mean absolute error:0.16164523168116302
+MAPE:0.16264566166830854
+R2 score:0.4759995386053534
+11:46:42
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+max_depth=15
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 11:46:43
+ended training at: 11:46:43
+Mean squared error is of 0.08788567458495193
+Mean absolute error:0.18365680444466162
+MAPE:0.20401538051862483
+R2 score:0.10248094530522722
+11:46:43
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 11:46:43
+ended training at: 11:46:44
+Mean squared error is of 0.07446950518155798
+Mean absolute error:0.1879120927746537
+MAPE:0.2132638046757016
+R2 score:0.24709205920920474
+11:46:44
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 11:46:44
+ended training at: 11:46:44
+Mean squared error is of 0.0869519238932834
+Mean absolute error:0.19351429521655725
+MAPE:0.18824472230979972
+R2 score:0.11430092394982205
+11:46:44
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 11:46:44
+ended training at: 11:46:45
+Mean squared error is of 0.07170336357557514
+Mean absolute error:0.19195947894829218
+MAPE:0.22360979824386545
+R2 score:-0.0773952016277124
+11:46:45
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 11:46:45
+ended training at: 11:46:46
+Mean squared error is of 0.07039311777913208
+Mean absolute error:0.1752870618374084
+MAPE:0.18826599053218843
+R2 score:0.2358918355026235
+11:46:46
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+max_depth=15
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 11:46:46
+ended training at: 11:46:47
+Mean squared error is of 0.05318591549182115
+Mean absolute error:0.16206547253213952
+MAPE:0.180514173097251
+R2 score:0.4057927629752308
+11:46:47
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 11:46:47
+ended training at: 11:46:48
+Mean squared error is of 0.05378997762940193
+Mean absolute error:0.156816919644469
+MAPE:0.16335787966252227
+R2 score:0.4286780436948019
+11:46:49
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 11:46:49
+ended training at: 11:46:50
+Mean squared error is of 0.04680647322142584
+Mean absolute error:0.15146740613653784
+MAPE:0.16890365266000984
+R2 score:0.453836372560821
+11:46:50
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 11:46:50
+ended training at: 11:46:51
+Mean squared error is of 0.051386295725281896
+Mean absolute error:0.15696062677419123
+MAPE:0.1741105094385227
+R2 score:0.41805545434641833
+11:46:52
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 11:46:52
+ended training at: 11:46:53
+Mean squared error is of 0.0507966997397651
+Mean absolute error:0.1576090287056559
+MAPE:0.17607376309215572
+R2 score:0.4096420890696222
+11:46:53
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+max_depth=15
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 11:51:24
+ended training at: 12:03:10
+Mean squared error is of 0.05586787161349276
+Mean absolute error:0.1638625831212349
+MAPE:0.17671617237250337
+R2 score:0.5297863634038915
+12:03:14
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 12:03:17
+ended training at: 12:14:58
+Mean squared error is of 0.058334378410083376
+Mean absolute error:0.16465290156369153
+MAPE:0.17729346311058009
+R2 score:0.5291636202353452
+12:15:01
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 12:15:03
+ended training at: 12:26:41
+Mean squared error is of 0.05726710773311038
+Mean absolute error:0.1648950710245515
+MAPE:0.17777601371510451
+R2 score:0.5439155125994979
+12:26:45
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 12:26:47
+ended training at: 12:38:21
+Mean squared error is of 0.056414419231397395
+Mean absolute error:0.16508869421221042
+MAPE:0.1785104280111697
+R2 score:0.5440639098204898
+12:38:24
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 12:38:27
+ended training at: 12:50:07
+Mean squared error is of 0.05523411600281842
+Mean absolute error:0.16424677460403378
+MAPE:0.17711933320396894
+R2 score:0.5542363408330824
+12:50:10
+------------------------------------------------------------------

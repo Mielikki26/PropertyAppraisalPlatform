@@ -1,0 +1,579 @@
+RF Logs:
+
+Saving copy of script...
+USUALLY THE CATEGORICAL FEATURES WOULD HAVE BEEN ONE HOT ENCODED, DUE TO HOW SLOW THE TRAINING PROCESS BECOMES, Label Encoding was used instead
+Normalization used is Log & StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 01:01:00
+ended training at: 01:01:14
+Mean squared error is of 0.039168359568102766
+Mean absolute error:0.1304221633332261
+MAPE:0.13947846290611898
+R2 score:0.4600594044691302
+01:01:15
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:01:15
+ended training at: 01:01:27
+Mean squared error is of 0.03954198131121855
+Mean absolute error:0.1302723018061903
+MAPE:0.13882141265564557
+R2 score:0.3807061177488723
+01:01:28
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 01:01:28
+ended training at: 01:01:41
+Mean squared error is of 0.041617295087194695
+Mean absolute error:0.1330455187284715
+MAPE:0.14208010827154818
+R2 score:0.41044238987332393
+01:01:41
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 01:01:42
+ended training at: 01:01:54
+Mean squared error is of 0.046201536921875425
+Mean absolute error:0.13300457237881638
+MAPE:0.14102492527438273
+R2 score:0.40393283751477604
+01:01:55
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 01:01:55
+ended training at: 01:02:08
+Mean squared error is of 0.03581266912313775
+Mean absolute error:0.12965678762194582
+MAPE:0.14009184105810057
+R2 score:0.408861190336557
+01:02:08
+------------------------------------------------------------------
+USUALLY THE CATEGORICAL FEATURES WOULD HAVE BEEN ONE HOT ENCODED, DUE TO HOW SLOW THE TRAINING PROCESS BECOMES, Label Encoding was used instead
+Normalization used is Log & StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 01:03:09
+ended training at: 01:03:36
+Mean squared error is of 0.05484679184063595
+Mean absolute error:0.16507822462825442
+MAPE:0.17892749909676514
+R2 score:0.326352318515548
+01:03:37
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:03:37
+ended training at: 01:04:04
+Mean squared error is of 0.05613888384858701
+Mean absolute error:0.1658279374260386
+MAPE:0.17919697761477069
+R2 score:0.30777735639933246
+01:04:05
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 01:04:05
+ended training at: 01:04:32
+Mean squared error is of 0.049981902630092535
+Mean absolute error:0.1634694528538378
+MAPE:0.17681432578208323
+R2 score:0.33715479202001697
+01:04:33
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 01:04:34
+ended training at: 01:05:00
+Mean squared error is of 0.050145657508186295
+Mean absolute error:0.16453371550828333
+MAPE:0.1790329570404143
+R2 score:0.3306313902645922
+01:05:01
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 01:05:02
+ended training at: 01:05:28
+Mean squared error is of 0.05280212613841162
+Mean absolute error:0.16521209694180616
+MAPE:0.1783992861150467
+R2 score:0.32059698416975324
+01:05:30
+------------------------------------------------------------------
+USUALLY THE CATEGORICAL FEATURES WOULD HAVE BEEN ONE HOT ENCODED, DUE TO HOW SLOW THE TRAINING PROCESS BECOMES, Label Encoding was used instead
+Normalization used is Log & StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 01:05:31
+ended training at: 01:05:37
+Mean squared error is of 0.054216368954322254
+Mean absolute error:0.16062757045781434
+MAPE:0.17384701114763554
+R2 score:0.41143307097332904
+01:05:37
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:05:37
+ended training at: 01:05:42
+Mean squared error is of 0.05264406760691838
+Mean absolute error:0.15944209309894974
+MAPE:0.17015487233735035
+R2 score:0.38965187508139676
+01:05:43
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 01:05:43
+ended training at: 01:05:48
+Mean squared error is of 0.04834231647704401
+Mean absolute error:0.15573302291594063
+MAPE:0.16872851833097066
+R2 score:0.41213859407048914
+01:05:48
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 01:05:49
+ended training at: 01:05:54
+Mean squared error is of 0.07211807933287508
+Mean absolute error:0.1597450319698199
+MAPE:0.17037359317772838
+R2 score:0.33255939786045274
+01:05:54
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 01:05:54
+ended training at: 01:05:59
+Mean squared error is of 0.05970620340832217
+Mean absolute error:0.15843207238722679
+MAPE:0.16735126627230645
+R2 score:0.3873014889611983
+01:06:00
+------------------------------------------------------------------
+USUALLY THE CATEGORICAL FEATURES WOULD HAVE BEEN ONE HOT ENCODED, DUE TO HOW SLOW THE TRAINING PROCESS BECOMES, Label Encoding was used instead
+Normalization used is Log & StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 01:06:02
+ended training at: 01:06:09
+Mean squared error is of 0.055056647313290276
+Mean absolute error:0.14735057329891946
+MAPE:0.17419624057448307
+R2 score:0.885728408275246
+01:06:09
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:06:09
+ended training at: 01:06:16
+Mean squared error is of 0.061779177709721377
+Mean absolute error:0.15329714020486984
+MAPE:0.18081346788209424
+R2 score:0.8765279208379874
+01:06:17
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 01:06:17
+ended training at: 01:06:24
+Mean squared error is of 0.05892108131087056
+Mean absolute error:0.1495352927547436
+MAPE:0.17723595830215227
+R2 score:0.8732197078223581
+01:06:24
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 01:06:24
+ended training at: 01:06:31
+Mean squared error is of 0.07180453485884979
+Mean absolute error:0.1575165772743785
+MAPE:0.18207364685677965
+R2 score:0.857058833324498
+01:06:32
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 01:06:32
+ended training at: 01:06:39
+Mean squared error is of 0.05601264185415979
+Mean absolute error:0.14863791663165984
+MAPE:0.17620219844225998
+R2 score:0.8733287797412161
+01:06:40
+------------------------------------------------------------------
+USUALLY THE CATEGORICAL FEATURES WOULD HAVE BEEN ONE HOT ENCODED, DUE TO HOW SLOW THE TRAINING PROCESS BECOMES, Label Encoding was used instead
+Normalization used is Log & StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 01:06:40
+ended training at: 01:06:42
+Mean squared error is of 0.033855809146401385
+Mean absolute error:0.13303314563876764
+MAPE:0.13933148920271204
+R2 score:0.4523169217571116
+01:06:42
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:06:42
+ended training at: 01:06:45
+Mean squared error is of 0.03865078018748346
+Mean absolute error:0.13357220558587846
+MAPE:0.1384023437703432
+R2 score:0.41712166166318987
+01:06:45
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 01:06:45
+ended training at: 01:06:47
+Mean squared error is of 0.03807825159472815
+Mean absolute error:0.13654670983054357
+MAPE:0.14169883330624936
+R2 score:0.4256734758388756
+01:06:47
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 01:06:47
+ended training at: 01:06:50
+Mean squared error is of 0.03726799922118644
+Mean absolute error:0.13865828919448114
+MAPE:0.14177459621543623
+R2 score:0.4554971991060198
+01:06:50
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 01:06:50
+ended training at: 01:06:52
+Mean squared error is of 0.032692959894663996
+Mean absolute error:0.13122273939526882
+MAPE:0.13654682464370038
+R2 score:0.4823857800293635
+01:06:53
+------------------------------------------------------------------
+USUALLY THE CATEGORICAL FEATURES WOULD HAVE BEEN ONE HOT ENCODED, DUE TO HOW SLOW THE TRAINING PROCESS BECOMES, Label Encoding was used instead
+Normalization used is Log & StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 01:06:53
+ended training at: 01:06:58
+Mean squared error is of 0.049346721155192445
+Mean absolute error:0.158050251546805
+MAPE:0.16317887627622532
+R2 score:0.43236048729318455
+01:06:58
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:06:58
+ended training at: 01:07:02
+Mean squared error is of 0.04687789517449353
+Mean absolute error:0.15808476966945179
+MAPE:0.16465919759047493
+R2 score:0.4955701623987857
+01:07:02
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 01:07:03
+ended training at: 01:07:07
+Mean squared error is of 0.04805315418810859
+Mean absolute error:0.15909117432014894
+MAPE:0.16499712116781676
+R2 score:0.4552231588923691
+01:07:07
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 01:07:07
+ended training at: 01:07:11
+Mean squared error is of 0.047118897637201125
+Mean absolute error:0.15913128880506072
+MAPE:0.164624295742086
+R2 score:0.40845582026085525
+01:07:12
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 01:07:12
+ended training at: 01:07:16
+Mean squared error is of 0.050077177810192885
+Mean absolute error:0.15594986738309585
+MAPE:0.1611028125331732
+R2 score:0.5348599795055515
+01:07:16
+------------------------------------------------------------------
+USUALLY THE CATEGORICAL FEATURES WOULD HAVE BEEN ONE HOT ENCODED, DUE TO HOW SLOW THE TRAINING PROCESS BECOMES, Label Encoding was used instead
+Normalization used is Log & StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 01:07:16
+ended training at: 01:07:17
+Mean squared error is of 0.06464831694544981
+Mean absolute error:0.17847738620922046
+MAPE:0.21128241987431484
+R2 score:0.284075601021172
+01:07:17
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:07:17
+ended training at: 01:07:18
+Mean squared error is of 0.06126484662728901
+Mean absolute error:0.17879707642995216
+MAPE:0.19704133781111463
+R2 score:0.32475943178306343
+01:07:18
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 01:07:18
+ended training at: 01:07:19
+Mean squared error is of 0.06796259945009808
+Mean absolute error:0.1789122055094277
+MAPE:0.18421163264132867
+R2 score:0.33313109828113063
+01:07:19
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 01:07:19
+ended training at: 01:07:19
+Mean squared error is of 0.061753911260938155
+Mean absolute error:0.1738332216841259
+MAPE:0.20704226180831806
+R2 score:0.16512823072709903
+01:07:20
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 01:07:20
+ended training at: 01:07:20
+Mean squared error is of 0.06709978306651347
+Mean absolute error:0.1741588417566337
+MAPE:0.18489005058816377
+R2 score:0.23120303573062628
+01:07:21
+------------------------------------------------------------------
+USUALLY THE CATEGORICAL FEATURES WOULD HAVE BEEN ONE HOT ENCODED, DUE TO HOW SLOW THE TRAINING PROCESS BECOMES, Label Encoding was used instead
+Normalization used is Log & StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 01:07:21
+ended training at: 01:07:23
+Mean squared error is of 0.05290913074919601
+Mean absolute error:0.15935195139051717
+MAPE:0.17513960923539307
+R2 score:0.39649353796577935
+01:07:23
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:07:23
+ended training at: 01:07:25
+Mean squared error is of 0.04592358816035135
+Mean absolute error:0.15362050857172446
+MAPE:0.1734773479639232
+R2 score:0.43642581312431017
+01:07:26
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 01:07:26
+ended training at: 01:07:28
+Mean squared error is of 0.04504744012220828
+Mean absolute error:0.1496049550002458
+MAPE:0.16411700996286718
+R2 score:0.4736786664081306
+01:07:28
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 01:07:28
+ended training at: 01:07:30
+Mean squared error is of 0.04740159877413781
+Mean absolute error:0.15199963333883182
+MAPE:0.1634951602066445
+R2 score:0.450604114897347
+01:07:30
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 01:07:30
+ended training at: 01:07:32
+Mean squared error is of 0.055271006295265206
+Mean absolute error:0.1619315451733848
+MAPE:0.18061400410449616
+R2 score:0.3729248044858017
+01:07:32
+------------------------------------------------------------------
+USUALLY THE CATEGORICAL FEATURES WOULD HAVE BEEN ONE HOT ENCODED, DUE TO HOW SLOW THE TRAINING PROCESS BECOMES, Label Encoding was used instead
+Normalization used is Log & StandardScaler
+RANDOM FOREST LOGS WITH FOLLOWING PARAMS:
+{'n_estimators': [200], 'max_features': ['auto'], 'max_depth': [16]}
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 01:11:56
+ended training at: 01:12:52
+Mean squared error is of 0.05750105267226551
+Mean absolute error:0.1684569754669286
+MAPE:0.18363863552154777
+R2 score:0.5358746588401342
+01:12:54
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 01:12:54
+ended training at: 01:13:50
+Mean squared error is of 0.05741720734407401
+Mean absolute error:0.16740105581662437
+MAPE:0.18249184659348328
+R2 score:0.5364589759001945
+01:13:52
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 01:13:53
+ended training at: 01:14:48
+Mean squared error is of 0.05729285505862469
+Mean absolute error:0.16828490211879168
+MAPE:0.18268836295204713
+R2 score:0.5438091811715002
+01:14:50
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 01:14:51
+ended training at: 01:15:47
+Mean squared error is of 0.056342442760242646
+Mean absolute error:0.16892721982875922
+MAPE:0.18388571819177105
+R2 score:0.5305318764213007
+01:15:49
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 01:15:50
+ended training at: 01:16:46
+Mean squared error is of 0.05876243439398039
+Mean absolute error:0.16909569493801294
+MAPE:0.1837075235326133
+R2 score:0.5206656460986422
+01:16:48
+------------------------------------------------------------------

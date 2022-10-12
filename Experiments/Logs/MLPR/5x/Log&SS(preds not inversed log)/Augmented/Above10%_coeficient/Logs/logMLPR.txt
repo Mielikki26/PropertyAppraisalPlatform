@@ -1,0 +1,570 @@
+MLPR Logs:
+
+Saving copy of script...
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 02:25:59
+ended training at: 02:26:01
+Mean squared error is of 0.04069000160974664
+Mean absolute error:0.137998687603379
+MAPE:0.1510003749114389
+R2 score:0.3600366795057397
+02:26:02
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 02:26:02
+ended training at: 02:26:03
+Mean squared error is of 0.04449359757885846
+Mean absolute error:0.1367917515744687
+MAPE:0.14518377982721067
+R2 score:0.37399832169160885
+02:26:04
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 02:26:04
+ended training at: 02:26:05
+Mean squared error is of 0.043259506127589345
+Mean absolute error:0.1388904498514489
+MAPE:0.15277301587521525
+R2 score:0.35342656259510397
+02:26:06
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 02:26:06
+ended training at: 02:26:07
+Mean squared error is of 0.04689325253346595
+Mean absolute error:0.13960173287549366
+MAPE:0.1487263788617174
+R2 score:0.3438215453325858
+02:26:08
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all perth.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 02:26:08
+ended training at: 02:26:09
+Mean squared error is of 0.04418360197349558
+Mean absolute error:0.13871321795861494
+MAPE:0.15100835718578315
+R2 score:0.34012481409160067
+02:26:10
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 02:27:14
+ended training at: 02:27:39
+Mean squared error is of 0.06367274456371651
+Mean absolute error:0.18482377043300044
+MAPE:0.2003015328120516
+R2 score:0.18316255247606406
+02:27:40
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 02:27:41
+ended training at: 02:28:04
+Mean squared error is of 0.06288009326090555
+Mean absolute error:0.18639931661604395
+MAPE:0.20357163929566363
+R2 score:0.18804935943588752
+02:28:05
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 02:28:06
+ended training at: 02:28:27
+Mean squared error is of 0.06345378251498064
+Mean absolute error:0.18582644238817422
+MAPE:0.19900776144546103
+R2 score:0.19326665187692293
+02:28:28
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 02:28:29
+ended training at: 02:28:43
+Mean squared error is of 0.061338388032425126
+Mean absolute error:0.18570436816857452
+MAPE:0.20331571141019347
+R2 score:0.19817644590079897
+02:28:44
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: ar properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 02:28:45
+ended training at: 02:29:06
+Mean squared error is of 0.06497255555289742
+Mean absolute error:0.18581112353988224
+MAPE:0.19811135221254947
+R2 score:0.17781704395468312
+02:29:07
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 02:29:10
+ended training at: 02:29:10
+Mean squared error is of 0.09091084413605575
+Mean absolute error:0.18472960440223873
+MAPE:0.19011649682316242
+R2 score:0.21084972115171563
+02:29:11
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 02:29:11
+ended training at: 02:29:11
+Mean squared error is of 0.0658482158702393
+Mean absolute error:0.18409234323633056
+MAPE:0.19471038621919892
+R2 score:0.28060572801009387
+02:29:12
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 02:29:12
+ended training at: 02:29:12
+Mean squared error is of 0.08100046371105205
+Mean absolute error:0.18523416092390843
+MAPE:0.20269092188440102
+R2 score:0.23564289631821733
+02:29:12
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 02:29:13
+ended training at: 02:29:13
+Mean squared error is of 0.06255027808625782
+Mean absolute error:0.1808240121973357
+MAPE:0.19161118094373436
+R2 score:0.26001418138493904
+02:29:13
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: co properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 02:29:13
+ended training at: 02:29:14
+Mean squared error is of 0.06118154606860122
+Mean absolute error:0.18428245699636356
+MAPE:0.20089794961735136
+R2 score:0.266959876690989
+02:29:14
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 02:29:16
+ended training at: 02:29:17
+Mean squared error is of 0.07606870939379591
+Mean absolute error:0.18081281641111674
+MAPE:0.21827402315643735
+R2 score:0.8368020717047675
+02:29:17
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 02:29:17
+ended training at: 02:29:18
+Mean squared error is of 0.09184105897935313
+Mean absolute error:0.18261282556651512
+MAPE:0.21222069474288746
+R2 score:0.8199079317880078
+02:29:19
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 02:29:19
+ended training at: 02:29:19
+Mean squared error is of 0.09286842532694964
+Mean absolute error:0.19285876706215987
+MAPE:0.2316265757969717
+R2 score:0.812698877976988
+02:29:19
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 02:29:19
+ended training at: 02:29:20
+Mean squared error is of 0.09294900912295408
+Mean absolute error:0.193703794572518
+MAPE:0.23698707507739186
+R2 score:0.8168191756346281
+02:29:21
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DC Properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 02:29:21
+ended training at: 02:29:21
+Mean squared error is of 0.08590700949439471
+Mean absolute error:0.1939911966374193
+MAPE:0.24515854939983517
+R2 score:0.8085888896300791
+02:29:21
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 02:29:22
+ended training at: 02:29:22
+Mean squared error is of 0.034128426088171376
+Mean absolute error:0.13797409929896118
+MAPE:0.14530227969509155
+R2 score:0.4516953023694831
+02:29:22
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 02:29:22
+ended training at: 02:29:22
+Mean squared error is of 0.03879649881195121
+Mean absolute error:0.14400407176312818
+MAPE:0.14361332249507627
+R2 score:0.42084301495437626
+02:29:23
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 02:29:23
+ended training at: 02:29:23
+Mean squared error is of 0.04062460192082778
+Mean absolute error:0.14337383009080198
+MAPE:0.14691821576337555
+R2 score:0.41678585288537573
+02:29:23
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 02:29:23
+ended training at: 02:29:23
+Mean squared error is of 0.040721976087314066
+Mean absolute error:0.14282789078135674
+MAPE:0.14483269376728958
+R2 score:0.4036745213945725
+02:29:24
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: kc house data.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 02:29:24
+ended training at: 02:29:24
+Mean squared error is of 0.03654693557632641
+Mean absolute error:0.1404211057069093
+MAPE:0.14587811271084536
+R2 score:0.44754304046472826
+02:29:24
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 02:29:25
+ended training at: 02:29:25
+Mean squared error is of 0.057518251529725055
+Mean absolute error:0.1653409531542473
+MAPE:0.16987335902767695
+R2 score:0.33610786341913823
+02:29:26
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 02:29:26
+ended training at: 02:29:26
+Mean squared error is of 0.06833037277113158
+Mean absolute error:0.16750709989159174
+MAPE:0.1650450874827606
+R2 score:0.23528142604555713
+02:29:27
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 02:29:27
+ended training at: 02:29:27
+Mean squared error is of 0.058527478841540186
+Mean absolute error:0.16573680699267734
+MAPE:0.166385444983203
+R2 score:0.4015209732112608
+02:29:28
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 02:29:28
+ended training at: 02:29:28
+Mean squared error is of 0.06718914242596295
+Mean absolute error:0.16745246606673636
+MAPE:0.16721612664131386
+R2 score:0.2647429569365588
+02:29:28
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: Melbourne housing.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 02:29:28
+ended training at: 02:29:29
+Mean squared error is of 0.06920675450142279
+Mean absolute error:0.16805332723012636
+MAPE:0.16902999641694375
+R2 score:0.26674210980077895
+02:29:29
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 02:29:29
+ended training at: 02:29:29
+Mean squared error is of 0.09157053832529902
+Mean absolute error:0.2046030457749706
+MAPE:0.21941875121000556
+R2 score:0.0029136984389184217
+02:29:30
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 02:29:30
+ended training at: 02:29:30
+Mean squared error is of 0.07211368695786427
+Mean absolute error:0.1911712234104974
+MAPE:0.21676748256138703
+R2 score:0.06584935165237316
+02:29:30
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 02:29:30
+ended training at: 02:29:30
+Mean squared error is of 0.08940296127379464
+Mean absolute error:0.20051982167905755
+MAPE:0.20546651080590306
+R2 score:0.04284306515811409
+02:29:30
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 02:29:30
+ended training at: 02:29:31
+Mean squared error is of 0.08037113788460996
+Mean absolute error:0.19878202873966688
+MAPE:0.21098677626612772
+R2 score:0.14724230579613595
+02:29:31
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: pe properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 02:29:31
+ended training at: 02:29:31
+Mean squared error is of 0.08314344677039848
+Mean absolute error:0.20581373513293127
+MAPE:0.23381774982813655
+R2 score:0.06285129574356985
+02:29:31
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 02:29:32
+ended training at: 02:29:32
+Mean squared error is of 0.06283528362968904
+Mean absolute error:0.17344929288052183
+MAPE:0.18709987873351686
+R2 score:0.36139265649792685
+02:29:32
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 02:29:32
+ended training at: 02:29:32
+Mean squared error is of 0.06863228102022054
+Mean absolute error:0.17780071307626644
+MAPE:0.18676527342265178
+R2 score:0.32978490296285823
+02:29:33
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 02:29:33
+ended training at: 02:29:33
+Mean squared error is of 0.058715857953788975
+Mean absolute error:0.16543459683404943
+MAPE:0.17952662458962831
+R2 score:0.33580947801832817
+02:29:33
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 02:29:33
+ended training at: 02:29:33
+Mean squared error is of 0.058528525774673795
+Mean absolute error:0.17086730013516915
+MAPE:0.18407428252369004
+R2 score:0.3223056441911468
+02:29:34
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: uy properties.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 02:29:34
+ended training at: 02:29:34
+Mean squared error is of 0.053514377623785525
+Mean absolute error:0.16943084263317987
+MAPE:0.19355895518334396
+R2 score:0.3671758361658617
+02:29:34
+------------------------------------------------------------------
+Normalization used is Log & StandardScaler
+MLPR SKLEARN LOGS WITH FOLLOWING PARAMS:
+{'activation': ['logistic'], 'solver': ['adam'], 'learning_rate': ['adaptive'], 'learning_rate_init': [0.1], 'max_iter': [100], 'hidden_layer_sizes': [(4,)], 'early_stoppping': [True], 'validation_fraction': [0.1]}
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 02:34:07
+ended training at: 02:34:58
+Mean squared error is of 0.07490989973922425
+Mean absolute error:0.18722449360352986
+MAPE:0.20599717148890023
+R2 score:0.41188612047289974
+02:35:00
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 02:35:03
+ended training at: 02:36:46
+Mean squared error is of 0.07278818972291491
+Mean absolute error:0.18678404355123301
+MAPE:0.20377483188844533
+R2 score:0.4117161405777874
+02:36:49
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 02:36:51
+ended training at: 02:37:38
+Mean squared error is of 0.07240324512543003
+Mean absolute error:0.1858456756240042
+MAPE:0.20766478451496181
+R2 score:0.42656164931177276
+02:37:40
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 02:37:42
+ended training at: 02:38:39
+Mean squared error is of 0.06831130907555466
+Mean absolute error:0.1875154941620155
+MAPE:0.2104535976423324
+R2 score:0.4237547702054244
+02:38:41
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: all_datasets
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 02:38:43
+ended training at: 02:39:30
+Mean squared error is of 0.07305706556692913
+Mean absolute error:0.18602339445043167
+MAPE:0.1992293732298552
+R2 score:0.40900135194675924
+02:39:32
+------------------------------------------------------------------

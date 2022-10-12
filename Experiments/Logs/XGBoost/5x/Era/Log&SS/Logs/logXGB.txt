@@ -1,0 +1,67 @@
+XGBoost Logs:
+
+Saving copy of script...
+In this script only the Era dataset is used
+Normalization used is Log & StandardScaler
+XGBoost LOGS WITH FOLLOWING PARAMS:
+{'max_depth': 15, 'tree_method': 'gpu_hist'}
+------------------------------------------------------------------
+Using the dataset: DataBase_Era.csv
+Using seed = 0
+Train/val/test division is 70/30
+started training at: 04:33:51
+ended training at: 04:34:10
+Mean squared error is of 1084778857.6386695
+Mean absolute error:13794.041691813702
+MAPE:0.09263818046930472
+R2 score:0.9410819396700476
+04:34:10
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DataBase_Era.csv
+Using seed = 1
+Train/val/test division is 70/30
+started training at: 04:34:10
+ended training at: 04:34:29
+Mean squared error is of 1214078799.9834545
+Mean absolute error:13632.516179683329
+MAPE:0.09495663837600295
+R2 score:0.9342230072415082
+04:34:29
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DataBase_Era.csv
+Using seed = 2
+Train/val/test division is 70/30
+started training at: 04:34:29
+ended training at: 04:34:48
+Mean squared error is of 1480844359.9492743
+Mean absolute error:14879.932349840914
+MAPE:0.09857881920575327
+R2 score:0.92108567138229
+04:34:48
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DataBase_Era.csv
+Using seed = 3
+Train/val/test division is 70/30
+started training at: 04:34:48
+ended training at: 04:35:06
+Mean squared error is of 1370738935.6366687
+Mean absolute error:14902.054390255094
+MAPE:0.10002912093405014
+R2 score:0.9284521274009327
+04:35:06
+------------------------------------------------------------------
+------------------------------------------------------------------
+Using the dataset: DataBase_Era.csv
+Using seed = 4
+Train/val/test division is 70/30
+started training at: 04:35:06
+ended training at: 04:35:23
+Mean squared error is of 1120872832.1058512
+Mean absolute error:14388.246631050586
+MAPE:0.10368553322589008
+R2 score:0.9414431678248978
+04:35:24
+------------------------------------------------------------------
